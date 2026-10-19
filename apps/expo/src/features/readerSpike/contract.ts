@@ -107,8 +107,9 @@ export type ReaderCommand =
   | { type: 'scrollToVerse'; verseKey: string }
   | { type: 'setDecorations'; blockId: string; decorations: Decoration[] }
 
-// Events every renderer must emit. `t` is the renderer-side timestamp in ms
-// (performance.now() in JS, SystemClock.uptimeMillis() in Kotlin) at the moment it happened.
+// Events every renderer must emit. `t` is wall-clock epoch ms on the device at the moment it
+// happened: Date.now() in JS/DOM, System.currentTimeMillis() in Kotlin. One clock for everything,
+// so the adb harness (`date +%s%3N` on the device) can line its inputs up with renderer events.
 export type ReaderEvent =
   | { type: 'firstTextPainted'; t: number } // first frame with chapter text actually drawn
   | { type: 'verseTap'; verseKey: string; t: number }
@@ -121,6 +122,14 @@ export type ReaderEvent =
     }
   | { type: 'decorationsPainted'; blockId: string; t: number }
   | { type: 'scrolledToVerse'; verseKey: string; t: number }
+
+// Props of a renderer component under src/features/readerSpike/<renderer>/.
+// `command.seq` increases for every new command so repeated commands are not deduplicated.
+export type ReaderProps = {
+  document: RenderDocument
+  command?: ReaderCommand & { seq: number; issuedAt: number }
+  onEvent: (event: ReaderEvent) => void
+}
 
 // Every event is also logged as one line so the adb harness can read it from logcat:
 //   READER_BENCH {"renderer":"skia","fixture":"psalm119","event":{...}}
