@@ -57,7 +57,8 @@ export type Decoration = {
   kind: 'verseHighlight' | 'background' | 'underline' | 'circle'
   start: number
   end: number
-  color: string
+  color: string // '#RRGGBB'
+  opacity?: number // 0..1, default 1; added by the bench owner, 'background' and 'verseHighlight' use < 1
 }
 
 export type TitleBlock = { kind: 'title'; id: string; text: string; level: 1 | 2 }
