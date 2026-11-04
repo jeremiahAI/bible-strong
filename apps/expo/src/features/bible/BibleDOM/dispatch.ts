@@ -56,6 +56,8 @@ export const OPEN_DOWNLOADS = 'OPEN_DOWNLOADS'
 export const RESET_BIBLE_DATABASE = 'RESET_BIBLE_DATABASE'
 export const RETRY_BIBLE_RESOURCE = 'RETRY_BIBLE_RESOURCE'
 export const DOM_COMPONENT_MOUNTED = 'DOM_COMPONENT_MOUNTED'
+// SPIKE: reader renderer benchmark event reported by the DOM (src/features/readerSpike)
+export const SPIKE_BENCH_EVENT = 'SPIKE_BENCH_EVENT'
 
 const PERSONAL_BIBLE_DATA_ACTIONS = new Set<string>([
   NAVIGATE_TO_BIBLE_NOTE,
