@@ -3,6 +3,8 @@
 import produce from 'immer'
 import { atom } from 'jotai'
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { View } from 'react-native'
+import { Portal, PortalHost } from 'react-native-teleport'
 import { useSelector } from 'react-redux'
 
 import books from '~assets/bible_versions/books-desc'
@@ -173,7 +175,17 @@ const WebViewReader = ({ document, command, onEvent }: ReaderProps) => {
     personalBibleDataEnabled: true,
   }
 
-  return <BibleDOMWrapper {...props} />
+  // The app's own Android path portals one BibleDOMWrapper into a PortalHost (SharedBibleDOM), with
+  // the native WebView layer at zIndex -1. The inline path stays blank inside the bench route, so
+  // the bench mounts the wrapper the way the app does.
+  return (
+    <View style={{ flex: 1 }}>
+      <PortalHost name="reader-bench-dom" style={{ flex: 1, zIndex: -1 }} />
+      <Portal hostName="reader-bench-dom">
+        <BibleDOMWrapper {...props} />
+      </Portal>
+    </View>
+  )
 }
 
 export default WebViewReader

@@ -35,6 +35,18 @@ export const reportDecorationsPainted = (rects: { annotationId?: string }[]) => 
   }
 }
 
+const isOpaqueLaidOut = (element: Element | null) => {
+  if (!element) return false
+  const rect = element.getBoundingClientRect()
+  if (rect.width === 0 || rect.height === 0) return false
+  for (let node: Element | null = element; node; node = node.parentElement) {
+    const style = getComputedStyle(node)
+    if (style.visibility === 'hidden' || style.display === 'none' || Number(style.opacity) < 1)
+      return false
+  }
+  return true
+}
+
 export const useSpikeBench = ({
   dispatch,
   hasVerses,
@@ -61,7 +73,22 @@ export const useSpikeBench = ({
   useEffect(() => {
     if (!hasVerses || firstTextReported.current) return
     firstTextReported.current = true
-    afterPaint(() => emit({ type: 'firstTextPainted', t: Date.now() }))
+    // Report only once real text is laid out and fully opaque (the reader fades in over 300 ms),
+    // so the number means text is on screen, not just in the DOM.
+    const poll = () => {
+      const first = document.elementFromPoint(window.innerWidth / 2, window.innerHeight / 3)
+      const visibleText = document.body.innerText.trim().length > 0 && isOpaqueLaidOut(first)
+      if (!visibleText) return requestAnimationFrame(poll)
+      afterPaint(() =>
+        emit({
+          type: 'firstTextPainted',
+          t: Date.now(),
+          textLength: document.body.innerText.length,
+          scrollHeight: document.documentElement.scrollHeight,
+        })
+      )
+    }
+    poll()
   }, [hasVerses])
 
   // Declared after the reader's own scroll effects, so its requestAnimationFrame runs first.

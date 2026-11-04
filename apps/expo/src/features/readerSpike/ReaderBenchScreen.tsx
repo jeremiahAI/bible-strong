@@ -69,10 +69,8 @@ const ReaderBenchScreen = () => {
   }
 
   return (
-    <View
-      testID="reader-bench"
-      style={{ flex: 1, backgroundColor: document.settings.theme.background }}
-    >
+    // Transparent: the WebView layer sits at zIndex -1 and an opaque ancestor would hide it.
+    <View testID="reader-bench" style={{ flex: 1 }}>
       <View style={{ flex: 1 }}>
         <Reader
           key={`${renderer}-${fixture}-${params.run ?? '0'}`}

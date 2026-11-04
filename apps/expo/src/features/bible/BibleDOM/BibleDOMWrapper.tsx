@@ -1214,7 +1214,7 @@ export const BibleDOMWrapper = ({
         }}
         dom={{
           useExpoDOMWebView: false,
-          webviewDebuggingEnabled: __DEV__,
+          webviewDebuggingEnabled: __DEV__ || process.env.EXPO_PUBLIC_READER_BENCH === '1', // SPIKE
           allowsInlineMediaPlayback: true,
           allowsFullscreenVideo: true,
           mediaPlaybackRequiresUserAction: false,
