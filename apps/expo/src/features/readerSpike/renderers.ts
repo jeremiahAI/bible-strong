@@ -5,6 +5,6 @@ import type { ReaderProps, RendererId } from './contract'
 
 export const RENDERERS: Record<RendererId, ComponentType<ReaderProps>> = {
   webview: require('./webview/WebViewReader').default,
-  views: require('./RendererNotInBuild').default,
-  skia: require('./RendererNotInBuild').default,
+  views: require('./views/ViewsReader').ViewsReader,
+  skia: require('./skia/SkiaReader').SkiaReader,
 }
