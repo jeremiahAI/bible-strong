@@ -71,10 +71,11 @@ export const getTextPicture = (b: BlockLayout, width: number): SkPicture => {
   return pic
 }
 
-const fillPaint = (hex: string) => {
+const fillPaint = (hex: string, opacity?: number) => {
   const p = Skia.Paint()
   p.setAntiAlias(true)
   p.setColor(Skia.Color(hex))
+  if (opacity !== undefined) p.setAlphaf(opacity)
   return p
 }
 
@@ -109,7 +110,7 @@ export const recordRowPicture = (
   b.units.forEach((u, ui) => {
     for (const d of decorations[ui] ?? u.decorations) {
       if (d.kind !== 'verseHighlight' && d.kind !== 'background') continue
-      const paint = fillPaint(d.color)
+      const paint = fillPaint(d.color, d.opacity)
       for (const r of decoRectsFor(u, d)) {
         if (!intersects(r, y0, y1)) continue
         canvas.drawRRect(
