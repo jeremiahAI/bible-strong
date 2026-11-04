@@ -166,7 +166,13 @@ const buildVerseSegments = (
           break
         }
         case 'paragraph-start':
-          if (shouldInsertCanonicalParagraphBreak({ offset: node.offset, verse: verse.Verset, textDisplay })) {
+          if (
+            shouldInsertCanonicalParagraphBreak({
+              offset: node.offset,
+              verse: verse.Verset,
+              textDisplay,
+            })
+          ) {
             segments.push({ breakBefore: true, runs: [] })
           }
           break
@@ -323,8 +329,14 @@ const buildInterlinear = (source: FixtureSource): Block[] =>
       return {
         wordIndex: containing?.index ?? index,
         original: surface,
-        transliteration: token.segments.map(segment => segment.transliteration).filter(Boolean).join(' · '),
-        gloss: token.segments.map(segment => segment.gloss).filter(Boolean).join(' · '),
+        transliteration: token.segments
+          .map(segment => segment.transliteration)
+          .filter(Boolean)
+          .join(' · '),
+        gloss: token.segments
+          .map(segment => segment.gloss)
+          .filter(Boolean)
+          .join(' · '),
         ...(identities[0] ? { strong: identities[0].code } : {}),
       }
     })
@@ -342,8 +354,9 @@ const buildParallel = (source: FixtureSource, settings: ReaderSettings): Block[]
     { id: source.version, verses: source.verses },
     ...(source.parallelVersions ?? []),
   ]
-  const numbers = [...new Set(versions.flatMap(version => version.verses.map(v => Number(v.Verset))))]
-    .sort((a, b) => a - b)
+  const numbers = [
+    ...new Set(versions.flatMap(version => version.verses.map(v => Number(v.Verset)))),
+  ].sort((a, b) => a - b)
   const blocks: Block[] = []
   let titleCount = 0
   for (const number of numbers) {

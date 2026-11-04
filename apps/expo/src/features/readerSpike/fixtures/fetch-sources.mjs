@@ -86,7 +86,9 @@ const annotate = (verses, version, specs) =>
           verseKey: `${verses[0].Livre}-${verses[0].Chapitre}-${verse}`,
           startWordIndex,
           endWordIndex,
-          text: wordsOf(text).slice(startWordIndex, endWordIndex + 1).join(' '),
+          text: wordsOf(text)
+            .slice(startWordIndex, endWordIndex + 1)
+            .join(' '),
         }
       })
       return [
@@ -156,7 +158,14 @@ const main = async () => {
     { color: 'color2', type: 'underline', ranges: [[5, 2, 8]] },
     { color: 'color4', type: 'circle', ranges: [[14, 0, 5]] },
     { color: 'color3', type: 'background', ranges: [[15, 4, 12]] },
-    { color: 'color2', type: 'underline', ranges: [[26, 0, 4], [27, 0, 3]] },
+    {
+      color: 'color2',
+      type: 'underline',
+      ranges: [
+        [26, 0, 4],
+        [27, 0, 3],
+      ],
+    },
     { color: 'color1', type: 'background', ranges: [[29, 3, 10]] },
     { color: 'color5', type: 'circle', ranges: [[35, 0, 2]] },
     { color: 'color4', type: 'underline', ranges: [[39, 0, 10]] },

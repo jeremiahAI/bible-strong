@@ -67,6 +67,7 @@ import {
   getAnimationDelay,
 } from './AnnotationMode/HighlightComponents'
 import { useAnnotationHighlights } from './AnnotationMode/useAnnotationHighlights'
+import { useSpikeBench } from './spikeBench' // SPIKE
 import { SelectionHandles } from './AnnotationMode/SelectionHandles'
 import { useAnnotationModeController } from './AnnotationMode/useAnnotationModeController'
 import { SelectionRange } from './AnnotationMode/selectionUtils'
@@ -1348,6 +1349,15 @@ const LoadedBibleContent = ({
     focusKey,
     verseNavigationRequest,
   ])
+
+  // SPIKE: reader renderer benchmark events
+  useSpikeBench({
+    dispatch,
+    hasVerses,
+    verseKeyPrefix: `${book.Numero}-${chapter}`,
+    scrollTargetVerse,
+    verseNavigationRequest,
+  })
 
   useEffect(() => {
     if (!selectedVerseElementId || !hasVerses) {
