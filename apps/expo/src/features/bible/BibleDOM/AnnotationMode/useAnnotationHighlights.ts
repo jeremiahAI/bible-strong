@@ -15,6 +15,7 @@ import {
 } from './annotationDomText'
 import { subscribeToBibleLayoutChanges } from '../annotationLayoutLifecycle'
 import { findVerseTextElement, findVerseTextElements } from './domUtils'
+import { reportDecorationsPainted } from '../spikeBench' // SPIKE
 
 /**
  * Merges all DOMRects on the same line into single rectangles.
@@ -368,6 +369,7 @@ export function useAnnotationHighlights({
       const container = containerRef.current
       setIsRTL(container ? getComputedStyle(container).direction === 'rtl' : false)
       setHighlightRects(rects)
+      reportDecorationsPainted(rects) // SPIKE
     }
 
     requestAnimationFrame(() => {

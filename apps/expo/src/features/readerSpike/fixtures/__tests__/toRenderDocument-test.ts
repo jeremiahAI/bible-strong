@@ -50,7 +50,9 @@ describe.each(FIXTURE_IDS)('readerSpike fixture %s', id => {
     if (id === 'genesis1-bhg-interlinear') {
       for (const block of document.blocks) {
         if (block.kind !== 'interlinear') continue
-        const verse = source.verses.find(v => `${v.Livre}-${v.Chapitre}-${v.Verset}` === block.verseKey)!
+        const verse = source.verses.find(
+          v => `${v.Livre}-${v.Chapitre}-${v.Verset}` === block.verseKey
+        )!
         const count = getWordCount(tokenizeVerseText(verse.Texte))
         for (const word of block.words) {
           expect(word.wordIndex).toBeGreaterThanOrEqual(0)

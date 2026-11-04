@@ -100,6 +100,7 @@ import {
   DOWNLOAD_CHAPTER_ENTITIES,
   DISMISS_CONTEXTUAL_INFORMATION,
   DOM_COMPONENT_MOUNTED,
+  SPIKE_BENCH_EVENT, // SPIKE
   NAVIGATE_TO_BIBLE_VIEW,
   NAVIGATE_TO_PERICOPE,
   NAVIGATE_TO_RELATION_ENDPOINT,
@@ -147,6 +148,7 @@ import {
   type BibleDOMBridgeAction,
   type StudyRelationsModalTarget,
 } from './bibleDomBridgeCommands'
+import { reportBenchEventFromDom } from '~features/readerSpike/webview/benchSink' // SPIKE
 import AndroidWebViewWarningModal from '../AndroidWebViewWarningModal'
 import { downloadManager } from '~helpers/downloadManager'
 import {
@@ -1121,6 +1123,11 @@ export const BibleDOMWrapper = ({
         break
       }
 
+      // SPIKE
+      case SPIKE_BENCH_EVENT: {
+        reportBenchEventFromDom(action.payload)
+        break
+      }
       case DOM_COMPONENT_MOUNTED: {
         appLogger.info('webview', 'bible_dom.mounted', {
           version,
