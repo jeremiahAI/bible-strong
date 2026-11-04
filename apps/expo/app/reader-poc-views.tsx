@@ -60,7 +60,7 @@ const ReaderPocViews = () => {
 
   if (!__DEV__) return null
   return (
-    <View style={{ flex: 1, backgroundColor: '#fff' }}>
+    <View style={{ flex: 1, backgroundColor: '#fff', paddingTop: 36 }}>
       <ViewsReader
         document={document}
         command={command}

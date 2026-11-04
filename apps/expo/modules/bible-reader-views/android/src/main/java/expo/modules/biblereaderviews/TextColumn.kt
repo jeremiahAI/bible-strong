@@ -80,7 +80,7 @@ class TextColumn(context: Context, data: ColumnData, val settings: Settings, val
   private val paint =
     TextPaint(Paint.ANTI_ALIAS_FLAG).apply {
       typeface = baseTypeface
-      textSize = settings.fontSizeDp * density
+      textSize = settings.fontSizeDp * this@TextColumn.density
       color = settings.color("text")
     }
   private val ascent: Int
@@ -162,7 +162,7 @@ class TextColumn(context: Context, data: ColumnData, val settings: Settings, val
         .setBreakStrategy(android.text.Layout.BREAK_STRATEGY_SIMPLE)
         .setHyphenationFrequency(android.text.Layout.HYPHENATION_FREQUENCY_NONE)
         .build()
-    LayoutStats.record((System.nanoTime() - t0) / 1e6, "chars=${text.length} w=$w")
+    LayoutStats.record((System.nanoTime() - t0) / 1e6, "chars=${text.length} w=$w size=${paint.textSize} density=$density lh=$lineHeightPx")
     val laid = Laid(l)
     laids[w] = laid
     current = laid
