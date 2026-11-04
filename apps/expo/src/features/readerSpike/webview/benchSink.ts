@@ -11,4 +11,6 @@ export const setBenchListener = (next: ((event: ReaderEvent) => void) | null) =>
 export const reportBenchEventFromDom = (payload: unknown) => {
   if (typeof payload !== 'object' || payload === null) return
   listener?.(payload as ReaderEvent)
+  // SPIKE: in the real reader (no bench listener) log the event so adb logcat can time it
+  if (!listener) console.log(`READER_BENCH ${JSON.stringify({ renderer: 'webview-real', event: payload })}`)
 }
