@@ -1,7 +1,7 @@
 // SPIKE: dev-only test route for the Skia reader PoC. Not shipped: renders nothing outside __DEV__.
 // biblestrong://reader-poc-skia?fixture=psalm119[&font=literata][&opaque=0][&scrollTo=19-119-100]
 //   [&decorate=p0][&autoscroll=1]
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { StyleSheet, View } from 'react-native'
 import { useLocalSearchParams } from 'expo-router'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
@@ -22,13 +22,15 @@ export default function ReaderPocSkiaRoute() {
     decorate?: string
     top?: string
     probe?: string
+    locate?: string
+    locateDelay?: string
   }>()
   const [command, setCommand] = useState<Command>()
-  const [doc] = useState<RenderDocument | null>(() => {
+  const doc = useMemo<RenderDocument | null>(() => {
     if (!__DEV__) return null
     const d = loadFixtureRender((params.fixture ?? 'psalm119') as FixtureId)
     return params.font === 'literata' ? { ...d, settings: { ...d.settings, fontFamily: 'Literata Book' } } : d
-  })
+  }, [params.fixture, params.font])
 
   useEffect(() => {
     ;(globalThis as unknown as Record<string, unknown>).__SKIA_READER_OPTS__ = {
@@ -36,6 +38,12 @@ export default function ReaderPocSkiaRoute() {
     }
     if (params.probe === '1' && doc) {
       setTimeout(() => runUiThreadProbe(doc.blocks, 360, doc.settings.fontSizePx, doc.settings.lineHeight), 1500)
+    }
+    if (params.locate) {
+      const [vk, wi] = params.locate.split(':')
+      setTimeout(() => {
+        ;(globalThis as unknown as { __skiaReaderDebug?: { locate: (v: string, w: number) => void } }).__skiaReaderDebug?.locate(vk, Number(wi))
+      }, Number(params.locateDelay ?? 2000))
     }
     const timers: ReturnType<typeof setTimeout>[] = []
     let seq = 0
@@ -72,6 +80,7 @@ export default function ReaderPocSkiaRoute() {
     <GestureHandlerRootView style={[styles.root, { backgroundColor: doc.settings.theme.background }]}>
       <View style={[styles.statusBar, { height: Number(params.top ?? 40) }]} />
       <SkiaReader
+        key={`${params.fixture}-${params.font}`}
         document={doc}
         command={command}
         onEvent={() => {

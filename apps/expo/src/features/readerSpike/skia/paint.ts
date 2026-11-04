@@ -26,6 +26,7 @@ const decorationRects = new WeakMap<Decoration, SkRect[]>()
 export const paintStats = { textPictureMs: [] as number[], rowPictureMs: [] as number[] }
 
 const mergeLineRects = (rects: SkRect[]): SkRect[] => {
+  // Rects are JSI host objects: spreading them yields nothing, so read the fields explicitly.
   const sorted = [...rects].sort((a, b) => a.y - b.y || a.x - b.x)
   const out: SkRect[] = []
   for (const r of sorted) {
@@ -34,7 +35,7 @@ const mergeLineRects = (rects: SkRect[]): SkRect[] => {
       const right = Math.max(last.x + last.width, r.x + r.width)
       out[out.length - 1] = { x: last.x, y: Math.min(last.y, r.y), width: right - last.x, height: Math.max(last.height, r.height) }
     } else {
-      out.push({ ...r })
+      out.push({ x: r.x, y: r.y, width: r.width, height: r.height })
     }
   }
   return out
