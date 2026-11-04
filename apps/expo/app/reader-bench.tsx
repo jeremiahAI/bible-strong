@@ -1,4 +1,4 @@
-import { Redirect } from 'expo-router'
+import { Redirect, Stack } from 'expo-router'
 
 import ReaderBenchScreen from '~features/readerSpike/ReaderBenchScreen'
 
@@ -8,7 +8,20 @@ const READER_BENCH_ENABLED = __DEV__ || process.env.EXPO_PUBLIC_READER_BENCH ===
 const ReaderBenchRoute = () => {
   if (!READER_BENCH_ENABLED) return <Redirect href="/" />
 
-  return <ReaderBenchScreen />
+  // The shared WebView sits under the navigator at zIndex -9999, so the scene must be transparent.
+  return (
+    <>
+      <Stack.Screen
+        options={{
+          presentation: 'transparentModal',
+          animation: 'none',
+          headerShown: false,
+          contentStyle: { backgroundColor: 'transparent' },
+        }}
+      />
+      <ReaderBenchScreen />
+    </>
+  )
 }
 
 export default ReaderBenchRoute

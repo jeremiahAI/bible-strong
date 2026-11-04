@@ -1,18 +1,25 @@
 // SPIKE: the WebView baseline. Renders a fixture through the real BibleDOMWrapper (the path
 // normal reading uses), fed with the fixture's source verses, highlights and word annotations.
 import produce from 'immer'
-import { atom } from 'jotai'
 import { useEffect, useMemo, useRef, useState } from 'react'
+import { atom, useAtomValue, useSetAtom } from 'jotai'
+import type { LayoutChangeEvent } from 'react-native'
 import { View } from 'react-native'
-import { Portal, PortalHost } from 'react-native-teleport'
 import { useSelector } from 'react-redux'
 
 import books from '~assets/bible_versions/books-desc'
 import type { Verse } from '~common/types'
-import { BibleDOMWrapper, type WebViewProps } from '~features/bible/BibleDOM/BibleDOMWrapper'
+import type { WebViewProps } from '~features/bible/BibleDOM/BibleDOMWrapper'
+import BibleDOMPortalHost from '~features/bible/BibleDOMPortalHost'
+import { getBibleDOMDestination } from '~features/bible/SharedBibleDOM'
 import type { RootState } from '~redux/modules/reducer'
 import type { WordAnnotation, WordAnnotationsObj } from '~redux/modules/user/wordAnnotations'
-import { getDefaultBibleTab } from '~state/tabs'
+import {
+  activeBibleTabIdAtom,
+  bibleDOMHostLayoutsAtom,
+  getDefaultBibleTab,
+  sharedBibleDOMPropsAtom,
+} from '~state/tabs'
 import type { VersionCode } from '~state/tabs'
 
 import type { Decoration, ReaderEvent, ReaderProps, RenderDocument, Run } from '../contract'
@@ -175,15 +182,34 @@ const WebViewReader = ({ document, command, onEvent }: ReaderProps) => {
     personalBibleDataEnabled: true,
   }
 
-  // The app's own Android path portals one BibleDOMWrapper into a PortalHost (SharedBibleDOM), with
-  // the native WebView layer at zIndex -1. The inline path stays blank inside the bench route, so
-  // the bench mounts the wrapper the way the app does.
+  // The app renders one shared BibleDOMWrapper (SharedBibleDOM, mounted at the app root and kept
+  // warm) and portals it into the active Bible tab's PortalHost. The bench feeds that same
+  // machinery: it publishes the fixture props for the active Bible tab and hosts the destination.
+  const activeBibleTabId = useAtomValue(activeBibleTabIdAtom)
+  const setSharedProps = useSetAtom(sharedBibleDOMPropsAtom)
+  const setHostLayouts = useSetAtom(bibleDOMHostLayoutsAtom)
+  useEffect(() => {
+    if (activeBibleTabId) setSharedProps({ ...props, tabId: activeBibleTabId })
+    // props is rebuilt every render; republish only when the inputs that matter change.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeBibleTabId, source, wordAnnotations, settings, verseToScroll, verseNavigationRequest])
+  const onHostLayout = ({ nativeEvent: { layout } }: LayoutChangeEvent) => {
+    if (!activeBibleTabId || layout.width <= 0 || layout.height <= 0) return
+    const width = Math.round(layout.width)
+    const height = Math.round(layout.height)
+    setHostLayouts(current =>
+      current[activeBibleTabId]?.width === width && current[activeBibleTabId]?.height === height
+        ? current
+        : { ...current, [activeBibleTabId]: { width, height } }
+    )
+  }
+  if (!activeBibleTabId) return null
   return (
-    <View style={{ flex: 1 }}>
-      <PortalHost name="reader-bench-dom" style={{ flex: 1, zIndex: -1 }} />
-      <Portal hostName="reader-bench-dom">
-        <BibleDOMWrapper {...props} />
-      </Portal>
+    <View style={{ flex: 1 }} onLayout={onHostLayout}>
+      <BibleDOMPortalHost
+        name={getBibleDOMDestination(activeBibleTabId)}
+        style={{ flex: 1, zIndex: -1 }}
+      />
     </View>
   )
 }
