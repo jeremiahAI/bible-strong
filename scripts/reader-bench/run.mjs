@@ -14,6 +14,7 @@ import {
   parseBenchLines,
   readGfx,
   readMemory,
+  runFlings,
   sizeOf,
   sleep,
   waitFor,
@@ -42,6 +43,8 @@ const { values: args } = parseArgs({
     'tap-x': { type: 'string', default: '300' },
     'tap-y': { type: 'string', default: '1100' },
     video: { type: 'boolean', default: false },
+    // phones with a 3-button nav bar draw it over the bench buttons (taps hit Back/Home): skip them
+    'no-buttons': { type: 'boolean', default: false },
   },
 })
 
@@ -123,11 +126,13 @@ for (const fixture of fixtures) {
   const png = name => join(outDir, 'screens', renderer, `${fixture}-${name}.png`)
   writeFileSync(png('top'), adb.screencap())
 
-  const buttons = {
-    highlight: findViewCenter(adb, 'bench-highlight'),
-    scroll: findViewCenter(adb, 'bench-scroll'),
-    scrollTop: findViewCenter(adb, 'bench-scroll-top'),
-  }
+  const buttons = args['no-buttons']
+    ? {}
+    : {
+        highlight: findViewCenter(adb, 'bench-highlight'),
+        scroll: findViewCenter(adb, 'bench-scroll'),
+        scrollTop: findViewCenter(adb, 'bench-scroll-top'),
+      }
   result.buttons = buttons
 
   // Tap latency: device clock read in the shell that injects the tap (input-tool start-up is
@@ -173,7 +178,7 @@ for (const fixture of fixtures) {
   for (let i = 0; i < 10; i += 1) {
     flings.push(i < 5 ? 'input swipe 540 1900 540 500 160' : 'input swipe 540 500 540 1900 160')
   }
-  adb.shell(flings.map(command => `${command}; sleep 0.8`).join('; '), { timeout: 120000 })
+  await runFlings(adb, flings)
   await sleep(800)
   result.scroll = readGfx(adb, args.pkg)
   result.memoryAfterScroll = readMemory(adb, args.pkg)

@@ -11,12 +11,25 @@ export const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
 export const makeAdb = serial => {
   if (!serial) throw new Error('--serial is required (the harness never guesses a device)')
-  const run = (args, options = {}) =>
+  const once = (args, options = {}) =>
     execFileSync(ADB, ['-s', serial, ...args], {
       encoding: options.binary ? 'buffer' : 'utf8',
       maxBuffer: 1 << 28,
       timeout: options.timeout ?? 120000,
+      input: options.input,
     })
+  // Wi-Fi adb (the Tecno phone) drops now and then: on exit 255 / offline, reconnect and retry the call.
+  const run = (args, options = {}) => {
+    for (let attempt = 0; ; attempt += 1) {
+      try {
+        return once(args, options)
+      } catch (error) {
+        if (!serial.includes(':') || attempt >= 20 || !(([255, null].includes(error.status)) || /offline|not found|closed|no devices|unauthorized/i.test(String(error.stderr ?? '') + String(error.message)))) throw error
+        try { execFileSync(ADB, ['connect', serial], { timeout: 10000 }) } catch {}
+        Atomics.wait(new Int32Array(new SharedArrayBuffer(4)), 0, 0, 3000)
+      }
+    }
+  }
   return {
     serial,
     shell: (command, options) => run(['shell', command], options),
@@ -137,4 +150,25 @@ export const findViewCenter = (adb, name) => {
 export const sizeOf = path => {
   const result = spawnSync('stat', ['-f', '%z', path], { encoding: 'utf8' })
   return result.status === 0 ? Number(result.stdout.trim()) : null
+}
+
+// Runs the flings as ONE device-side shell script (same commands and 0.8 s spacing as before), detached
+// from the adb link, then polls for a done marker. On the Tecno phone the Wi-Fi adb link dropped
+// while it was busy flinging, so a host-side wait on the call killed the run.
+export const runFlings = async (adb, flings) => {
+  const script = flings.map(c => `${c}; sleep 0.8`).join('\n') + '\necho done > /data/local/tmp/rb-fling.done\n'
+  const quiet = fn => { try { return fn() } catch { return undefined } }
+  const connect = () => quiet(() => execFileSync(ADB, ['connect', adb.serial], { timeout: 10000 }))
+  const start = () => adb.run(['shell', 'rm -f /data/local/tmp/rb-fling.done; cat > /data/local/tmp/rb-fling.sh'], { input: script })
+  for (let a = 0; a < 15; a += 1) {
+    try { start(); adb.shell('nohup sh /data/local/tmp/rb-fling.sh >/dev/null 2>&1 &'); break } catch { connect(); await sleep(2000) }
+  }
+  const deadline = Date.now() + 120000
+  while (Date.now() < deadline) {
+    await sleep(3000)
+    const out = quiet(() => adb.shell('cat /data/local/tmp/rb-fling.done 2>/dev/null', { timeout: 8000 }))
+    if (out === undefined) { connect(); continue }
+    if (out.includes('done')) return
+  }
+  throw new Error('flings did not finish')
 }

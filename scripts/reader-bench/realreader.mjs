@@ -7,7 +7,7 @@ import { writeFileSync, mkdirSync } from 'node:fs'
 import { join, resolve, dirname } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { parseArgs } from 'node:util'
-import { makeAdb, median, readGfx, readMemory, sleep } from './lib.mjs'
+import { makeAdb, median, readGfx, readMemory, runFlings, sleep } from './lib.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
 const { values: a } = parseArgs({ options: { serial: { type: 'string' }, label: { type: 'string' }, runs: { type: 'string', default: '5' }, pkg: { type: 'string', default: 'com.smontlouis.biblestrong' }, port: { type: 'string', default: '9333' }, 'tap-x': { type: 'string', default: '500' }, 'tap-y': { type: 'string', default: '1100' }, video: { type: 'boolean', default: false } } })
@@ -57,7 +57,7 @@ adb.shell(`dumpsys gfxinfo ${a.pkg} reset`)
 if (a.video) { adb.shell('rm -f /sdcard/rb-real.mp4; (screenrecord --time-limit 18 /sdcard/rb-real.mp4 >/dev/null 2>&1 &)'); await sleep(800) }
 const flings = []
 for (let i = 0; i < 10; i += 1) flings.push(i < 5 ? 'input swipe 540 1900 540 500 160' : 'input swipe 540 500 540 1900 160')
-adb.shell(flings.map(c => `${c}; sleep 0.8`).join('; '), { timeout: 120000 })
+await runFlings(adb, flings)
 await sleep(800)
 res.scroll = readGfx(adb, a.pkg)
 res.memoryAfterScroll = readMemory(adb, a.pkg)
