@@ -10,7 +10,7 @@ import { parseArgs } from 'node:util'
 import { makeAdb, median, readGfx, readMemory, sleep } from './lib.mjs'
 
 const here = dirname(fileURLToPath(import.meta.url))
-const { values: a } = parseArgs({ options: { serial: { type: 'string' }, label: { type: 'string' }, runs: { type: 'string', default: '5' }, pkg: { type: 'string', default: 'com.smontlouis.biblestrong' }, port: { type: 'string', default: '9333' }, 'tap-x': { type: 'string', default: '300' }, 'tap-y': { type: 'string', default: '1100' }, video: { type: 'boolean', default: false } } })
+const { values: a } = parseArgs({ options: { serial: { type: 'string' }, label: { type: 'string' }, runs: { type: 'string', default: '5' }, pkg: { type: 'string', default: 'com.smontlouis.biblestrong' }, port: { type: 'string', default: '9333' }, 'tap-x': { type: 'string', default: '500' }, 'tap-y': { type: 'string', default: '1100' }, video: { type: 'boolean', default: false } } })
 const adb = makeAdb(a.serial); const runs = Number(a.runs)
 const out = resolve(here, '../../output/reader-bench', a.label); mkdirSync(out, { recursive: true })
 const log = m => console.log(`[real-reader] ${m}`)
@@ -53,17 +53,6 @@ res.domTextPresentCold = { values: dom, median: median(dom.filter(v => v !== nul
 await coldStart(); await sleep(3000)
 res.memoryAfterLoad = readMemory(adb, a.pkg)
 writeFileSync(join(out, 'top.png'), adb.screencap())
-const taps = []
-for (let i = 0; i < runs; i += 1) {
-  const before = (await pageEvents()).filter(e => e.type === 'wordTap').length
-  const t = Number(/T=(\d+)/.exec(adb.shell(`t=$(date +%s%3N); input tap ${a['tap-x']} ${a['tap-y']}; echo T=$t`))?.[1])
-  await sleep(1200)
-  const taplist = (await pageEvents()).filter(e => e.type === 'wordTap')
-  const hit = taplist.length > before ? taplist.at(-1) : null
-  taps.push(hit ? hit.t - t : null); await sleep(600)
-}
-res.tapLatency = { values: taps, median: median(taps.filter(v => v !== null)) }
-
 adb.shell(`dumpsys gfxinfo ${a.pkg} reset`)
 if (a.video) { adb.shell('rm -f /sdcard/rb-real.mp4; (screenrecord --time-limit 18 /sdcard/rb-real.mp4 >/dev/null 2>&1 &)'); await sleep(800) }
 const flings = []
@@ -74,5 +63,17 @@ res.scroll = readGfx(adb, a.pkg)
 res.memoryAfterScroll = readMemory(adb, a.pkg)
 writeFileSync(join(out, 'scrolled.png'), adb.screencap())
 if (a.video) { await sleep(6000); writeFileSync(join(out, 'scroll.mp4'), adb.run(['exec-out', 'cat', '/sdcard/rb-real.mp4'], { binary: true })) }
+// taps last: a tap selects a verse and opens the annotate sheet, which would block scrolling
+const taps = []
+for (let i = 0; i < (process.env.RB_TAPS ? runs : 0); i += 1) { // off by default: wordTap never fires in the real reader (NOT MEASURED)
+  const before = (await pageEvents()).filter(e => e.type === 'wordTap').length
+  const t = Number(/T=(\d+)/.exec(adb.shell(`t=$(date +%s%3N); input tap ${a['tap-x']} ${a['tap-y']}; echo T=$t`))?.[1])
+  await sleep(1200)
+  const taplist = (await pageEvents()).filter(e => e.type === 'wordTap')
+  const hit = taplist.length > before ? taplist.at(-1) : null
+  taps.push(hit ? hit.t - t : null); adb.shell('input keyevent KEYCODE_BACK'); await sleep(900) // BACK clears the verse selection so the next run starts clean
+}
+res.tapLatency = { values: taps, median: median(taps.filter(v => v !== null)) }
+
 writeFileSync(join(out, 'results.json'), JSON.stringify(res, null, 2))
 log(`first text ${res.firstTextCold.median}, dom ${res.domTextPresentCold.median}, tap ${res.tapLatency.median}, jank ${res.scroll.jankPercent?.toFixed(1)}% p99 ${res.scroll.p99}`)
