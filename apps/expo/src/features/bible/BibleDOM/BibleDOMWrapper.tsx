@@ -1144,6 +1144,7 @@ export const BibleDOMWrapper = ({
     }
   }
   const dispatch: Dispatch = async action => {
+    if ((action as any)?.type === SPIKE_BENCH_EVENT) globalThis.console.log(`READER_BENCH_DIAG dispatch ${JSON.stringify(action)}`) // SPIKE
     await routeBibleDOMBridgeAction(action, {
       personalBibleDataEnabled,
       handle: handleBridgeAction,

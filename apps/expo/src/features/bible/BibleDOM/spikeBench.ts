@@ -16,7 +16,12 @@ type BenchEvent = Record<string, unknown> & { type: string; t: number }
 
 let sink: ((event: BenchEvent) => void) | null = null
 
-const emit = (event: BenchEvent) => sink?.(event)
+const emit = (event: BenchEvent) => {
+  // SPIKE: also keep events on window so the adb harness can read them over devtools in the real reader
+  const w = window as unknown as { __rbEvents?: BenchEvent[] }
+  ;(w.__rbEvents ??= []).push(event)
+  sink?.(event)
+}
 
 const afterPaint = (callback: () => void) =>
   requestAnimationFrame(() => requestAnimationFrame(callback))
@@ -41,7 +46,10 @@ const isOpaqueLaidOut = (element: Element | null) => {
   if (rect.width === 0 || rect.height === 0) return false
   for (let node: Element | null = element; node; node = node.parentElement) {
     const style = getComputedStyle(node)
-    if (style.visibility === 'hidden' || style.display === 'none' || Number(style.opacity) < 1)
+    if (style.visibility === 'hidden' ||
+      style.display === 'none' ||
+      // SPIKE: inline spans carry the 0.3 dimming of unfocused words in the real reader
+      (node.tagName !== 'SPAN' && Number(style.opacity) < 1))
       return false
   }
   return true
@@ -64,6 +72,7 @@ export const useSpikeBench = ({
     sink = event => {
       dispatch({ type: SPIKE_BENCH_EVENT, payload: event }).catch(() => {})
     }
+    emit({ type: 'spikeProbeMounted', t: Date.now() }) // SPIKE diagnostic
     return () => {
       sink = null
     }
@@ -76,6 +85,10 @@ export const useSpikeBench = ({
     // Report only once real text is laid out and fully opaque (the reader fades in over 300 ms),
     // so the number means text is on screen, not just in the DOM.
     const poll = () => {
+      if (!(window as any).__rbDomText && document.body.innerText.trim().length > 0) {
+        ;(window as any).__rbDomText = true
+        emit({ type: 'domTextPresent', t: Date.now() }) // SPIKE diagnostic
+      }
       const first = document.elementFromPoint(window.innerWidth / 2, window.innerHeight / 3)
       const visibleText = document.body.innerText.trim().length > 0 && isOpaqueLaidOut(first)
       if (!visibleText) return requestAnimationFrame(poll)
