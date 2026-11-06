@@ -1,0 +1,102 @@
+{
+  "label": "real-john1-tecno",
+  "serial": "100.92.219.76:5555",
+  "runs": 5,
+  "firstTextCold": {
+    "values": [
+      7830,
+      7373,
+      7524,
+      7616,
+      7620
+    ],
+    "median": 7616
+  },
+  "domTextPresentCold": {
+    "values": [
+      7419,
+      7263,
+      7127,
+      7207,
+      7236
+    ],
+    "median": 7236
+  },
+  "memoryAfterLoad": {
+    "appPssKb": 466869,
+    "webviewPssKb": 165493,
+    "totalPssKb": 632362,
+    "processes": [
+      {
+        "kb": 466869,
+        "name": "com.smontlouis.biblestrong",
+        "pid": 7916
+      },
+      {
+        "kb": 152664,
+        "name": "com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0",
+        "pid": 8876
+      },
+      {
+        "kb": 5128,
+        "name": "com.google.android.webview:webview_service",
+        "pid": 26611
+      },
+      {
+        "kb": 4951,
+        "name": "com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0",
+        "pid": 30842
+      },
+      {
+        "kb": 2750,
+        "name": "webview_zygote",
+        "pid": 25484
+      }
+    ]
+  },
+  "scroll": {
+    "totalFrames": 408,
+    "jankyFrames": 252,
+    "jankPercent": 61.76470588235294,
+    "p50": 65,
+    "p90": 73,
+    "p95": 77,
+    "p99": 81
+  },
+  "memoryAfterScroll": {
+    "appPssKb": 509021,
+    "webviewPssKb": 166822,
+    "totalPssKb": 675843,
+    "processes": [
+      {
+        "kb": 509021,
+        "name": "com.smontlouis.biblestrong",
+        "pid": 7916
+      },
+      {
+        "kb": 153954,
+        "name": "com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0",
+        "pid": 8876
+      },
+      {
+        "kb": 5128,
+        "name": "com.google.android.webview:webview_service",
+        "pid": 26611
+      },
+      {
+        "kb": 4929,
+        "name": "com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0",
+        "pid": 30842
+      },
+      {
+        "kb": 2811,
+        "name": "webview_zygote",
+        "pid": 25484
+      }
+    ]
+  },
+  "tapLatency": {
+    "values": [],
+    "median": null
+  }
+}

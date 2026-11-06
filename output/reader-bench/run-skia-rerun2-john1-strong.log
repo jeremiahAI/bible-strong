@@ -1,0 +1,4 @@
+[reader-bench] skia / john1-strong
+[reader-bench]   first text cold 1221 ms, warm 149 ms
+[reader-bench]   jank 12.3% p90 48 p99 61
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/skia-rerun2-john1-strong

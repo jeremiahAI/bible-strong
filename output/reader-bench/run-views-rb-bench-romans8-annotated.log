@@ -1,0 +1,4 @@
+[reader-bench] views / romans8-annotated
+[reader-bench]   first text cold 1232 ms, warm 51 ms
+[reader-bench]   jank 4.4% p90 23 p99 27
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/views-rb-bench-romans8-annotated

@@ -1,0 +1,8 @@
+[reader-bench] views / psalm119
+[reader-bench]   first text cold 1144 ms, warm 63 ms
+[reader-bench]   jank 6.8% p90 32 p99 53
+[reader-bench] views / john1-strong
+[reader-bench]   first text cold 1160 ms, warm 66 ms
+[reader-bench]   jank 2.6% p90 24 p99 30
+[reader-bench] views / genesis1-bhg-interlinear
+[reader-bench]   first text cold 1336 ms, warm 71 ms

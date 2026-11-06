@@ -1,0 +1,8 @@
+[real-reader] cold 0: firstTextPainted 7830 ms, domTextPresent 7419 ms
+[real-reader] cold 1: firstTextPainted 7373 ms, domTextPresent 7263 ms
+[real-reader] cold 2: firstTextPainted 7524 ms, domTextPresent 7127 ms
+[real-reader] cold 3: firstTextPainted 7616 ms, domTextPresent 7207 ms
+[real-reader] cold 4: firstTextPainted 7620 ms, domTextPresent 7236 ms
+error: closed
+adb: device offline
+[real-reader] first text 7616, dom 7236, tap null, jank 61.8% p99 81

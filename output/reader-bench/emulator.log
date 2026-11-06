@@ -1,0 +1,115 @@
+INFO         | Android emulator version 36.1.9.0 (build_id 13823996) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath /Users/Jeremiah/Library/Android/sdk/system-images/android-36/google_apis_playstore/arm64-v8a/
+INFO         | Changing default hw.initialOrientation to portrait
+
+WARNING      | Please update the emulator to one that supports the feature(s): VulkanVirtualQueue
+INFO         | Guest GLES Driver: Auto (ext controls)
+library_mode swiftshader_indirect gpu mode swiftshader_indirect
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `rb-bench` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `rb-bench` are met
+INFO         | Storing crashdata in: /tmp/android-Jeremiah/emu-crash-36.1.9.db, detection is enabled for process: 19175
+INFO         | Initializing hardware OpenGLES emulation support
+I1104 23:10:59.259590 7815300 opengles.cpp:291] android_startOpenglesRenderer: gpu info
+I1104 23:10:59.259848 7815300 opengles.cpp:292] 
+INFO         | HealthMonitor disabled.
+INFO         | initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+INFO         | Setting ICD filenames for the loader = /Users/Jeremiah/Library/Android/sdk/emulator/lib64/vulkan/vk_swiftshader_icd.json
+INFO         | SharedLibrary::open for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib]
+INFO         | SharedLibrary::open for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib] (posix): begin
+INFO         | SharedLibrary::open for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib] (posix,darwin): call dlopen
+INFO         | SharedLibrary::open succeeded for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib].
+INFO         | Added library: /Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib
+INFO         | Selecting Vulkan device: SwiftShader Device (LLVM 10.0.0), Version: 1.3.0
+INFO         | Disabling sparse binding feature support
+INFO         | SharedLibrary::open for [libGLESv2.dylib]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [libGLESv2.dylib] (posix): begin
+INFO         | SharedLibrary::open for [libGLESv2.dylib] (posix,darwin): call dlopen
+INFO         | SharedLibrary::open succeeded for [libGLESv2.dylib].
+INFO         | SharedLibrary::open for [libEGL.dylib]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [libEGL.dylib] (posix): begin
+INFO         | SharedLibrary::open for [libEGL.dylib] (posix,darwin): call dlopen
+INFO         | SharedLibrary::open succeeded for [libEGL.dylib].
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         | Graphics Adapter Vendor Google (Google Inc. (Google))
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))
+INFO         | Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_EXT_clip_cull_distance 
+INFO         | Graphics Device Extensions N/A
+INFO         | Sending adb public key [QAAAALtqYnGNtS+t2006lXKNxHQDVCXyFzeude5cf/tB3WoSGkIOCypGKmIRgcDPrGclQZyrFdib/5jcPAPymSWt6NMaWbQGe+swOnTO69kifvrwZvOgIJ7BDvI5vIlgT3jkdMTF8OcLshGNvm1aK1GWZq1pfk5cjwWUeQ5kDI6kxdl2CZG77E5iLB0f/eQW1N5FmBmp1H9i4UyS/wKAYazGUJytTkzAsM7PkoA88MihAvpSwUpOVkJes736xzG59wUavesm6zwOgR47FnDZZ5F09PPncPNNjdriWHNkccWFhtFKferU84CbMTufXL4gvQ2kkXRRFolYyJF57j5e25rqroywCZroWYNJomDuMrfGx71AfXZ2TyEi3wbL/cXipeHhfALT/uDuW4CjVlMs+eDIoonK2JS1dohSABZHX+rhWIKujXSxMsJDtJcLcxlM3jF0rWoi3/vztDEjkFectK1FpnbyMags1lHjdMMJy/A/UeswcuVFGZK+CTRLmC3ExCFqdAmajo6aU+yXsmEKwNcfleJB8wF8mk2v6DnGL1uF+AsTRoqD3GRV8U3iDjKpMYgixAeaSuFrI5BmPsuTOrwkUTdzmkVT/FnMDeNu0aOFshdDldnAdRnI0X+tnDsHUd49uGMEKuuayBg3/Lb/sb2VA1LpUjerb81nVWt1rkpiS49Q2gNj4gEAAQA= Jeremiah@unknown]
+I1104 23:10:59.332685 7815300 userspace-boot-properties.cpp:766] Userspace boot properties:
+I1104 23:10:59.332694 7815300 userspace-boot-properties.cpp:770]   androidboot.boot_devices=a003600.virtio_mmio
+I1104 23:10:59.332700 7815300 userspace-boot-properties.cpp:770]   androidboot.dalvik.vm.heapsize=512m
+I1104 23:10:59.332704 7815300 userspace-boot-properties.cpp:770]   androidboot.debug.hwui.renderer=skiagl
+I1104 23:10:59.332708 7815300 userspace-boot-properties.cpp:770]   androidboot.debug.sf.nobootanimation=1
+I1104 23:10:59.332711 7815300 userspace-boot-properties.cpp:770]   androidboot.hardware=ranchu
+I1104 23:10:59.332715 7815300 userspace-boot-properties.cpp:770]   androidboot.hardware.gltransport=pipe
+I1104 23:10:59.332719 7815300 userspace-boot-properties.cpp:770]   androidboot.hardware.vulkan=ranchu
+I1104 23:10:59.332722 7815300 userspace-boot-properties.cpp:770]   androidboot.logcat=*:V
+I1104 23:10:59.332725 7815300 userspace-boot-properties.cpp:770]   androidboot.opengles.version=196609
+I1104 23:10:59.332728 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu=1
+I1104 23:10:59.332732 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.adb.pubkey=QAAAALtqYnGNtS+t2006lXKNxHQDVCXyFzeude5cf/tB3WoSGkIOCypGKmIRgcDPrGclQZyrFdib/5jcPAPymSWt6NMaWbQGe+swOnTO69kifvrwZvOgIJ7BDvI5vIlgT3jkdMTF8OcLshGNvm1aK1GWZq1pfk5cjwWUeQ5kDI6kxdl2CZG77E5iLB0f/eQW1N5FmBmp1H9i4UyS/wKAYazGUJytTkzAsM7PkoA88MihAvpSwUpOVkJes736xzG59wUavesm6zwOgR47FnDZZ5F09PPncPNNjdriWHNkccWFhtFKferU84CbMTufXL4gvQ2kkXRRFolYyJF57j5e25rqroywCZroWYNJomDuMrfGx71AfXZ2TyEi3wbL/cXipeHhfALT/uDuW4CjVlMs+eDIoonK2JS1dohSABZHX+rhWIKujXSxMsJDtJcLcxlM3jF0rWoi3/vztDEjkFectK1FpnbyMags1lHjdMMJy/A/UeswcuVFGZK+CTRLmC3ExCFqdAmajo6aU+yXsmEKwNcfleJB8wF8mk2v6DnGL1uF+AsTRoqD3GRV8U3iDjKpMYgixAeaSuFrI5BmPsuTOrwkUTdzmkVT/FnMDeNu0aOFshdDldnAdRnI0X+tnDsHUd49uGMEKuuayBg3/Lb/sb2VA1LpUjerb81nVWt1rkpiS49Q2gNj4gEAAQA= Jeremiah@unknown
+I1104 23:10:59.332735 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.avd_name=rb-bench
+I1104 23:10:59.332738 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.camera_hq_edge_processing=0
+I1104 23:10:59.332741 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.camera_protocol_ver=1
+I1104 23:10:59.332745 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.cpuvulkan.version=4202496
+I1104 23:10:59.332748 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.gltransport.drawFlushInterval=800
+I1104 23:10:59.332751 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.gltransport.name=pipe
+I1104 23:10:59.332755 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.hwcodec.avcdec=2
+I1104 23:10:59.332768 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.hwcodec.hevcdec=2
+I1104 23:10:59.332772 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.hwcodec.vpxdec=2
+I1104 23:10:59.332776 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.settings.system.screen_off_timeout=2147483647
+I1104 23:10:59.332779 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.virtiowifi=1
+I1104 23:10:59.332783 7815300 userspace-boot-properties.cpp:770]   androidboot.qemu.vsync=60
+I1104 23:10:59.332786 7815300 userspace-boot-properties.cpp:770]   androidboot.serialno=EMULATOR36X1X9X0
+I1104 23:10:59.332789 7815300 userspace-boot-properties.cpp:770]   androidboot.vbmeta.digest=6b98218b46c523e17f8b4a810c5a51b4af28f327c436ce0d286bf937f545cfd7
+I1104 23:10:59.332792 7815300 userspace-boot-properties.cpp:770]   androidboot.vbmeta.hash_alg=sha256
+I1104 23:10:59.332795 7815300 userspace-boot-properties.cpp:770]   androidboot.vbmeta.size=6720
+I1104 23:10:59.332798 7815300 userspace-boot-properties.cpp:770]   androidboot.veritymode=enforcing
+INFO         | Activated packet streamer for bluetooth emulation
+INFO         | Activated packet streamer for uwb emulation
+INFO         | Monitoring duration of emulator setup.
+INFO         | Setting display: 0 configuration to: 1080x2400, dpi: 420x420 
+INFO         | setDisplayActiveConfig 0
+INFO         | Loading snapshot 'default_boot'...
+INFO         | OpenGL Vendor=[Google (Google Inc. (Google))]
+INFO         | OpenGL Renderer=[Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))]
+INFO         | OpenGL Version=[OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))]
+WARNING      | change of renderer detected.
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Unknown XR viewport mode requested: 0, ignored.
+
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+WARNING      | Client not connected yet. Ignoring message!
+INFO         | Successfully loaded snapshot 'default_boot' using 1687 ms
+INFO         | OpenGL Vendor=[Google (Google Inc. (Google))]
+INFO         | OpenGL Renderer=[Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))]
+INFO         | OpenGL Version=[OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))]
+INFO         | Created VkInstance:0x7bb731e400 for application:'' engine:''.
+INFO         | Destroyed VkInstance:0x7bb731e400 for application:'' engine:''.
+saving arm snapshot.... !!!
+
+INFO         | Wait for emulator (pid 19175) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+

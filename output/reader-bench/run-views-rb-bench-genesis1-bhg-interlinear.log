@@ -1,0 +1,4 @@
+[reader-bench] views / genesis1-bhg-interlinear
+[reader-bench]   first text cold 1070 ms, warm 55 ms
+[reader-bench]   jank 2.6% p90 27 p99 57
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/views-rb-bench-genesis1-bhg-interlinear

@@ -1,0 +1,1055 @@
+--------- beginning of main
+11-05 02:50:43.235  2871  2898 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_STATUS_SMS_TIME_OUT
+11-05 02:50:43.235  2871  2871 I Dialer  : RetryPolicy - discarding deferred status: configuration_state=4
+11-05 02:50:43.237  2871  2871 I Dialer  : VvmTaskExecutor - no more tasks, stopping service if no task are added in 5000 millis
+11-05 02:50:43.237  2871  2871 I Dialer  : VvmTaskReceiver - task received
+11-05 02:50:43.237  2871  2871 I Dialer  : VvmTaskReceiver - TaskExecutor already running
+11-05 02:50:43.237  2871  2871 I Dialer  : Task.createTask - create task:com.android.voicemail.impl.ActivationTask
+11-05 02:50:43.237  2871  2871 I Dialer  : RetryPolicy - retry #2 for com.android.voicemail.impl.ActivationTask@82af8ee queued, executing in 5000
+11-05 02:50:43.237  2871  2871 I Dialer  : VvmTaskExecutor - com.android.voicemail.impl.ActivationTask@82af8ee added
+11-05 02:50:43.237  2871  2871 I Dialer  : VvmTaskExecutor - minimal wait time:5000
+11-05 02:50:43.237  2871  2871 I Dialer  : VvmTaskExecutor - sleep for 5000 millis
+11-05 02:50:44.070   160  3851 E ResolverController: No valid NAT64 prefix (101, <unspecified>/0)
+11-05 02:50:44.089   819  1608 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-05 02:50:44.089   819  1608 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+11-05 02:50:44.089   819  1608 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:44.198   819  1608 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-05 02:50:44.199   819  1608 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+11-05 02:50:44.199   819  1608 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:44.391   160  3853 E ResolverController: No valid NAT64 prefix (101, <unspecified>/0)
+11-05 02:50:44.563   819  1407 W GLSUser : [AppCertManager] Failed to get security token.
+11-05 02:50:44.563   819  1407 W GLSUser : java.io.IOException: Invalid scope
+11-05 02:50:44.563   819  1407 W GLSUser : 	at adiw.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):23)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at adiw.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):18)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at adiw.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):11)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at hwy.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):17)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at hww.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):45)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at hwr.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at hwu.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at gbi.call(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:44.563   819  1407 W GLSUser : 	at java.lang.Thread.run(Thread.java:919)
+11-05 02:50:44.567   819  1407 I Auth    : [ReflectiveChannelBinder] Successfully bound channel!
+--------- beginning of system
+11-05 02:50:44.774   353  2484 I ActivityManager: Force stopping com.smontlouis.biblestrong appid=10144 user=0: from pid 3861
+11-05 02:50:44.775   353  2484 I ActivityManager: Killing 3617:com.smontlouis.biblestrong/u0a144 (adj 0): stop com.smontlouis.biblestrong
+11-05 02:50:44.779   353  2484 W ActivityManager: Scheduling restart of crashed service com.smontlouis.biblestrong/com.doublesymmetry.trackplayer.service.MusicService in 1000ms
+11-05 02:50:44.779  3725  3725 I cr_ChildProcessService: Destroying ChildProcessService pid=3725
+11-05 02:50:44.779   353  2484 W ActivityTaskManager: Force removing ActivityRecord{d25d34d u0 com.smontlouis.biblestrong/.MainActivity t9 f}: app died, no saved state
+11-05 02:50:44.784   353  2484 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:44.786   353  2484 I ActivityManager: Killing 3725:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0a144i0 (adj 0): isolated not needed
+11-05 02:50:44.787   353  2484 I ActivityManager:   Force stopping service ServiceRecord{468ba53 u0 com.smontlouis.biblestrong/com.doublesymmetry.trackplayer.service.MusicService}
+11-05 02:50:44.785   353  2484 I chatty  : uid=1000(system) Binder:353_13 identical 18 lines
+11-05 02:50:44.785   353  2484 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:44.793   819  1407 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-05 02:50:44.793   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:44.793   819  1407 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+11-05 02:50:44.793   819  1407 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:44.795   558   558 D CarrierSvcBindHelper: No carrier app for: 0
+11-05 02:50:44.796   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:44.797  1061  1306 D EGL_emulation: eglMakeCurrent: 0x724164bda0: ver 3 1 (tinfo 0x724175ebe0)
+11-05 02:50:44.798   161   161 I Zygote  : Process 3617 exited due to signal 9 (Killed)
+11-05 02:50:44.801   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:44.803   353   353 W ActivityManager: Unable to start service Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } U=0: not found
+11-05 02:50:44.803   353   353 W RemoteAppPredictionService: could not bind to Intent { act=android.service.appprediction.AppPredictionService cmp=com.google.android.as/com.google.android.apps.miphone.aiai.app.AiAiPredictionService } using flags 67108865
+11-05 02:50:44.808   233   233 V C2Store : in ~ComponentModule
+11-05 02:50:44.808   233   233 V C2Store : unloading dll
+11-05 02:50:44.808   233   233 D BufferPoolAccessor: bufferpool2 0x328b690e30 : 0(0 size) total buffers - 0(0 size) used buffers - 11/14 (recycle/alloc) - 3/14 (fetch/transfer)
+11-05 02:50:44.809   233   614 D BufferPoolConnection: connection 1000727379988 closed on death
+11-05 02:50:44.810   233   674 D BufferPoolAccessor: Destruction - bufferpool2 0x328b690e30 cached: 0/0M, 0/0% in use; allocs: 14, 79% recycled; transfers: 14, 79% unfetced
+11-05 02:50:44.810   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:44.811  1061  1061 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-05 02:50:44.814   353  2645 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ], android.os.BinderProxy@5676a57)
+11-05 02:50:44.814   353  2645 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=26, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ], android.os.BinderProxy@5b8f944)
+11-05 02:50:44.814   353  2645 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=27, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ], android.os.BinderProxy@a4d0a2d)
+11-05 02:50:44.814   353   630 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=33, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN&FOREGROUND Uid: 10144] ], android.os.BinderProxy@7b53b62)
+11-05 02:50:44.814   353   630 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=31, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ], android.os.BinderProxy@e54f3)
+11-05 02:50:44.814   353   630 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ LISTEN id=32, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&FOREGROUND Uid: 10144] ], android.os.BinderProxy@aee65b0)
+11-05 02:50:44.814   353   630 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ], android.os.BinderProxy@22fabae)
+11-05 02:50:44.814   353   630 D ConnectivityService: ConnectivityService NetworkRequestInfo binderDied(NetworkRequest [ TRACK_DEFAULT id=29, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ], android.os.BinderProxy@b2f4d4f)
+11-05 02:50:44.814   353   617 I MediaFocusControl: AudioFocus  removeFocusStackEntryOnDeath(): removing entry for android.os.BinderProxy@9d1c29
+11-05 02:50:44.814   353   458 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=30, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] (release request)
+11-05 02:50:44.815   353   458 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=26, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] (release request)
+11-05 02:50:44.815   353   458 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=27, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] (release request)
+11-05 02:50:44.815   353   458 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=31, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] (release request)
+11-05 02:50:44.815   353   458 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=28, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] (release request)
+11-05 02:50:44.815   353   458 D ConnectivityService: releasing NetworkRequest [ TRACK_DEFAULT id=29, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] (release request)
+11-05 02:50:44.816   188   966 D HostConnection: HostConnection::get() New Host Connection established 0x718b619760, tid 966
+11-05 02:50:44.816   188   966 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:50:44.817   353   373 W ActivityManager: setHasOverlayUi called on unknown pid: 3617
+11-05 02:50:44.820   640  1155 D EGL_emulation: eglMakeCurrent: 0x724164acc0: ver 3 1 (tinfo 0x7241600d80)
+11-05 02:50:44.822  1061  1274 W SessionLifecycleManager: Handover failed. Creating new session controller.
+11-05 02:50:44.823   353   381 I libprocessgroup: Successfully killed process cgroup uid 10144 pid 3617 in 44ms
+11-05 02:50:44.826   353   381 I libprocessgroup: Successfully killed process cgroup uid 99000 pid 3725 in 0ms
+11-05 02:50:44.827   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:44.829   353   384 E KernelCpuUidFreqTimeReader: Failed to read /proc/uid_time_in_state: java.nio.file.NoSuchFileException: /proc/uid_time_in_state
+11-05 02:50:44.829   353   384 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_time_in_state
+11-05 02:50:44.829   353   384 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_active_time
+11-05 02:50:44.829   353   384 W KernelCpuProcStringReader: File not found. It's normal if not implemented: /proc/uid_concurrent_policy_time
+11-05 02:50:44.829   353   384 E KernelCpuSpeedReader: Failed to read cpu-freq: /sys/devices/system/cpu/cpu0/cpufreq/stats/time_in_state: open failed: ENOENT (No such file or directory)
+11-05 02:50:44.829   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:44.829   594   594 I Zygote  : Process 3725 exited due to signal 9 (Killed)
+11-05 02:50:44.833  1061  1274 W ThreadPoolDumper: Queue length for executor Lightweight is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-05 02:50:44.859  1061  2258 W LocationOracle: No location history returned by ContextManager
+11-05 02:50:44.872   819  1398 W GCoreFlp: No location to return for getLastLocation()
+11-05 02:50:44.882  1061  1274 I MicroDetectionWorker: #startMicroDetector [speakerMode: 0]
+11-05 02:50:44.887  1061  1274 I AudioController: Created new AudioSource
+11-05 02:50:44.887  1061  1274 I MicroDetectionWorker: onReady
+11-05 02:50:44.888   819  1398 W GCoreFlp: No location to return for getLastLocation()
+11-05 02:50:44.889  1061  1260 I MicroRecognitionRunner: Starting detection.
+11-05 02:50:44.890  1061  1260 I MultipleReaderAudioSrc: Using micInputStream
+11-05 02:50:44.890  1061  1474 I MicrophoneInputStream: mic_starting  SR : 16000 CC : 16 SO : 1999
+11-05 02:50:44.894   185  3872 I AudioFlinger: AudioFlinger's thread 0x70bfdae540 tid=3872 ready to run
+11-05 02:50:44.896   353   617 I AudioService.RecordingActivityMonitor: rec update riid:47 uid:10118 session:25 src:HOTWORD pack:com.google.android.googlequicksearchbox
+11-05 02:50:44.896  1061  1474 I MicrophoneInputStream: mic_started  SR : 16000 CC : 16 SO : 1999
+11-05 02:50:44.897   819  3835 W ctxmgr  : [AclManager] No 3 for (accnt=account#-517948760#, com.google.android.gms(10120):UserVelocityProducer, vrsn=202414019, 0, 3pPkg = null ,  3pMdlId = null ,  pid = 819). Was: 3 for 1, account#-517948760# [CONTEXT service_id=47 ]
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: exception when setting module id
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: java.lang.IllegalStateException: Unable to get current module info in ModuleManager created with non-module Context
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at com.google.android.chimera.config.ModuleManager.getCurrentModule(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at aewd.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):4)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at aewg.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):9)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at aeso.a(Unknown Source:0)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at rpm.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at rlv.c(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at rlt.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at rok.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):6)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at rok.c(:com.google.android.gms@202414019@20.24.14 (040400-319035315):6)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at rok.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at rok.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):17)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at rok.g(:com.google.android.gms@202414019@20.24.14 (040400-319035315):3)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at sdr.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at scr.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at sci.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at scl.handleMessage(:com.google.android.gms@202414019@20.24.14 (040400-319035315):28)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at android.os.Handler.dispatchMessage(Handler.java:107)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at aekz.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at aekz.dispatchMessage(:com.google.android.gms@202414019@20.24.14 (040400-319035315):14)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at android.os.Looper.loop(Looper.java:214)
+11-05 02:50:44.913   819  1225 E ModuleIdSetter: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+11-05 02:50:44.917   819  3874 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:44.957  1061  1274 I MicroDetectionWorker: onReady
+11-05 02:50:44.958  1061  1260 W SpeechLevelGenerator: Really low audio levels detected. The audio input may have issues.
+11-05 02:50:44.967   819  1407 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-05 02:50:44.967   819  1407 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+11-05 02:50:44.967   819  1407 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:44.975   819  1398 W GCoreFlp: No location to return for getLastLocation()
+11-05 02:50:45.002   819  3874 I ctxmgr  : [ProducerStatusImpl] updateStateForNewContextData: inactive, contextName=7 [CONTEXT service_id=47 ]
+11-05 02:50:45.005   819  3836 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:45.016   166  3871 W audio_hw_generic: in_read_worker only could write 0 / 240 frames
+11-05 02:50:45.024   819  1398 W GCoreFlp: No location to return for getLastLocation()
+11-05 02:50:45.090   819   819 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+11-05 02:50:45.092   819   819 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+11-05 02:50:45.102   819  3880 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 0 [CONTEXT service_id=253 ]
+11-05 02:50:45.103   819  3835 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:45.104   819  3836 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:45.105   819  1398 W GCoreFlp: No location to return for getLastLocation()
+11-05 02:50:45.109   819  3880 I LogUtils: [Places]: ?: PlacesBleScanner start() with priority 2 [CONTEXT service_id=253 ]
+11-05 02:50:45.110   819   819 E BeaconBle: Missing BluetoothAdapter [CONTEXT service_id=111 ]
+11-05 02:50:45.110   819   819 I BeaconBle: BLE 'KK+' software access layer enabled [CONTEXT service_id=111 ]
+11-05 02:50:45.112   819  3880 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 1 [CONTEXT service_id=253 ]
+11-05 02:50:45.113   819  1398 W GCoreFlp: No location to return for getLastLocation()
+11-05 02:50:45.118   819  1407 W GLSUser : [AppCertManager] IOException while requesting key: 
+11-05 02:50:45.118   819  1407 W GLSUser : java.io.IOException: Invalid device key response.
+11-05 02:50:45.118   819  1407 W GLSUser : 	at hwy.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):49)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at hww.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):45)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at hwr.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at hwu.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):10)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at gbi.call(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:45.118   819  1407 W GLSUser : 	at java.lang.Thread.run(Thread.java:919)
+11-05 02:50:45.128   819   819 I BeaconBle: Client requested scan, settings=BleSettings [scanMode=ZERO_POWER, callbackType=ALL_MATCHES, reportDelayMillis=0, 1 filters, 0 clients, callingClientName=Places] [CONTEXT service_id=111 ]
+11-05 02:50:45.128   819   819 I BeaconBle: Scan : No clients left, canceling alarm. [CONTEXT service_id=111 ]
+11-05 02:50:45.128   819   819 E BeaconBle: Scan couldn't start for Places [CONTEXT service_id=111 ]
+11-05 02:50:45.128   819   819 W Places  : BLE failure while scanning - code 5
+11-05 02:50:45.140   819  1400 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:45.146   819  1608 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:45.147   819  1608 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:45.182   819  1608 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-05 02:50:45.182   819  1608 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+11-05 02:50:45.182   819  1608 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:45.304   819  1608 W Conscrypt: Could not set socket write timeout: java.net.SocketException: Socket closed
+11-05 02:50:45.304   819  1608 W Conscrypt: 	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):2)
+11-05 02:50:45.304   819  1608 W Conscrypt: 	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:45.494   819  3880 W LogUtils: [Places]: ?: Failed to download inference model weights SLS
+11-05 02:50:45.494   819  3880 W LogUtils: ckdr: NOT_FOUND: Requested entity was not found.
+11-05 02:50:45.494   819  3880 W LogUtils: 	at ckdq.c(:com.google.android.gms@202414019@20.24.14 (040400-319035315):3)
+11-05 02:50:45.494   819  3880 W LogUtils: 	at sjo.a(:com.google.android.gms@202414019@20.24.14 (040400-319035315):57)
+11-05 02:50:45.494   819  3880 W LogUtils: 	at bjxj.call(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:45.494   819  3880 W LogUtils: 	at bjvu.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):1)
+11-05 02:50:45.494   819  3880 W LogUtils: 	at soy.b(:com.google.android.gms@202414019@20.24.14 (040400-319035315):12)
+11-05 02:50:45.494   819  3880 W LogUtils: 	at soy.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):7)
+11-05 02:50:45.494   819  3880 W LogUtils: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+11-05 02:50:45.494   819  3880 W LogUtils: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+11-05 02:50:45.494   819  3880 W LogUtils: 	at sux.run(:com.google.android.gms@202414019@20.24.14 (040400-319035315):0)
+11-05 02:50:45.494   819  3880 W LogUtils: 	at java.lang.Thread.run(Thread.java:919)
+11-05 02:50:45.494   819  3880 W LogUtils: 
+11-05 02:50:45.494   819  3880 W LogUtils: [CONTEXT service_id=253 ]
+11-05 02:50:45.495   819  3880 W PlacesLogger: [PlaceInferenceEngine]: Failed to download model weights. Status code: 7 [CONTEXT service_id=253 ]
+11-05 02:50:45.496   819  1608 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:45.498   819  3883 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:45.906   353  1144 D WificondControl: Scan result ready event
+11-05 02:50:46.453   353   378 E memtrack: Couldn't load memtrack module
+11-05 02:50:46.453   353   378 W android.os.Debug: failed to get memory consumption info: -1
+11-05 02:50:46.455   969  3884 I Vision  : Requesting optional module download of ocr.
+11-05 02:50:46.455   969  3884 I Vision  : Checking for download completion for 149201 -- ocr
+11-05 02:50:46.891  3885  3885 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-05 02:50:46.889  3885  3885 W app_process: type=1400 audit(0.0:35): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=6363 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-05 02:50:46.893  3885  3885 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_apex_image"
+11-05 02:50:46.893  3885  3885 I AndroidRuntime: Using default boot image
+11-05 02:50:46.889  3885  3885 W app_process: type=1400 audit(0.0:36): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=6363 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-05 02:50:46.893  3885  3885 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.disable_lock_profiling"
+11-05 02:50:46.893  3885  3885 I AndroidRuntime: Leaving lock profiling enabled
+11-05 02:50:46.889  3885  3885 W app_process: type=1400 audit(0.0:37): avc: denied { read } for name="u:object_r:device_config_runtime_native_boot_prop:s0" dev="tmpfs" ino=6363 scontext=u:r:shell:s0 tcontext=u:object_r:device_config_runtime_native_boot_prop:s0 tclass=file permissive=0
+11-05 02:50:46.893  3885  3885 E libc    : Access denied finding property "persist.device_config.runtime_native_boot.enable_generational_cc"
+11-05 02:50:46.893  3885  3885 I app_process: Core platform API reporting enabled, enforcing=false
+11-05 02:50:46.913  3885  3885 D ICU     : Time zone APEX file found: /apex/com.android.tzdata/etc/icu/icu_tzdata.dat
+11-05 02:50:46.915  3885  3885 I app_process: The ClassLoaderContext is a special shared library.
+11-05 02:50:46.918  3885  3885 W app_process: JNI RegisterNativeMethods: attempt to register 0 native methods for android.media.AudioAttributes
+11-05 02:50:46.919  3885  3885 D AndroidRuntime: Calling main entry com.android.commands.monkey.Monkey
+11-05 02:50:46.919  3885  3885 W Monkey  : args: [-p, com.smontlouis.biblestrong, -c, android.intent.category.LAUNCHER, 1]
+11-05 02:50:46.919  3885  3885 W Monkey  :  arg: "-p"
+11-05 02:50:46.919  3885  3885 W Monkey  :  arg: "com.smontlouis.biblestrong"
+11-05 02:50:46.919  3885  3885 W Monkey  :  arg: "-c"
+11-05 02:50:46.919  3885  3885 W Monkey  :  arg: "android.intent.category.LAUNCHER"
+11-05 02:50:46.919  3885  3885 W Monkey  :  arg: "1"
+11-05 02:50:46.919  3885  3885 W Monkey  : data="com.smontlouis.biblestrong"
+11-05 02:50:46.919  3885  3885 W Monkey  : data="android.intent.category.LAUNCHER"
+11-05 02:50:46.923   353   379 W BroadcastQueue: Skipping deliver [background] BroadcastRecord{3438806 u-1 android.net.conn.CONNECTIVITY_CHANGE} to ReceiverList{1d6eec7 3885 (unknown name)/2000/u-1 remote:9236448}: process gone or crashing
+11-05 02:50:46.924   353  1144 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.smontlouis.biblestrong/.MainActivity} from uid 2000
+11-05 02:50:46.924   353  1144 W Binder  : Outgoing transactions from this process must be FLAG_ONEWAY
+11-05 02:50:46.924   353  1144 W Binder  : java.lang.Throwable
+11-05 02:50:46.924   353  1144 W Binder  : 	at android.os.BinderProxy.transact(BinderProxy.java:480)
+11-05 02:50:46.924   353  1144 W Binder  : 	at android.app.IActivityController$Stub$Proxy.activityStarting(IActivityController.java:273)
+11-05 02:50:46.924   353  1144 W Binder  : 	at com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:794)
+11-05 02:50:46.924   353  1144 W Binder  : 	at com.android.server.wm.ActivityStarter.startActivity(ActivityStarter.java:583)
+11-05 02:50:46.924   353  1144 W Binder  : 	at com.android.server.wm.ActivityStarter.startActivityMayWait(ActivityStarter.java:1288)
+11-05 02:50:46.924   353  1144 W Binder  : 	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:514)
+11-05 02:50:46.924   353  1144 W Binder  : 	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1058)
+11-05 02:50:46.924   353  1144 W Binder  : 	at com.android.server.wm.ActivityTaskManagerService.startActivityAsUser(ActivityTaskManagerService.java:1032)
+11-05 02:50:46.924   353  1144 W Binder  : 	at com.android.server.am.ActivityManagerService.startActivityAsUser(ActivityManagerService.java:3504)
+11-05 02:50:46.924   353  1144 W Binder  : 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:3537)
+11-05 02:50:46.924   353  1144 W Binder  : 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2741)
+11-05 02:50:46.924   353  1144 W Binder  : 	at android.os.Binder.execTransactInternal(Binder.java:1021)
+11-05 02:50:46.924   353  1144 W Binder  : 	at android.os.Binder.execTransact(Binder.java:994)
+11-05 02:50:46.926  3885  3885 I Monkey  : Events injected: 1
+11-05 02:50:46.927   353   353 V SettingsProvider: Notifying for 0: content://settings/system/accelerometer_rotation
+11-05 02:50:46.928   353  3869 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:46.928   353  3869 I chatty  : uid=1000(system) Binder:353_1C identical 8 lines
+11-05 02:50:46.928   353  3869 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:46.931   161   161 D Zygote  : Forked child process 3897
+11-05 02:50:46.932  3885  3885 I Monkey  : ## Network stats: elapsed time=4ms (0ms mobile, 0ms wifi, 4ms not connected)
+11-05 02:50:46.934  3885  3885 I app_process: System.exit called, status: 0
+11-05 02:50:46.934  3885  3885 I AndroidRuntime: VM exiting with result code 0.
+11-05 02:50:46.927   353   353 V SettingsProvider: Notifying for 0: content://settings/system/accelerometer_rotation
+11-05 02:50:46.939   353   380 I ActivityManager: Start proc 3897:com.smontlouis.biblestrong/u0a144 for activity {com.smontlouis.biblestrong/com.smontlouis.biblestrong.MainActivity}
+11-05 02:50:46.944   353  1144 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:46.945   353  1144 I chatty  : uid=1000(system) Binder:353_C identical 18 lines
+11-05 02:50:46.945   353  1144 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:46.948   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:46.948   353  1144 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:46.948   353  1144 I chatty  : uid=1000(system) Binder:353_C identical 8 lines
+11-05 02:50:46.948   353  1144 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:46.964   353   374 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:46.964   353   374 I chatty  : uid=1000(system) android.anim identical 8 lines
+11-05 02:50:46.964   353   374 W InputReader: Device has associated, but no associated display id.
+11-05 02:50:46.975   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:46.978  3897  3897 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+11-05 02:50:46.990  3897  3897 I FirebaseInitProvider: FirebaseApp initialization successful
+11-05 02:50:46.990  3897  3897 D ReactNativeFirebaseApp: received application context.
+11-05 02:50:47.000  3897  3897 D WM-WrkMgrInitializer: Initializing WorkManager with default configuration.
+11-05 02:50:47.003  3897  3918 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:185 and remote module com.google.android.gms.measurement.dynamite:15
+11-05 02:50:47.003  3897  3918 I DynamiteModule: Selected local version of com.google.android.gms.measurement.dynamite
+11-05 02:50:47.014  3897  3897 D Sentry  : io.sentry.auto-init read: false
+11-05 02:50:47.015  3897  3897 D NOTIFEE : (context): received application context
+11-05 02:50:47.018  3897  3897 W SoLoader: Initializing SoLoader: 0
+11-05 02:50:47.018  3897  3897 W SoLoader: Recording new base apk path: /data/app/com.smontlouis.biblestrong-4lrkI80LhIl90Of_JqeEwg==/base.apk
+11-05 02:50:47.018  3897  3897 W SoLoader: Previously recorded 0 base apk paths.
+11-05 02:50:47.018  3897  3897 I SoLoader: Preparing SO source: DirectorySoSource[root = /vendor/lib64 flags = 2]
+11-05 02:50:47.018  3897  3897 I SoLoader: Preparing SO source: DirectorySoSource[root = /system/lib64 flags = 2]
+11-05 02:50:47.018  3897  3897 I SoLoader: Preparing SO source: DirectApkSoSource[root = [/data/app/com.smontlouis.biblestrong-4lrkI80LhIl90Of_JqeEwg==/base.apk!/lib/arm64-v8a]]
+11-05 02:50:47.019  3897  3935 D Phlogger: Application doesn't implement PhenotypeApplication interface, falling back to globally set context. See go/phenotype-flag#process-stable-init for more info.
+11-05 02:50:47.023  3897  3897 I SoLoader: Preparing SO source: ApplicationSoSource[DirectorySoSource[root = /data/app/com.smontlouis.biblestrong-4lrkI80LhIl90Of_JqeEwg==/lib/arm64 flags = 0]]
+11-05 02:50:47.023  3897  3897 I SoLoader: init finish: 4 SO sources prepared
+11-05 02:50:47.023  3897  3897 W SoLoader: SoLoader initialized: 8
+11-05 02:50:47.032  1061  1274 I MicroDetector: Keeping mic open: false
+11-05 02:50:47.033  1061  1318 I DeviceStateChecker: DeviceStateChecker cancelled
+11-05 02:50:47.033  1061  1323 I AudioController: internalShutdown
+11-05 02:50:47.033  1061  1472 I MicroRecognitionRunner: Stopping hotword detection.
+11-05 02:50:47.036  3897  3897 W linker  : Warning: "/data/app/com.smontlouis.biblestrong-4lrkI80LhIl90Of_JqeEwg==/base.apk!/lib/arm64-v8a/libc++_shared.so" unused DT entry: unknown processor-specific (type 0x70000001 arg 0x0) (ignoring)
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Entering merged library JNI_OnLoad.
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing 13 pre-merged libs (including stub)
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x71d7c94f5c
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x71d7d71368
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x71d7d8b6a0
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x71d7dd1c60
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libreact_tracingjni_so.  onload_func: 0x71d7ec06a8
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x71d7ec593c
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x71d7ed19d0
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x71d7ed6208
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x71d7efb75c
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x71d7f9148c
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x71d7f97e98
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x71d7f9f914
+11-05 02:50:47.042  3897  3897 D jni_lib_merge: About to register 12 actual methods.
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Entering merged library JNI_OnLoad.
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing 13 pre-merged libs (including stub)
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x71d7c94f5c
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x71d7d71368
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x71d7d8b6a0
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x71d7dd1c60
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libreact_tracingjni_so.  onload_func: 0x71d7ec06a8
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x71d7ec593c
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x71d7ed19d0
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x71d7ed6208
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x71d7efb75c
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x71d7f9148c
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x71d7f97e98
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x71d7f9f914
+11-05 02:50:47.055  3897  3897 D jni_lib_merge: About to register 12 actual methods.
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Entering merged library JNI_OnLoad.
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing 13 pre-merged libs (including stub)
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x71d7c94f5c
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x71d7d71368
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x71d7d8b6a0
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x71d7dd1c60
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libreact_tracingjni_so.  onload_func: 0x71d7ec06a8
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x71d7ec593c
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x71d7ed19d0
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x71d7ed6208
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x71d7efb75c
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x71d7f9148c
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x71d7f97e98
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x71d7f9f914
+11-05 02:50:47.056  3897  3897 D jni_lib_merge: About to register 12 actual methods.
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Entering merged library JNI_OnLoad.
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing 13 pre-merged libs (including stub)
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x71d7c94f5c
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x71d7d71368
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x71d7d8b6a0
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x71d7dd1c60
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libreact_tracingjni_so.  onload_func: 0x71d7ec06a8
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x71d7ec593c
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x71d7ed19d0
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x71d7ed6208
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x71d7efb75c
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x71d7f9148c
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x71d7f97e98
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x71d7f9f914
+11-05 02:50:47.057  3897  3897 D jni_lib_merge: About to register 12 actual methods.
+11-05 02:50:47.058  1061  1323 I MicrophoneInputStream: mic_close  SR : 16000 CC : 16 SO : 1999
+11-05 02:50:47.059  1061  1323 E AudioSource: Stop listening is called on already closed AudioSource
+11-05 02:50:47.059  1061  1260 I MicroRecognitionRunner: Detection finished
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Entering merged library JNI_OnLoad.
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing 13 pre-merged libs (including stub)
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x71d7c94f5c
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x71d7d71368
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x71d7d8b6a0
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x71d7dd1c60
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libreact_tracingjni_so.  onload_func: 0x71d7ec06a8
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x71d7ec593c
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x71d7ed19d0
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x71d7ed6208
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x71d7efb75c
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x71d7f9148c
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x71d7f97e98
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x71d7f9f914
+11-05 02:50:47.061  3897  3897 D jni_lib_merge: About to register 12 actual methods.
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Entering merged library JNI_OnLoad.
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing 13 pre-merged libs (including stub)
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libfabricjni_so.  onload_func: 0x71d7c94f5c
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libreact_devsupportjni_so.  onload_func: 0x71d7d71368
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libreact_featureflagsjni_so.  onload_func: 0x71d7d8b6a0
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libreact_newarchdefaults_so.  onload_func: 0x71d7dd1c60
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libreact_tracingjni_so.  onload_func: 0x71d7ec06a8
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libreactnativeblob_so.  onload_func: 0x71d7ec593c
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_so.  onload_func: 0x71d7ed19d0
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libreactnativejni_common_so.  onload_func: 0x71d7ed6208
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register librninstance_so.  onload_func: 0x71d7efb75c
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libturbomodulejsijni_so.  onload_func: 0x71d7f9148c
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libuimanagerjni_so.  onload_func: 0x71d7f97e98
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: Preparing to register libyoga_so.  onload_func: 0x71d7f9f914
+11-05 02:50:47.062  3897  3897 D jni_lib_merge: About to register 12 actual methods.
+11-05 02:50:47.067  3897  3926 I FA      : App measurement initialized, version: 161000
+11-05 02:50:47.067  3897  3926 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-05 02:50:47.067  3897  3926 I FA      : To enable faster debug mode event logging run:
+11-05 02:50:47.067  3897  3926 I FA      :   adb shell setprop debug.firebase.analytics.app com.smontlouis.biblestrong
+11-05 02:50:47.073   188   275 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+11-05 02:50:47.073   188   275 E SurfaceFlinger: ro.sf.lcd_density must be defined as a build property
+11-05 02:50:47.076  3897  3897 D AppCompatDelegate: Checking for metadata for AppLocalesMetadataHolderService : Service not found
+11-05 02:50:47.083  3897  3944 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+11-05 02:50:47.083  3897  3944 W libc    : Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+11-05 02:50:47.081  3897  3897 W RenderThread: type=1400 audit(0.0:38): avc: denied { write } for name="property_service" dev="tmpfs" ino=6457 scontext=u:r:untrusted_app:s0:c144,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0 app=com.smontlouis.biblestrong
+11-05 02:50:47.107  3897  3944 D libEGL  : loaded /vendor/lib64/egl/libEGL_emulation.so
+11-05 02:50:47.117  3897  3944 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+11-05 02:50:47.121  3897  3944 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_emulation.so
+11-05 02:50:47.134  3897  3897 I NitroMmkvOnLoad: Loading NitroMmkv C++ library...
+11-05 02:50:47.137  3897  3897 I NitroMmkvOnLoad: Successfully loaded NitroMmkv C++ library!
+11-05 02:50:47.138  3897  3897 D jni_lib_merge: Entering merged library JNI_OnLoad.
+11-05 02:50:47.138  3897  3897 D jni_lib_merge: Preparing 4 pre-merged libs (including stub)
+11-05 02:50:47.138  3897  3897 D jni_lib_merge: Preparing to register libhermes_executor_so.  onload_func: 0x71d235bfcc
+11-05 02:50:47.138  3897  3897 D jni_lib_merge: Preparing to register libhermesinstancejni_so.  onload_func: 0x71d23635d4
+11-05 02:50:47.138  3897  3897 D jni_lib_merge: Preparing to register libjsijniprofiler_so.  onload_func: 0x71d2363e7c
+11-05 02:50:47.138  3897  3897 D jni_lib_merge: About to register 3 actual methods.
+11-05 02:50:47.149  3897  3897 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+11-05 02:50:47.151  3897  3929 I dev.expo.updates: {"timestamp":1793843447151,"message":"Updates state change: StartStartup, context = {isStartupProcedureRunning=true, isUpdateAvailable=false, isUpdatePending=false, isChecking=false, isDownloading=false, isRestarting=false, restartCount=0, downloadProgress=0.0, sequenceNumber=1}","code":"None","level":"info"}
+11-05 02:50:47.175  3897  3941 D HostConnection: HostConnection::get() New Host Connection established 0x724164bc60, tid 3941
+11-05 02:50:47.176  3897  3941 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:50:47.189  3897  3941 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-05 02:50:47.189  3897  3941 D EGL_emulation: eglCreateContext: 0x724164c340: maj 3 min 1 rcv 4
+11-05 02:50:47.189  3897  3941 D EGL_emulation: eglMakeCurrent: 0x724164c340: ver 3 1 (tinfo 0x72417f9280)
+11-05 02:50:47.190  3897  3941 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+11-05 02:50:47.190  3897  3941 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+11-05 02:50:47.205   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:47.205   107   107 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+11-05 02:50:47.205  3897  3941 W Gralloc3: mapper 3.x is not supported
+11-05 02:50:47.205  3897  3941 D HostConnection: createUnique: call
+11-05 02:50:47.206  3897  3941 D HostConnection: HostConnection::get() New Host Connection established 0x724164c520, tid 3941
+11-05 02:50:47.206  3897  3941 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:50:47.206  3897  3941 D eglCodecCommon: allocate: Ask for block of size 0x1000
+11-05 02:50:47.206  3897  3941 D eglCodecCommon: allocate: ioctl allocate returned offset 0x1fffe0000 size 0x8000
+11-05 02:50:47.207   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:47.209   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:50:47.218  3897  3926 I FA      : Tag Manager is not found and thus will not be used
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: embeddedAssets count = 186","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 4403c6117ec30c859bc95d70ce4a71d3,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/4403c6117ec30c859bc95d70ce4a71d3.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 069d99eb1fa6712c0b9034a58c6b57dd,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/069d99eb1fa6712c0b9034a58c6b57dd.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: c3273c9e5321f20d1e42c2efae2578c4,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/c3273c9e5321f20d1e42c2efae2578c4.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 286d67d3f74808a60a78d3ebf1a5fb57,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/286d67d3f74808a60a78d3ebf1a5fb57.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 0a328cd9c1afd0afe8e3b1ec5165b1b4,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/0a328cd9c1afd0afe8e3b1ec5165b1b4.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 778ffc9fe8773a878e9c30a6304784de,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/778ffc9fe8773a878e9c30a6304784de.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: c79c3606a1cf168006ad3979763c7e0c,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/c79c3606a1cf168006ad3979763c7e0c.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 02bc1fa7c0313217bde2d65ccbff40c9,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/02bc1fa7c0313217bde2d65ccbff40c9.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 35ba0eaec5a4f5ed12ca16fabeae451d,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/35ba0eaec5a4f5ed12ca16fabeae451d.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 3cd68ccdb8938e3711da2e8831b85493,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/3cd68ccdb8938e3711da2e8831b85493.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 61ca7e64b7d605716c57706cef640b9a,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/61ca7e64b7d605716c57706cef640b9a.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: aff2c65b39a296d4f7e96d0f58169170,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/aff2c65b39a296d4f7e96d0f58169170.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: d8e7601e3df962f83c62371ac14964d8,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/d8e7601e3df962f83c62371ac14964d8.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 3cd68ccdb8938e3711da2e8831b85493,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/3cd68ccdb8938e3711da2e8831b85493.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 0747a1317bbe9c6fc340b889ef8ab3ae,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/0747a1317bbe9c6fc340b889ef8ab3ae.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: d84e297c3b3e49a614248143d53e40ca,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/d84e297c3b3e49a614248143d53e40ca.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 1190ab078c57159f4245a328118fcd9a,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/1190ab078c57159f4245a328118fcd9a.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 78c625386b4d0690b421eb0fc78f7b9c,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/78c625386b4d0690b421eb0fc78f7b9c.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 0747a1317bbe9c6fc340b889ef8ab3ae,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/0747a1317bbe9c6fc340b889ef8ab3ae.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: d1ea1496f9057eb392d5bbf3732a61b7,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/d1ea1496f9057eb392d5bbf3732a61b7.png","code":"None","level":"info"}
+11-05 02:50:47.222  3897  3929 I dev.expo.updates: {"timestamp":1793843447222,"message":"embeddedAssetFileMap: 98a4e3d00dbf5d65da99a69b38a7def2,xml => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/98a4e3d00dbf5d65da99a69b38a7def2.xml","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 9b5cb09b4e669ed0f28f3b3f2871a0a5,xml => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/9b5cb09b4e669ed0f28f3b3f2871a0a5.xml","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 19eeb73b9593a38f8e9f418337fc7d10,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/19eeb73b9593a38f8e9f418337fc7d10.png","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: ab19f4cbc543357183a20571f68380a3,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ab19f4cbc543357183a20571f68380a3.png","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: d8b800c443b8972542883e0b9de2bdc6,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/d8b800c443b8972542883e0b9de2bdc6.png","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 412dd9275b6b48ad28f5e3d81bb1f626,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/412dd9275b6b48ad28f5e3d81bb1f626.png","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 017bc6ba3fc25503e5eb5e53826d48a8,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/017bc6ba3fc25503e5eb5e53826d48a8.png","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 20e71bdf79e3a97bf55fd9e164041578,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/20e71bdf79e3a97bf55fd9e164041578.png","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: a7de802e6f35c9d05272e41ae7afdfdb,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/a7de802e6f35c9d05272e41ae7afdfdb.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: df4f2936aabc4121bfafd9bef9fb87e1,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/df4f2936aabc4121bfafd9bef9fb87e1.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: f408515e19b2353cf1cfbb02013259d6,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f408515e19b2353cf1cfbb02013259d6.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: a82d72bf8a177307e4d9813823fd56d0,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/a82d72bf8a177307e4d9813823fd56d0.png","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 3f78af31cca60105799838a1a7a59fbd,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/3f78af31cca60105799838a1a7a59fbd.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 00d4123da692cbb1e8ca5f0761366930,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/00d4123da692cbb1e8ca5f0761366930.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 31b5ffea3daddc69dd01a1f3d6cf63c5,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/31b5ffea3daddc69dd01a1f3d6cf63c5.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: a56ab99388f6c9ae16844b267a6964da,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/a56ab99388f6c9ae16844b267a6964da.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 140c53a7643ea949007aa9a282153849,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/140c53a7643ea949007aa9a282153849.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 94c4ffdcbffeb0570c635d7f8edd8a25,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/94c4ffdcbffeb0570c635d7f8edd8a25.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: ca4b48e04dc1ce10bfbddb262c8b835f,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ca4b48e04dc1ce10bfbddb262c8b835f.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: ae54ddc6a0e1477d449461fab075dcd8,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ae54ddc6a0e1477d449461fab075dcd8.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: b49ae8ab2dbccb02c4d11caaacf09eab,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/b49ae8ab2dbccb02c4d11caaacf09eab.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 39843e5d52a6c5c42d5abdb0b34bcaa6,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/39843e5d52a6c5c42d5abdb0b34bcaa6.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: b06871f281fee6b241d60582ae9369b9,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/b06871f281fee6b241d60582ae9369b9.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: f1f91feb805137c9283fb766620ec5eb,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f1f91feb805137c9283fb766620ec5eb.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 9718399e3df39a0f879c354076dc68a6,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/9718399e3df39a0f879c354076dc68a6.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 4f7e7df54e749158e1543c82e8995e32,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/4f7e7df54e749158e1543c82e8995e32.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 1f77739ca9ff2188b539c36f30ffa2be,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/1f77739ca9ff2188b539c36f30ffa2be.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 605ed7926cf39a2ad5ec2d1f9d391d3d,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/605ed7926cf39a2ad5ec2d1f9d391d3d.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 3b89dd103490708d19a95adcae52210e,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/3b89dd103490708d19a95adcae52210e.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 661d16018c175dd9e7ec6c7fe56566e9,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/661d16018c175dd9e7ec6c7fe56566e9.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: b36e9f43898b3c648cb825bf382f6391,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/b36e9f43898b3c648cb825bf382f6391.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 370dd5af19f8364907b6e2c41f45dbbf,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/370dd5af19f8364907b6e2c41f45dbbf.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: adec7d6f310bc577f05e8fe06a5daccf,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/adec7d6f310bc577f05e8fe06a5daccf.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 56c8d80832e37783f12c05db7c8849e2,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/56c8d80832e37783f12c05db7c8849e2.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: e20945d7c929279ef7a6f1db184a4470,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/e20945d7c929279ef7a6f1db184a4470.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 60668d999bbaf663420340f7bdd580d7,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/60668d999bbaf663420340f7bdd580d7.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: b4eb097d35f44ed943676fd56f6bdc51,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/b4eb097d35f44ed943676fd56f6bdc51.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 66983eb9a810791e3a18d5ae8f9dacef,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/66983eb9a810791e3a18d5ae8f9dacef.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 6e435534bd35da5fef04168860a9b8fa,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/6e435534bd35da5fef04168860a9b8fa.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 1af9f9c54dff660638f1f5b3cf430cef,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/1af9f9c54dff660638f1f5b3cf430cef.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 4e85bc9ebe07e0340c9c4fc2f6c38908,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/4e85bc9ebe07e0340c9c4fc2f6c38908.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 2ae52e3f8a7410c229c14a27bee0256d,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/2ae52e3f8a7410c229c14a27bee0256d.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 871378c6eab492a3e689a9385dc45a12,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/871378c6eab492a3e689a9385dc45a12.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: dbf0270e9df1d342e9492d66357031b5,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/dbf0270e9df1d342e9492d66357031b5.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: d2285965fe34b05465047401b8595dd0,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/d2285965fe34b05465047401b8595dd0.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 647543ebfccf6e5495434383598453d1,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/647543ebfccf6e5495434383598453d1.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 1681f34aaca71b8dfb70756bca331eb2,ttf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/1681f34aaca71b8dfb70756bca331eb2.ttf","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 74d124a3caeac2bea111f3ca2f2dd34a,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/74d124a3caeac2bea111f3ca2f2dd34a.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 07e286f8e3d2fa0e727effcb85e6bbfd,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/07e286f8e3d2fa0e727effcb85e6bbfd.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: ffb9c5ece0dfd97931c24f0b898f6a4c,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ffb9c5ece0dfd97931c24f0b898f6a4c.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: bd1158a77f2710e44b60ab03c4f6f192,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/bd1158a77f2710e44b60ab03c4f6f192.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: a55429ba347b9c51be9edf9922fa83c0,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/a55429ba347b9c51be9edf9922fa83c0.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: f01e78853c4807a2f5995f671ae1817c,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f01e78853c4807a2f5995f671ae1817c.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 945c914eeb9c276759f47a9024b76a9a,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/945c914eeb9c276759f47a9024b76a9a.json","code":"None","level":"info"}
+11-05 02:50:47.223  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 9ef4cbf2f2a494c05b8539674eff0e8f,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/9ef4cbf2f2a494c05b8539674eff0e8f.json","code":"None","level":"info"}
+11-05 02:50:47.224  3897  3929 I dev.expo.updates: {"timestamp":1793843447223,"message":"embeddedAssetFileMap: 079397f85d2fe23f414db0a5fd18a9e2,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/079397f85d2fe23f414db0a5fd18a9e2.json","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447224,"message":"embeddedAssetFileMap: ec53b6094decfc894a807945eb6b4551,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ec53b6094decfc894a807945eb6b4551.json","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: cc4d889db6403348576b4ccbe3f85d06,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/cc4d889db6403348576b4ccbe3f85d06.json","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: f1bd5536cb45eb07c311c187aa3fa633,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f1bd5536cb45eb07c311c187aa3fa633.json","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: 1bce8ef4d6345114bb405a3d46cafcc1,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/1bce8ef4d6345114bb405a3d46cafcc1.json","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: a970ccb3cd9a0d56fb2e49159999d02f,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/a970ccb3cd9a0d56fb2e49159999d02f.json","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: f2f2afbd980094abcc79545970861890,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f2f2afbd980094abcc79545970861890.png","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: a90c87d7032f455d2b9af120cb5d5570,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/a90c87d7032f455d2b9af120cb5d5570.png","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: edc64fe7b7ecf42f96ada6651580a8ae,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/edc64fe7b7ecf42f96ada6651580a8ae.png","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: e82607f320e9da14480ea79a5f3fb101,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/e82607f320e9da14480ea79a5f3fb101.png","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: bd95c6f01f0efbe68bc0d03356c618b9,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/bd95c6f01f0efbe68bc0d03356c618b9.png","code":"None","level":"info"}
+11-05 02:50:47.225  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: 8a1e8612eda5a668f1075688e07e1e7b,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/8a1e8612eda5a668f1075688e07e1e7b.png","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447225,"message":"embeddedAssetFileMap: 24cc1dbca996610e8c164927ecca93ac,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/24cc1dbca996610e8c164927ecca93ac.png","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 948b3316b55d8793caf8c6c5b92641b5,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/948b3316b55d8793caf8c6c5b92641b5.png","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 15ab8afe28e7d438e1e0f8aa178b0a40,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/15ab8afe28e7d438e1e0f8aa178b0a40.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 467ae7a047cac75a31dffad343ed5639,txt => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/467ae7a047cac75a31dffad343ed5639.txt","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 4a6f8d8c3fc2b487196f33e045dd0f9e,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/4a6f8d8c3fc2b487196f33e045dd0f9e.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 053b1d4928c9687bdf94785a2dfc423f,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/053b1d4928c9687bdf94785a2dfc423f.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 033cee0dc95918d0f3ac99e3c760cd53,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/033cee0dc95918d0f3ac99e3c760cd53.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: f978694d56f25380b37e8742c97c076a,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f978694d56f25380b37e8742c97c076a.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: fb659418686cc3551117af2d1ba21330,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/fb659418686cc3551117af2d1ba21330.png","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 650fabcffce0f2919c707c3f62e879c8,otf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/650fabcffce0f2919c707c3f62e879c8.otf","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 644563f48ab5fe8e9082b64b2729b068,otf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/644563f48ab5fe8e9082b64b2729b068.otf","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: e82cc5131cc0c9e7be6bec127f5507f2,otf => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/e82cc5131cc0c9e7be6bec127f5507f2.otf","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 7fc624fb87def14877c9d8c98358d89c,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/7fc624fb87def14877c9d8c98358d89c.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 50b935eccf1d85868e8fa4cee115ee24,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/50b935eccf1d85868e8fa4cee115ee24.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: cd41f891cc446040747aa5c764ad7079,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/cd41f891cc446040747aa5c764ad7079.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 832bd9324793f9082082a18df6ab93a8,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/832bd9324793f9082082a18df6ab93a8.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 42bce3a192ec23e75176c3af7bd6b1e6,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/42bce3a192ec23e75176c3af7bd6b1e6.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 557bd4a24b339a0f88c89928e63b9ddd,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/557bd4a24b339a0f88c89928e63b9ddd.json","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: ecab38a14750c0a7ef7812abc56a76e0,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ecab38a14750c0a7ef7812abc56a76e0.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 895bbd009dc2fc2c3a51e31466cb8aa3,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/895bbd009dc2fc2c3a51e31466cb8aa3.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 3fba40255bbac37aa6c41d2047b849a8,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/3fba40255bbac37aa6c41d2047b849a8.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 574d0b6831c8ab87477f063c16ad3f93,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/574d0b6831c8ab87477f063c16ad3f93.svg","code":"None","level":"info"}
+11-05 02:50:47.226  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: 72d959314cfad75fc60597d7fd92ca3b,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/72d959314cfad75fc60597d7fd92ca3b.jpg","code":"None","level":"info"}
+11-05 02:50:47.227  3897  3929 I dev.expo.updates: {"timestamp":1793843447226,"message":"embeddedAssetFileMap: ed188998fc999321fa53b451c8e7a674,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ed188998fc999321fa53b451c8e7a674.jpg","code":"None","level":"info"}
+11-05 02:50:47.227  3897  3929 I dev.expo.updates: {"timestamp":1793843447227,"message":"embeddedAssetFileMap: df084142b633dd69756e5424204ec09f,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/df084142b633dd69756e5424204ec09f.jpg","code":"None","level":"info"}
+11-05 02:50:47.227  3897  3929 I dev.expo.updates: {"timestamp":1793843447227,"message":"embeddedAssetFileMap: 1a837a1bb29bf44c1c0a621a6c2a6ba3,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/1a837a1bb29bf44c1c0a621a6c2a6ba3.jpg","code":"None","level":"info"}
+11-05 02:50:47.227  3897  3929 I dev.expo.updates: {"timestamp":1793843447227,"message":"embeddedAssetFileMap: 7fb5909f769b8a75c0c9da6aa6896f1a,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/7fb5909f769b8a75c0c9da6aa6896f1a.jpg","code":"None","level":"info"}
+11-05 02:50:47.227  3897  3929 I dev.expo.updates: {"timestamp":1793843447227,"message":"embeddedAssetFileMap: 8c6054c8e24c39ee376a78bf32cbf9f0,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/8c6054c8e24c39ee376a78bf32cbf9f0.jpg","code":"None","level":"info"}
+11-05 02:50:47.227  3897  3929 I dev.expo.updates: {"timestamp":1793843447227,"message":"embeddedAssetFileMap: c637fbaff2f1dd90001562e4650cab87,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/c637fbaff2f1dd90001562e4650cab87.jpg","code":"None","level":"info"}
+11-05 02:50:47.227  3897  3929 I dev.expo.updates: {"timestamp":1793843447227,"message":"embeddedAssetFileMap: 0c981dc4575c50a5d7ad30e9e0c226f8,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/0c981dc4575c50a5d7ad30e9e0c226f8.jpg","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: e4d7b0b8cd289ce0da626259f047596a,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/e4d7b0b8cd289ce0da626259f047596a.jpg","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: ac3f5d968836b381bec9e96161a614af,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ac3f5d968836b381bec9e96161a614af.jpg","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: b59102419f3265f563c36d285c9383ed,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/b59102419f3265f563c36d285c9383ed.jpg","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 802957fc88afe09b128ae6d8e297cfff,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/802957fc88afe09b128ae6d8e297cfff.jpg","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 1464ccf3fe19c85e582aa489a2fce9ea,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/1464ccf3fe19c85e582aa489a2fce9ea.jpg","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 1ba494f749433992c1908533d7d324ac,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/1ba494f749433992c1908533d7d324ac.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 36135eb9e2745772f22712ee95e97ee0,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/36135eb9e2745772f22712ee95e97ee0.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 53642b221bea82f18d1040cef831e14e,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/53642b221bea82f18d1040cef831e14e.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 6b4c20c82ff7c1118c9a174744370af3,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/6b4c20c82ff7c1118c9a174744370af3.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 1e855a3aecfbc9a62b2adeaf0bc549d4,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/1e855a3aecfbc9a62b2adeaf0bc549d4.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: f55271c3cef8a38d460eeb2c6498edfe,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f55271c3cef8a38d460eeb2c6498edfe.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: a78966c6623ec0ed09378809f278f4f3,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/a78966c6623ec0ed09378809f278f4f3.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 2b62efe74ec367341a7c0f5b3432616b,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/2b62efe74ec367341a7c0f5b3432616b.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: aae0682ad5becc2fd6326914bd0dff95,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/aae0682ad5becc2fd6326914bd0dff95.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: f2a4c017ce710ccd6bf6b0e94078973d,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f2a4c017ce710ccd6bf6b0e94078973d.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 9900f3fca1e98a06f464eb6ddadf8296,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/9900f3fca1e98a06f464eb6ddadf8296.png","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: f3588245c64fdf75c1f68e10b45b6ca1,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f3588245c64fdf75c1f68e10b45b6ca1.json","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 8f0d7301545f2dff2cee6c13ec053e6b,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/8f0d7301545f2dff2cee6c13ec053e6b.json","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 5111d0e4a70b99025e3b3d760158b6d6,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/5111d0e4a70b99025e3b3d760158b6d6.json","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 69fa940f90119808333f349f8a340260,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/69fa940f90119808333f349f8a340260.json","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 24406fa1adfc177ce1ab3b3aeb59b694,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/24406fa1adfc177ce1ab3b3aeb59b694.json","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: e402263e94e6e5ee95d2539b1ab2e8ad,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/e402263e94e6e5ee95d2539b1ab2e8ad.json","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 0dc5628a766347a1bf3c0a2796316618,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/0dc5628a766347a1bf3c0a2796316618.json","code":"None","level":"info"}
+11-05 02:50:47.228  3897  3929 I dev.expo.updates: {"timestamp":1793843447228,"message":"embeddedAssetFileMap: 26b296d47b8d8c6318a484d4a44d3997,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/26b296d47b8d8c6318a484d4a44d3997.json","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: d2be24db31e46659b3d3a8b7ba3731b7,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/d2be24db31e46659b3d3a8b7ba3731b7.json","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 64485dfab1362a55809642c0087f40e4,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/64485dfab1362a55809642c0087f40e4.json","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 6ec11759ca88a408a0ded43681d59210,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/6ec11759ca88a408a0ded43681d59210.json","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 71b763ff29fd861138c10febfdbcc2ee,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/71b763ff29fd861138c10febfdbcc2ee.json","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 7838a7613e82db7ccef4f1d01d9135ec,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/7838a7613e82db7ccef4f1d01d9135ec.svg","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 989d421b3a2437f4f3b486d8052b00e0,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/989d421b3a2437f4f3b486d8052b00e0.svg","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 8f09504b14f58703914b7d33f7734203,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/8f09504b14f58703914b7d33f7734203.svg","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 14c17e726cb345708b6f1d2e8f36b555,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/14c17e726cb345708b6f1d2e8f36b555.svg","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: bad8ce9ebe04d4a3a33dedc2ca188c95,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/bad8ce9ebe04d4a3a33dedc2ca188c95.svg","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: a2bf7ccb49500ea6ccbfbdb444258226,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/a2bf7ccb49500ea6ccbfbdb444258226.svg","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 8d8f2f0aa3fc955469d91227ccd2d186,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/8d8f2f0aa3fc955469d91227ccd2d186.svg","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: a88537dcd9691aa1e105b5ffcdc83603,webp => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/a88537dcd9691aa1e105b5ffcdc83603.webp","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: dd0ceb94656fe2d2aaec71cea15b5eaf,webp => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/dd0ceb94656fe2d2aaec71cea15b5eaf.webp","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: e5681d9be1468f4eb41118976f0a850a,webp => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/e5681d9be1468f4eb41118976f0a850a.webp","code":"None","level":"info"}
+11-05 02:50:47.229  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 38a57ccfd08af1724da0e707519e5b8f,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/38a57ccfd08af1724da0e707519e5b8f.png","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447229,"message":"embeddedAssetFileMap: 906a17a2da37930ae20ce63c9ad8e5c8,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/906a17a2da37930ae20ce63c9ad8e5c8.png","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 113ca9fe8ad2b89c0181b4f236accf32,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/113ca9fe8ad2b89c0181b4f236accf32.png","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 22b60e16deccdecb069d91dd28c87ac3,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/22b60e16deccdecb069d91dd28c87ac3.png","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 6ef73cdfef668043b441ea7126ff9729,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/6ef73cdfef668043b441ea7126ff9729.png","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: ee64fa9c02e6139a4c1cf479143ddafc,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ee64fa9c02e6139a4c1cf479143ddafc.png","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: ddeca693653d3f0874aed1180c75bc56,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ddeca693653d3f0874aed1180c75bc56.png","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 67f3688ca66d4dedb5bf96cbf01ab437,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/67f3688ca66d4dedb5bf96cbf01ab437.json","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: f978664b05ae27521d86f1756e23b37d,lottie => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f978664b05ae27521d86f1756e23b37d.lottie","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 416d27959b6e1f97202e6fe2c580627b,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/416d27959b6e1f97202e6fe2c580627b.svg","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 28174b31bdaf676995dfee2454a45cb9,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/28174b31bdaf676995dfee2454a45cb9.json","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 5eacdad5a74b22fd9675a6bb5baeeae7,txt => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/5eacdad5a74b22fd9675a6bb5baeeae7.txt","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 2c8fd4bd67bb9d7734b75f292e219879,txt => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/2c8fd4bd67bb9d7734b75f292e219879.txt","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 2377a197b126ee5c490da7e47ec6039c,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/2377a197b126ee5c490da7e47ec6039c.jpg","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 18b935be7ab0c44a91d8718e1ad83bf7,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/18b935be7ab0c44a91d8718e1ad83bf7.jpg","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: eaef8ccd20218a98502614a12800c293,png => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/eaef8ccd20218a98502614a12800c293.png","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 969282236149a354b80856519775de74,jpg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/969282236149a354b80856519775de74.jpg","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 649b8a4a62296bab2c0c90e33252a2f0,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/649b8a4a62296bab2c0c90e33252a2f0.svg","code":"None","level":"info"}
+11-05 02:50:47.230  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: bc1b6f464985c2b5cbee72c3e1c4a712,svg => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/bc1b6f464985c2b5cbee72c3e1c4a712.svg","code":"None","level":"info"}
+11-05 02:50:47.231  3897  3929 I dev.expo.updates: {"timestamp":1793843447230,"message":"embeddedAssetFileMap: 13a4dbf55c7295320866e11a94d92806,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/13a4dbf55c7295320866e11a94d92806.json","code":"None","level":"info"}
+11-05 02:50:47.231  3897  3929 I dev.expo.updates: {"timestamp":1793843447231,"message":"embeddedAssetFileMap: 863a1f80b1b755caff63c6242c8d7040,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/863a1f80b1b755caff63c6242c8d7040.json","code":"None","level":"info"}
+11-05 02:50:47.232  3897  3929 I dev.expo.updates: {"timestamp":1793843447231,"message":"embeddedAssetFileMap: f9667adf4941404111c7d676f9d8d3a4,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f9667adf4941404111c7d676f9d8d3a4.json","code":"None","level":"info"}
+11-05 02:50:47.232  3897  3929 I dev.expo.updates: {"timestamp":1793843447232,"message":"embeddedAssetFileMap: 838ca01c3488d8b0d51369c3a8f6cb86,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/838ca01c3488d8b0d51369c3a8f6cb86.json","code":"None","level":"info"}
+11-05 02:50:47.232  3897  3929 I dev.expo.updates: {"timestamp":1793843447232,"message":"embeddedAssetFileMap: 63af10e16f65f0adad5c24908570d52f,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/63af10e16f65f0adad5c24908570d52f.json","code":"None","level":"info"}
+11-05 02:50:47.232  3897  3929 I dev.expo.updates: {"timestamp":1793843447232,"message":"embeddedAssetFileMap: f78573ab622daa9ab24a7d59ac845445,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/f78573ab622daa9ab24a7d59ac845445.json","code":"None","level":"info"}
+11-05 02:50:47.232  3897  3929 I dev.expo.updates: {"timestamp":1793843447232,"message":"embeddedAssetFileMap: 9239cce89a441b628881982bb18e605e,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/9239cce89a441b628881982bb18e605e.json","code":"None","level":"info"}
+11-05 02:50:47.232  3897  3929 I dev.expo.updates: {"timestamp":1793843447232,"message":"embeddedAssetFileMap: d240c52708837b1e1dcb656cc81bb54c,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/d240c52708837b1e1dcb656cc81bb54c.json","code":"None","level":"info"}
+11-05 02:50:47.232  3897  3929 I dev.expo.updates: {"timestamp":1793843447232,"message":"embeddedAssetFileMap: 4ad616183e60b2f896c07fdc1b0f6569,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/4ad616183e60b2f896c07fdc1b0f6569.json","code":"None","level":"info"}
+11-05 02:50:47.232  3897  3929 I dev.expo.updates: {"timestamp":1793843447232,"message":"embeddedAssetFileMap: ab1f97d0b37f313e718020de4dedc983,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ab1f97d0b37f313e718020de4dedc983.json","code":"None","level":"info"}
+11-05 02:50:47.232  3897  3929 I dev.expo.updates: {"timestamp":1793843447232,"message":"embeddedAssetFileMap: ed93cad4e6844a0216044d718d195391,json => file:\/\/\/data\/user\/0\/com.smontlouis.biblestrong\/files\/.expo-internal\/ed93cad4e6844a0216044d718d195391.json","code":"None","level":"info"}
+11-05 02:50:47.264   640  1155 D EGL_emulation: eglMakeCurrent: 0x724164acc0: ver 3 1 (tinfo 0x7241600d80)
+11-05 02:50:47.265  1061  1306 D EGL_emulation: eglMakeCurrent: 0x724164bda0: ver 3 1 (tinfo 0x724175ebe0)
+11-05 02:50:47.271  3897  3897 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Schedule
+11-05 02:50:47.271  3897  3897 W unknown:BridgelessReact: ReactHost{0}.attachSurface(surfaceId = 0)
+11-05 02:50:47.272  3897  3929 I dev.expo.updates: {"timestamp":1793843447272,"message":"Updates state change: EndStartup, context = {isStartupProcedureRunning=false, isUpdateAvailable=false, isUpdatePending=false, isChecking=false, isDownloading=false, isRestarting=false, restartCount=0, downloadProgress=0.0, sequenceNumber=2}","code":"None","level":"info"}
+11-05 02:50:47.272  3897  3897 W unknown:BridgelessReact: ReactHost{0}.onHostResume(activity)
+11-05 02:50:47.272  3897  3897 W unknown:BridgelessReact: ReactHost{0}.raiseSoftException(onWindowFocusChange(hasFocus = "true")): Tried to access onWindowFocusChange while context is not ready
+11-05 02:50:47.272  3897  3966 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask()
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: Unhandled SoftException
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: com.facebook.react.bridge.ReactNoCrashSoftException: raiseSoftException(onWindowFocusChange(hasFocus = "true")): Tried to access onWindowFocusChange while context is not ready
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at com.facebook.react.runtime.ReactHostImpl.i(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:22)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at ba9.onWindowFocusChanged(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:54)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at ga9.invokeSuspend(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:198)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at ga9.invoke(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:44)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at wn4.invokeSuspend(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:231)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at hh0.resumeWith(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:8)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at gv2.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:114)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at ag3.F(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:24)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at e41.p(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:93)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at e41.D(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:45)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at e41.resumeWith(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:17)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at lr6.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:409)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at g50.invokeSuspend(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:16)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at hh0.resumeWith(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:8)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at gv2.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:114)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at android.os.Handler.handleCallback(Handler.java:883)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at android.os.Handler.dispatchMessage(Handler.java:100)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at android.os.Looper.loop(Looper.java:214)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at android.app.ActivityThread.main(ActivityThread.java:7356)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at java.lang.reflect.Method.invoke(Native Method)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:492)
+11-05 02:50:47.272  3897  3897 E unknown:ReactHost: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:930)
+11-05 02:50:47.272  3897  3966 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Start
+11-05 02:50:47.272  3897  3966 W unknown:BridgelessReact: ReactHost{0}.getJSBundleLoader()
+11-05 02:50:47.273  3897  3966 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating BridgelessReactContext
+11-05 02:50:47.273  3897  3966 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Creating ReactInstance
+11-05 02:50:47.277  3897  3925 W GooglePlayServicesUtil: Google Play services out of date for com.smontlouis.biblestrong.  Requires 203400000 but found 202414019
+11-05 02:50:47.277  3897  3925 W GoogleApiManager: The service for cfd is not available: gr1{statusCode=SERVICE_VERSION_UPDATE_REQUIRED, resolution=null, message=null, clientMethodKey=null}
+11-05 02:50:47.277  3897  3925 W GooglePlayServicesUtil: Google Play services out of date for com.smontlouis.biblestrong.  Requires 203400000 but found 202414019
+11-05 02:50:47.277  3897  3925 W GoogleApiManager: The service for cfd is not available: gr1{statusCode=SERVICE_VERSION_UPDATE_REQUIRED, resolution=null, message=null, clientMethodKey=null}
+11-05 02:50:47.289  3897  3966 D RNFBAppCheck: isAppCheckCollectionEnabled via RNFBMeta: true
+11-05 02:50:47.289  3897  3966 D RNFBAppCheck: isAppCheckTokenRefreshEnabled final value: true
+11-05 02:50:47.297  3897  3966 I uis.biblestron: Starting a blocking GC Alloc
+11-05 02:50:47.297  3897  3966 I uis.biblestron: Starting a blocking GC Alloc
+11-05 02:50:47.298  3897  3926 I uis.biblestron: Waiting for a blocking GC Alloc
+11-05 02:50:47.303  3897  3926 I uis.biblestron: WaitForGcToComplete blocked Alloc on ClassLinker for 5.337ms
+11-05 02:50:47.303  3897  3926 I uis.biblestron: Starting a blocking GC Alloc
+11-05 02:50:47.313  3897  3966 I ExpoModulesCore: ✅ AppContext was initialized
+11-05 02:50:47.317  3897  3966 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Loading JS Bundle
+11-05 02:50:47.318  3897  3968 I RNFB_EMITTER: ReactContext changed: @0 -> @180040491
+11-05 02:50:47.318  3897  3968 D Auth    : instance-initialized
+11-05 02:50:47.319  3897  3966 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): DevSupportManager.onNewReactContextCreated()
+11-05 02:50:47.319  3897  3966 W unknown:BridgelessReact: ReactHost{0}.startSurface(surfaceId = 0): Execute
+11-05 02:50:47.324  3897  3897 W unknown:BridgelessReact: ReactHost{0}.ReactContext.onHostResume()
+11-05 02:50:47.328  3897  3897 W unknown:BridgelessReact: ReactHost{0}.getOrCreateReactInstanceTask(): Executing ReactInstanceEventListeners
+11-05 02:50:47.345  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.GroupViewManagerWrapper
+11-05 02:50:47.347  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class n56
+11-05 02:50:47.347  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativekeyboardcontroller.OverKeyboardViewManager
+11-05 02:50:47.347  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class p88
+11-05 02:50:47.347  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativekeyboardcontroller.KeyboardToolbarGroupViewManager
+11-05 02:50:47.347  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.lodev09.truesheet.TrueSheetContainerViewManager
+11-05 02:50:47.347  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+11-05 02:50:47.348  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.reanimated.view.REASharedTransitionBoundaryManager
+11-05 02:50:47.349  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.lodev09.truesheet.TrueSheetFooterViewManager
+11-05 02:50:47.349  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.host.TabsHostViewManager
+11-05 02:50:47.349  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+11-05 02:50:47.349  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.ease.EaseViewManager
+11-05 02:50:47.350  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativegooglesignin.RNGoogleSigninButtonViewManager
+11-05 02:50:47.353  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+11-05 02:50:47.354  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.modals.formsheet.FormSheetHostViewManager
+11-05 02:50:47.354  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativekeyboardcontroller.KeyboardBackgroundViewManager
+11-05 02:50:47.354  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.enriched.markdown.EnrichedMarkdownTextManager
+11-05 02:50:47.355  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class expo.modules.kotlin.views.SimpleViewManagerWrapper
+11-05 02:50:47.355  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativekeyboardcontroller.ClippingScrollViewDecoratorViewManager
+11-05 02:50:47.355  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.lodev09.truesheet.TrueSheetHeaderViewManager
+11-05 02:50:47.355  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.teleport.host.PortalHostViewManager
+11-05 02:50:47.355  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnative.skia.SkiaPictureViewManager
+11-05 02:50:47.355  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.scrollviewmarker.ScrollViewMarkerViewManager
+11-05 02:50:47.356  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.lodev09.truesheet.TrueSheetViewManager
+11-05 02:50:47.356  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.modals.formsheet.FormSheetContentWrapperViewManager
+11-05 02:50:47.356  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.enriched.markdown.EnrichedMarkdownManager
+11-05 02:50:47.357  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContentWrapperManager
+11-05 02:50:47.357  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.stack.screen.StackScreenViewManager
+11-05 02:50:47.357  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.teleport.portal.PortalViewManager
+11-05 02:50:47.359  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaViewManager
+11-05 02:50:47.359  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class q8a
+11-05 02:50:47.359  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+11-05 02:50:47.362  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.stack.header.config.StackHeaderConfigViewManager
+11-05 02:50:47.362  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class io.sentry.react.RNSentryOnDrawReporterManager
+11-05 02:50:47.362  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.th3rdwave.safeareacontext.SafeAreaProviderManager
+11-05 02:50:47.362  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.SearchBarManager
+11-05 02:50:47.362  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.lodev09.truesheet.TrueSheetContentViewManager
+11-05 02:50:47.363  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.stack.host.StackHostViewManager
+11-05 02:50:47.363  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class io.sentry.react.replay.RNSentryReplayMaskManager
+11-05 02:50:47.363  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.enriched.markdown.input.EnrichedMarkdownTextInputManager
+11-05 02:50:47.363  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenFooterManager
+11-05 02:50:47.364  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class io.sentry.react.replay.RNSentryReplayUnmaskManager
+11-05 02:50:47.364  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ModalScreenViewManager
+11-05 02:50:47.364  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativekeyboardcontroller.KeyboardGestureAreaViewManager
+11-05 02:50:47.364  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.safearea.SafeAreaViewManager
+11-05 02:50:47.366  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+11-05 02:50:47.366  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.airbnb.android.react.lottie.LottieAnimationViewManager
+11-05 02:50:47.366  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.stack.header.subview.StackHeaderSubviewViewManager
+11-05 02:50:47.367  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCWebViewManager
+11-05 02:50:47.367  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativekeyboardcontroller.KeyboardControllerViewManager
+11-05 02:50:47.367  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class org.reactnative.maskedview.RNCMaskedViewManager
+11-05 02:50:47.367  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.gamma.tabs.screen.TabsScreenViewManager
+11-05 02:50:47.397  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$DefsViewManager
+11-05 02:50:47.397  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class dyc
+11-05 02:50:47.398  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeMergeManager
+11-05 02:50:47.398  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.safeareaview.ReactSafeAreaViewManager
+11-05 02:50:47.399  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerDetectorViewManager
+11-05 02:50:47.399  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LinearGradientManager
+11-05 02:50:47.399  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeGaussianBlurManager
+11-05 02:50:47.400  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+11-05 02:50:47.400  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+11-05 02:50:47.400  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+11-05 02:50:47.401  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeColorMatrixManager
+11-05 02:50:47.401  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+11-05 02:50:47.401  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ClipPathViewManager
+11-05 02:50:47.402  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$SymbolManager
+11-05 02:50:47.402  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PatternManager
+11-05 02:50:47.403  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeBlendManager
+11-05 02:50:47.403  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+11-05 02:50:47.406  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.SvgViewManager
+11-05 02:50:47.410  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+11-05 02:50:47.410  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$UseViewManager
+11-05 02:50:47.411  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$CircleViewManager
+11-05 02:50:47.411  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TSpanViewManager
+11-05 02:50:47.412  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FilterManager
+11-05 02:50:47.412  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MarkerManager
+11-05 02:50:47.412  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+11-05 02:50:47.413  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+11-05 02:50:47.413  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ForeignObjectManager
+11-05 02:50:47.413  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$EllipseViewManager
+11-05 02:50:47.414  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$LineViewManager
+11-05 02:50:47.414  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeFloodManager
+11-05 02:50:47.415  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$GroupViewManager
+11-05 02:50:47.415  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextViewManager
+11-05 02:50:47.415  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$ImageViewManager
+11-05 02:50:47.415  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeCompositeManager
+11-05 02:50:47.416  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+11-05 02:50:47.416  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RadialGradientManager
+11-05 02:50:47.417  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$MaskManager
+11-05 02:50:47.417  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.unimplementedview.ReactUnimplementedViewManager
+11-05 02:50:47.417  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$RectViewManager
+11-05 02:50:47.417  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$TextPathViewManager
+11-05 02:50:47.418  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+11-05 02:50:47.419  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$FeOffsetManager
+11-05 02:50:47.419  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.horcrux.svg.RenderableViewManager$PathViewManager
+11-05 02:50:47.420  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+11-05 02:50:47.420  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+11-05 02:50:47.420  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+11-05 02:50:47.421  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.SelectableTextViewManager
+11-05 02:50:47.422  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+11-05 02:50:47.422  3897  3967 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.virtual.view.ReactVirtualViewManager
+11-05 02:50:47.425  3897  3967 W iu0     : [WARNING] Bridgeless doesn't support CatalystInstance. Accessing an API that's not part of the new architecture is not encouraged usage.
+11-05 02:50:47.425  3897  3967 I ExpoModulesCore: ✅ JSI interop was installed
+11-05 02:50:47.427  3897  3967 W ExpoModulesV2: pz7 does not implement io.github.expo.modules.v2.Enumerable. It crosses to JavaScript here, but R8 keeps an enum's entries and its property only when it does, so a release build may fail on it or send its entry names instead
+11-05 02:50:47.427  3897  3967 W ExpoModulesV2: fa5 does not implement io.github.expo.modules.v2.Enumerable. It crosses to JavaScript here, but R8 keeps an enum's entries and its property only when it does, so a release build may fail on it or send its entry names instead
+11-05 02:50:47.427  3897  3967 W ExpoModulesV2: rs4 does not implement io.github.expo.modules.v2.Enumerable. It crosses to JavaScript here, but R8 keeps an enum's entries and its property only when it does, so a release build may fail on it or send its entry names instead
+11-05 02:50:47.428  3897  3967 I ExpoModulesCore: ✅ Expo Modules v2 installed 3 module(s) on globalThis.expo.modules
+11-05 02:50:47.429  3897  3967 I ExpoModulesCore: ✅ Constants were exported
+11-05 02:50:47.430  3897  3967 I dev.expo.updates: {"timestamp":1793843447430,"message":"UpdatesModule: getConstants called","code":"None","level":"info"}
+11-05 02:50:47.457  3897  3967 I NitroModules: Loading NitroModules C++ library...
+11-05 02:50:47.457  3897  3967 I NitroModules: Successfully loaded NitroModules C++ library!
+11-05 02:50:47.531   353  3869 D ConnectivityService: requestNetwork for uid/pid:10144/3897 NetworkRequest [ TRACK_DEFAULT id=34, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ]
+11-05 02:50:47.531   353   455 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=34, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.531   353   455 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=34, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.531   558   558 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=34, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.545  3897  3968 I RNSentry: Starting with DSN: 'https://dca22afd3ffa1a01bd7aafbd8c9146a9@o4507203076096000.ingest.de.sentry.io/4507203100016720'
+11-05 02:50:47.545  3897  3968 I RNSentry: Native Integrations '[io.sentry.UncaughtExceptionHandlerIntegration@3d979dc, io.sentry.ShutdownHookIntegration@2e21ae5, io.sentry.android.core.SendCachedEnvelopeIntegration@9569ba, io.sentry.android.core.NdkIntegration@5b0e06b, io.sentry.android.core.EnvelopeFileObserverIntegration$OutboxEnvelopeFileObserverIntegration@e7257c8, io.sentry.android.core.SendCachedEnvelopeIntegration@a1e8061, io.sentry.android.core.AppLifecycleIntegration@6206786, io.sentry.android.core.AnrIntegration@2fb1847, io.sentry.android.core.anr.AnrProfilingIntegration@4392874, io.sentry.android.core.ActivityLifecycleIntegration@461c19d, io.sentry.android.core.ActivityBreadcrumbsIntegration@30b7612, io.sentry.android.core.UserInteractionIntegration@dc6f1e3, io.sentry.android.core.FeedbackShakeIntegration@3fa57e0, io.sentry.android.core.AppComponentsBreadcrumbsIntegration@f9dda99, io.sentry.android.core.SystemEventsBreadcrumbsIntegration@a26e15e, io.sentry.android.core.NetworkBreadcrumbsIntegration@7ecc93f, io.sentry.android.replay.ReplayIntegration@add120c]'
+11-05 02:50:47.546   353  3869 D ConnectivityService: requestNetwork for uid/pid:10144/3897 NetworkRequest [ TRACK_DEFAULT id=35, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ]
+11-05 02:50:47.541  3897  3897 W SentryDeviceInf: type=1400 audit(0.0:39): avc: denied { read } for name="version" dev="proc" ino=4026531934 scontext=u:r:untrusted_app:s0:c144,c256,c512,c768 tcontext=u:object_r:proc_version:s0 tclass=file permissive=0 app=com.smontlouis.biblestrong
+11-05 02:50:47.547   353   455 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=35, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.547   353   455 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=35, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.547   558   558 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=35, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.578  3897  3968 D RNFBAppCheck: configureProvider - appName/providerName/debugToken: [DEFAULT]/playIntegrity/null
+11-05 02:50:47.578  3897  3968 D RNFBAppCheck: ProviderFactory::configure - appName/providerName/debugToken: [DEFAULT]/playIntegrity/null
+11-05 02:50:47.578  3897  3968 D RNFBAppCheck: Provider::configure with appName/providerName/debugToken: [DEFAULT]/playIntegrity/null
+11-05 02:50:47.579  3897  3968 D RNFBAppCheck: ProviderFactory::create - fetching provider for app [DEFAULT]
+11-05 02:50:47.583  3897  3967 W ExpoModulesV2: e4a does not implement io.github.expo.modules.v2.Enumerable. It crosses to JavaScript here, but R8 keeps an enum's entries and its property only when it does, so a release build may fail on it or send its entry names instead
+11-05 02:50:47.660   353  1144 D ConnectivityService: requestNetwork for uid/pid:10144/3897 NetworkRequest [ TRACK_DEFAULT id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ]
+11-05 02:50:47.660   353   455 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.660   353   455 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.660   558   558 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=36, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.670  3897  3897 I WebViewFactory: Loading com.google.android.webview version 91.0.4472.114 (code 447211484)
+11-05 02:50:47.671  3897  3897 I uis.biblestron: The ClassLoaderContext is a special shared library.
+11-05 02:50:47.675  3897  3897 I uis.biblestron: The ClassLoaderContext is a special shared library.
+11-05 02:50:47.685  3897  3897 I uis.biblestron: Waiting for a blocking GC ClassLinker
+11-05 02:50:47.690  3897  3968 D Auth    : addAuthStateListener
+11-05 02:50:47.690  3897  3968 D Auth    : addIdTokenListener
+11-05 02:50:47.691  3897  3968 D Auth    : configureAuthDomain
+11-05 02:50:47.691  3897  3968 D Auth    : configureAuthDomain - app [DEFAULT] domain? null
+11-05 02:50:47.722  3897  3964 I dev.expo.updates: {"timestamp":1793843447722,"message":"Updates state change: Check, context = {isStartupProcedureRunning=false, isUpdateAvailable=false, isUpdatePending=false, isChecking=true, isDownloading=false, isRestarting=false, restartCount=0, downloadProgress=0.0, sequenceNumber=3}","code":"None","level":"info"}
+11-05 02:50:47.730  3897  3897 I uis.biblestron: WaitForGcToComplete blocked ClassLinker on ClassLinker for 45.472ms
+11-05 02:50:47.741  3897  3964 I cr_LibraryLoader: Loaded native library version number "91.0.4472.114"
+11-05 02:50:47.741  3897  3964 I cr_CachingUmaRecorder: Flushed 4 samples from 4 histograms.
+11-05 02:50:47.742  3897  4005 I cr_VariationsUtils: Failed reading seed file "/data/user/0/com.smontlouis.biblestrong/app_webview/variations_seed_new"
+11-05 02:50:47.747  3897  3897 I cr_VariationsUtils: Loaded seed with age 19139s
+11-05 02:50:47.756   594   594 D Zygote  : Forked child process 4011
+11-05 02:50:47.761   353  1144 I ActivityManager: Start proc 4011:com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0/u0i1 for  {com.smontlouis.biblestrong/org.chromium.content.app.SandboxedProcessService0:0}
+11-05 02:50:47.768  4011  4011 I cr_ChildProcessService: Creating new ChildProcessService pid=4011
+11-05 02:50:47.780   353  1144 D ConnectivityService: requestNetwork for uid/pid:10144/3897 NetworkRequest [ TRACK_DEFAULT id=37, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ]
+11-05 02:50:47.780   353   455 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=37, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.780   353   455 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=37, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.780   558   558 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=37, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.786  3897  4040 W DynamiteModule: Local module descriptor class for com.google.android.gms.providerinstaller.dynamite not found.
+11-05 02:50:47.786   819  2414 W ProviderHelper: Unknown dynamite feature providerinstaller.dynamite
+11-05 02:50:47.787  3897  4040 I DynamiteModule: Considering local module com.google.android.gms.providerinstaller.dynamite:0 and remote module com.google.android.gms.providerinstaller.dynamite:0
+11-05 02:50:47.788  3897  4040 W ProviderInstaller: Failed to load providerinstaller module: No acceptable module com.google.android.gms.providerinstaller.dynamite found. Local version is 0 and remote version is 0.
+11-05 02:50:47.794  3897  4040 I uis.biblestron: The ClassLoaderContext is a special shared library.
+11-05 02:50:47.795  3897  4040 I chatty  : uid=10144(com.smontlouis.biblestrong) identical 2 lines
+11-05 02:50:47.797  3897  4040 I uis.biblestron: The ClassLoaderContext is a special shared library.
+11-05 02:50:47.798  3897  4040 W ProviderInstaller: Failed to report request stats: java.lang.NoSuchMethodException: com.google.android.gms.common.security.ProviderInstallerImpl.reportRequestStats2 [class android.content.Context, long, long]
+11-05 02:50:47.799   353   630 D ConnectivityService: requestNetwork for uid/pid:10144/3897 NetworkRequest [ TRACK_DEFAULT id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ]
+11-05 02:50:47.799   353   455 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.799   353   455 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.799   558   558 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=38, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.803  3897  4040 V NativeCrypto: Registering com/google/android/gms/org/conscrypt/NativeCrypto's 286 native methods...
+11-05 02:50:47.807  3897  4040 I ProviderInstaller: Installed default security provider GmsCore_OpenSSL
+11-05 02:50:47.810   353   630 D ConnectivityService: requestNetwork for uid/pid:10144/3897 NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ]
+11-05 02:50:47.810   353   455 D UntrustedWifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.810   353   455 D WifiNetworkFactory: got request NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.810   558   558 D PhoneSwitcherNetworkRequstListener: got request NetworkRequest [ TRACK_DEFAULT id=40, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED Uid: 10144] ] with score 60 and serial -1
+11-05 02:50:47.827  3897  4053 D HostConnection: HostConnection::get() New Host Connection established 0x70b3d90f00, tid 4053
+11-05 02:50:47.827  3897  4053 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:50:47.827  3897  4053 D EGL_emulation: eglCreateContext: 0x70b3d910e0: maj 3 min 1 rcv 4
+11-05 02:50:47.827  3897  4053 D EGL_emulation: eglMakeCurrent: 0x70b3d910e0: ver 3 1 (tinfo 0x71d24d3300)
+11-05 02:50:47.827  3897  3897 I ReactNative: [GESTURE HANDLER] Initialize gesture handler for root view qk9{4a1f79b V.E...... ......ID 0,0-1080,2400 #1}
+11-05 02:50:47.828  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+11-05 02:50:47.828  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+11-05 02:50:47.845  3897  4041 W cr_media: Requires BLUETOOTH permission
+11-05 02:50:47.845  3897  4053 D EGL_emulation: eglCreateContext: 0x70b3d910e0: maj 3 min 0 rcv 3
+11-05 02:50:47.845  3897  4053 D EGL_emulation: eglMakeCurrent: 0x70b3d910e0: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:47.848  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:47.850  3897  4053 I chatty  : uid=10144(com.smontlouis.biblestrong) Chrome_InProcGp identical 4 lines
+11-05 02:50:47.851  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:47.851  4011  4029 I cr_LibraryLoader: Loaded native library version number "91.0.4472.114"
+11-05 02:50:47.851  4011  4029 I cr_CachingUmaRecorder: Flushed 1 samples from 1 histograms.
+11-05 02:50:47.851  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:47.852  3897  4053 I chatty  : uid=10144(com.smontlouis.biblestrong) Chrome_InProcGp identical 2 lines
+11-05 02:50:47.852  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:47.859  4011  4029 W SystemServiceRegistry: No service published for: uimode
+11-05 02:50:47.868  3897  3941 D EGL_emulation: eglMakeCurrent: 0x724164c340: ver 3 1 (tinfo 0x72417f9280)
+11-05 02:50:47.889  3897  3897 D Auth    : addAuthStateListener:eventBody {"appName":"[DEFAULT]"}
+11-05 02:50:47.904   353   378 I ActivityTaskManager: Displayed com.smontlouis.biblestrong/.MainActivity: +965ms
+11-05 02:50:47.918  3897  4053 D EGL_emulation: eglCreateContext: 0x70b405bac0: maj 3 min 0 rcv 3
+11-05 02:50:47.918  3897  4053 D EGL_emulation: eglMakeCurrent: 0x70b405bac0: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:47.943  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:47.944  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:48.019  3897  4053 D EGL_emulation: eglMakeCurrent: 0x70b3d910e0: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:48.171  3897  4074 D skia    : --- Failed to create image decoder with message 'unimplemented'
+11-05 02:50:48.172  3897  4074 I chatty  : uid=10144(com.smontlouis.biblestrong) glide-source-th identical 4 lines
+11-05 02:50:48.172  3897  4074 D skia    : --- Failed to create image decoder with message 'unimplemented'
+11-05 02:50:48.201  3897  4080 D RNFBAppCheck: Provider::getToken - delegating to native provider
+11-05 02:50:48.203  3897  3897 W MediaSessionCompat: Couldn't find a unique registered media button receiver in the given context.
+11-05 02:50:48.214  3897  4073 D skia    : --- Failed to create image decoder with message 'unimplemented'
+11-05 02:50:48.215  3897  4073 I chatty  : uid=10144(com.smontlouis.biblestrong) glide-source-th identical 1 line
+11-05 02:50:48.215  3897  4073 D skia    : --- Failed to create image decoder with message 'unimplemented'
+11-05 02:50:48.216  3897  3897 I ExoPlayerImpl: Init d5875db [ExoPlayerLib/2.19.0] [emulator64_arm64, Android SDK built for arm64, Google, 29]
+11-05 02:50:48.217  3897  4073 D skia    : --- Failed to create image decoder with message 'unimplemented'
+11-05 02:50:48.217  3897  4073 D skia    : --- Failed to create image decoder with message 'unimplemented'
+11-05 02:50:48.220  3897  3909 I uis.biblestron: Background concurrent copying GC freed 82221(3773KB) AllocSpace objects, 6(600KB) LOS objects, 26% free, 17MB/23MB, paused 1.891ms total 338.467ms
+11-05 02:50:48.226  3897  4073 D skia    : --- Failed to create image decoder with message 'unimplemented'
+11-05 02:50:48.256  3897  4053 D EGL_emulation: eglCreateContext: 0x71d26afc00: maj 3 min 0 rcv 3
+11-05 02:50:48.256  3897  4053 D EGL_emulation: eglMakeCurrent: 0x71d26afc00: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:48.264  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:48.269   353   353 I NotificationService: Cannot find enqueued record for key: 0|com.smontlouis.biblestrong|1|null|10144
+11-05 02:50:48.264  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:48.274  2871  2898 I Dialer  : VvmTaskExecutor - executing task com.android.voicemail.impl.ActivationTask@82af8ee
+11-05 02:50:48.275  2871  2898 I Dialer  : PreOMigrationHandler - ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, ***, UserHandle{0} already migrated
+11-05 02:50:48.278  3897  3941 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:48.280  3897  3941 I chatty  : uid=10144(com.smontlouis.biblestrong) RenderThread identical 4 lines
+11-05 02:50:48.280  3897  3941 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:48.290  3897  4053 D EGL_emulation: eglMakeCurrent: 0x70b405bac0: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:48.295  3897  3967 I ReactNativeJNI: instanceHandle is null, event of type topLoadingProgress will be dropped
+11-05 02:50:48.295  3897  3964 E dev.expo.updates: {"timestamp":1793843448295,"message":"Remote update request not successful","code":"UpdateFailedToLoad","level":"error","stacktrace":["nt3.j(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:92)","x91.I0(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:54)","x91.A0(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:94)","sl2.a(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:105)","ysa.invokeSuspend(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:452)","hh0.resumeWith(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:8)","gv2.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:114)","kj5.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:1244)","ipb.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:3)","ny1.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:88)"]}
+11-05 02:50:48.295  3897  3964 E dev.expo.updates: {"timestamp":1793843448295,"message":"Failed to download remote update","code":"UpdateFailedToLoad","level":"error","stacktrace":["nt3.j(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:103)","x91.I0(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:54)","x91.A0(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:94)","sl2.a(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:105)","ysa.invokeSuspend(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:452)","hh0.resumeWith(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:8)","gv2.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:114)","kj5.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:1244)","ipb.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:3)","ny1.run(r8-map-id-291fe7841a2dfd1029d778418252d4f77fee0c00e15247a3a28a62968c580c04:88)"]}
+11-05 02:50:48.295  3897  3964 I dev.expo.updates: {"timestamp":1793843448295,"message":"Updates state change: CheckError, context = {isStartupProcedureRunning=false, isUpdateAvailable=false, isUpdatePending=false, isChecking=false, isDownloading=false, isRestarting=false, restartCount=0, downloadProgress=0.0, sequenceNumber=4, checkError={message=Failed to download remote update: Remote update request not successful: HTTP 400: {\"error\":\"Invalid manifest request: Missing key\\n  at [\\\"expo-channel-name\\\"]\"}}, lastCheckForUpdateTime=Thu Nov 05 02:50:48 GMT+01:00 2026}","code":"None","level":"info"}
+11-05 02:50:48.305  1061  1274 W SearchServiceCore: Abort, client detached.
+11-05 02:50:48.316  1061  1269 I PBSessionCacheImpl: Deleted sessionId[155377387921] from persistence.
+11-05 02:50:48.340  3493  3878 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-05 02:50:48.343  2871  2898 I Dialer  : VvmActivationTask - VVM content provider configured - vvm_type_cvvm
+11-05 02:50:48.344  2871  2898 I Dialer  : OmtpVvmCarrierCfgHlpr - OmtpEvent:CONFIG_ACTIVATING
+11-05 02:50:48.349  3897  4053 D EGL_emulation: eglMakeCurrent: 0x71d26afc00: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:48.349  3897  4053 D EGL_emulation: eglMakeCurrent: 0x70b3d910e0: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:48.351  3897  4053 D EGL_emulation: eglCreateContext: 0x70b405bac0: maj 3 min 0 rcv 3
+11-05 02:50:48.351  3897  4053 D EGL_emulation: eglMakeCurrent: 0x70b405bac0: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:48.354  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:48.357  3897  4053 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:48.360  3897  3941 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:48.363  3897  3941 I chatty  : uid=10144(com.smontlouis.biblestrong) RenderThread identical 4 lines
+11-05 02:50:48.363  3897  3941 E eglCodecCommon: glUtilsParamSize: unknow param 0x000088ef
+11-05 02:50:48.372  3897  4053 D EGL_emulation: eglMakeCurrent: 0x71d26afc00: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:48.379  3493  3878 I VoicemailNotifier: receivers for android.intent.action.PROVIDER_CHANGED :[]
+11-05 02:50:48.381   558   817 I LocationAccessPolicy: Allowing com.android.dialer fine because it doesn't target API 29 yet. Please fix this app. Called from getServiceStateForSubscriber
+11-05 02:50:48.381   558   817 I LocationAccessPolicy: Allowing com.android.dialer coarse because it doesn't target API 29 yet. Please fix this app. Called from getServiceStateForSubscriber
+11-05 02:50:48.675  3897  3897 D zl7     : notification posted with id=1, ongoing=true
+11-05 02:50:48.675  3897  3897 D zl7     : notification posted with id=1, ongoing=false
+11-05 02:50:48.679  3897  3897 D zl7     : notification posted with id=1, ongoing=false
+11-05 02:50:48.686   107   107 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@3.0::IAllocator/default in either framework or device manifest.
+11-05 02:50:48.688  3897  3964 W Gralloc3: allocator 3.x is not supported
+11-05 02:50:48.695   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4198400
+11-05 02:50:48.696  3897  3897 D zl7     : notification posted with id=1, ongoing=false
+11-05 02:50:48.697   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4198400
+11-05 02:50:48.702   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4198400
+11-05 02:50:48.703  3897  4098 D HostConnection: HostConnection::get() New Host Connection established 0x71d85cff80, tid 4098
+11-05 02:50:48.703  3897  4098 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:50:48.703  3897  4098 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-05 02:50:48.703  3897  4098 D EGL_emulation: eglCreateContext: 0x71cc1c5620: maj 3 min 1 rcv 4
+11-05 02:50:48.703  3897  4098 D EGL_emulation: eglMakeCurrent: 0x71cc1c5620: ver 3 1 (tinfo 0x71d420ab00)
+11-05 02:50:48.704  3897  4098 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+11-05 02:50:48.704  3897  4098 E eglCodecCommon: glUtilsParamSize: unknow param 0x000082da
+11-05 02:50:48.706  3897  3964 D HostConnection: HostConnection::get() New Host Connection established 0x71cc1c3dc0, tid 3964
+11-05 02:50:48.706  3897  3964 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:50:48.706  3897  3958 D HostConnection: HostConnection::get() New Host Connection established 0x724164a9a0, tid 3958
+11-05 02:50:48.706  3897  3958 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:50:48.706  3897  3963 D HostConnection: HostConnection::get() New Host Connection established 0x70b3d91400, tid 3963
+11-05 02:50:48.706  3897  3963 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:50:48.714   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 4198400
+11-05 02:50:48.732  3897  3911 W System  : A resource failed to call close. 
+11-05 02:50:48.734  3897  3962 D HostConnection: HostConnection::get() New Host Connection established 0x70b3ff36a0, tid 3962
+11-05 02:50:48.735  3897  3962 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:50:48.970  3897  3897 D zl7     : notification posted with id=1, ongoing=false
+11-05 02:50:49.020  3897  4053 D EGL_emulation: eglMakeCurrent: 0x70b3d910e0: ver 3 0 (tinfo 0x71d24d3300)
+11-05 02:50:49.594  3897  3897 D zl7     : notification posted with id=1, ongoing=false
+11-05 02:50:49.604  3897  3897 D zl7     : notification posted with id=1, ongoing=false
+11-05 02:50:49.619  3897  4105 D CCodec  : allocate(c2.android.mp3.decoder)
+11-05 02:50:49.619  3897  4105 I Codec2Client: Available Codec2 services: "software"
+11-05 02:50:49.619  3897  4105 I Codec2Client: Creating a Codec2 client to service "software"
+11-05 02:50:49.619  3897  4105 I Codec2Client: Client to Codec2 service "software" created
+11-05 02:50:49.619   233  3867 V C2Store : in init
+11-05 02:50:49.619   233  3867 V C2Store : loading dll
+11-05 02:50:49.620  3897  4105 I CCodec  : Created component [c2.android.mp3.decoder]
+11-05 02:50:49.620  3897  4105 D CCodecConfig: read media type: audio/mpeg
+11-05 02:50:49.621  3897  4105 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.max-count.values
+11-05 02:50:49.622  3897  4105 D ReflectedParamUpdater: extent() != 1 for single value type: output.subscribed-indices.values
+11-05 02:50:49.622  3897  4105 D ReflectedParamUpdater: extent() != 1 for single value type: input.buffers.allocator-ids.values
+11-05 02:50:49.622  3897  4105 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.allocator-ids.values
+11-05 02:50:49.622  3897  4105 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.allocator-ids.values
+11-05 02:50:49.622  3897  4105 D ReflectedParamUpdater: extent() != 1 for single value type: output.buffers.pool-ids.values
+11-05 02:50:49.622  3897  4105 D ReflectedParamUpdater: extent() != 1 for single value type: algo.buffers.pool-ids.values
+11-05 02:50:49.623  3897  4105 I CCodecConfig: query failed after returning 7 values (BAD_INDEX)
+11-05 02:50:49.623  3897  4105 D CCodecConfig: c2 config is Dict {
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   string input.media-type.value = "audio/mpeg"
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   string output.media-type.value = "audio/raw"
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 raw.channel-count.value = 2
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 raw.sample-rate.value = 44100
+11-05 02:50:49.623  3897  4105 D CCodecConfig: }
+11-05 02:50:49.623  3897  4105 D CCodecConfig: config failed => CORRUPTED
+11-05 02:50:49.623  3897  4105 D CCodecConfig: c2 config is Dict {
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 coded.bitrate.value = 64000
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 input.buffers.max-size.value = 8192
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 input.delay.value = 0
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   string input.media-type.value = "audio/mpeg"
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   string output.media-type.value = "audio/raw"
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 raw.channel-count.value = 1
+11-05 02:50:49.623  3897  4105 D CCodecConfig:   c2::u32 raw.sample-rate.value = 22050
+11-05 02:50:49.623  3897  4105 D CCodecConfig: }
+11-05 02:50:49.623  3897  4105 W Codec2Client: query -- param skipped: index = 1107298332.
+11-05 02:50:49.623  3897  4105 D CCodec  : client requested max input size 4096, which is smaller than what component recommended (8192); overriding with component recommendation.
+11-05 02:50:49.623  3897  4105 W CCodec  : This behavior is subject to change. It is recommended that app developers double check whether the requested max input size is in reasonable range.
+11-05 02:50:49.623  3897  4105 D CCodec  : setup formats input: AMessage(what = 0x00000000) = {
+11-05 02:50:49.623  3897  4105 D CCodec  :   int32_t channel-count = 1
+11-05 02:50:49.623  3897  4105 D CCodec  :   int32_t max-input-size = 8192
+11-05 02:50:49.623  3897  4105 D CCodec  :   string mime = "audio/mpeg"
+11-05 02:50:49.623  3897  4105 D CCodec  :   int32_t sample-rate = 22050
+11-05 02:50:49.623  3897  4105 D CCodec  : } and output: AMessage(what = 0x00000000) = {
+11-05 02:50:49.623  3897  4105 D CCodec  :   int32_t channel-count = 1
+11-05 02:50:49.623  3897  4105 D CCodec  :   string mime = "audio/raw"
+11-05 02:50:49.623  3897  4105 D CCodec  :   int32_t sample-rate = 22050
+11-05 02:50:49.623  3897  4105 D CCodec  : }
+11-05 02:50:49.623  3897  4105 W Codec2Client: query -- param skipped: index = 1342179345.
+11-05 02:50:49.623  3897  4105 W Codec2Client: query -- param skipped: index = 2415921170.
+11-05 02:50:49.624  3897  4105 D CCodecBufferChannel: [c2.android.mp3.decoder#850] Created input block pool with allocatorID 16 => poolID 17 - OK (0)
+11-05 02:50:49.624  3897  4105 I CCodecBufferChannel: [c2.android.mp3.decoder#850] Created output block pool with allocatorID 16 => poolID 27 - OK
+11-05 02:50:49.624  3897  4105 D CCodecBufferChannel: [c2.android.mp3.decoder#850] Configured output block pool ids 27 => OK
+11-05 02:50:49.624  3897  4105 E ion     : ioctl c0044901 failed with code -1: Not a typewriter
+11-05 02:50:49.624   233  4109 D SimpleC2Component: Using output block pool with poolID 27 => got 27 - 0
+11-05 02:50:49.625   233  4109 I C2SoftMp3Dec: Reconfiguring decoder: 0->22050 Hz, 0->1 channels
+11-05 02:50:49.628   185   516 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000008) and output flags (00000006)
+11-05 02:50:49.628   185   516 D AudioFlinger: Client defaulted notificationFrames to 2756 for frameCount 5513
+11-05 02:50:49.628   185   516 D AF::TrackHandle: OpPlayAudio: track:58 usage:1 not muted
+11-05 02:50:49.882  3897  3897 D o29     : Requesting audio focus...
+11-05 02:50:49.882   353  1329 I MediaFocusControl: requestAudioFocus() from uid/pid 10144/3897 clientId=android.media.AudioManager@db02cb8o29@ff34a91 callingPack=com.smontlouis.biblestrong req=1 flags=0x0 sdk=36
+11-05 02:50:49.884  3897  3897 D zl7     : notification posted with id=1, ongoing=false
+11-05 02:50:52.699  3897  4111 D ProfileInstaller: Skipping profile installation for com.smontlouis.biblestrong
+11-05 02:50:53.366   819  3875 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:53.366   819  3835 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:53.370   819  3880 I LogUtils: [Places]: ?: PlacesBleScanner stop() [CONTEXT service_id=253 ]
+11-05 02:50:53.371   819   819 I BeaconBle: Scan : No clients left, canceling alarm. [CONTEXT service_id=111 ]
+11-05 02:50:53.371   819   819 I BeaconBle: Scan canceled successfully. [CONTEXT service_id=111 ]
+11-05 02:50:53.372   819  3880 I PlacesLogger: [PlaceInferenceEngine]: [anon] Changed inference mode: 0 [CONTEXT service_id=253 ]
+11-05 02:50:53.375   819  1398 W GCoreFlp: No location to return for getLastLocation()
+11-05 02:50:53.381   819  3874 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:53.382   819  4113 I LogUtils: [Places]: ?: Couldn't find platform key file. [CONTEXT service_id=253 ]
+11-05 02:50:53.390   819   819 I GeofencerStateMachine: removeGeofences: removeRequest=RemoveGeofencingRequest[REMOVE_BY_PENDING_INTENT pendingIntent=PendingIntent[creatorPackage=com.google.android.gms], packageName=com.google.android.gms]
+11-05 02:50:53.681  3897  3897 D yl7     : Notification has been stopped
+11-05 02:50:54.605  3897  3897 I chatty  : uid=10144(com.smontlouis.biblestrong) identical 5 lines
+11-05 02:50:54.887  3897  3897 D yl7     : Notification has been stopped
+11-05 02:50:56.465   969  4114 I Vision  : Requesting optional module download of ocr.
+11-05 02:50:56.466   969  4114 I Vision  : Checking for download completion for 159211 -- ocr
+11-05 02:50:57.067  3897  3925 W GoogleApiManager: abe could not execute call because it requires feature (get_storage_info_api, 1).
+11-05 02:50:58.346  1061  1274 I WorkerManager: dispose()
+11-05 02:50:58.346  1061  1274 W ThreadPoolDumper: Queue length for executor EventBus is now 11. Perhaps some tasks are too long, or the pool is too small.
+11-05 02:50:58.376   353   378 E memtrack: Couldn't load memtrack module
+11-05 02:50:58.376   353   378 W android.os.Debug: failed to get memory consumption info: -1
+11-05 02:50:58.376   819   819 I BeaconBle: Scan : No clients left, canceling alarm. [CONTEXT service_id=111 ]
+11-05 02:51:00.008   497   497 D KeyguardClockSwitch: Updating clock: 251
+11-05 02:51:02.448   640  1328 E ActivityThread: Failed to find provider info for com.google.android.apps.wellbeing.api
+11-05 02:51:06.472   969  4115 I Vision  : Requesting optional module download of ocr.
+11-05 02:51:06.472   969  4115 I Vision  : Checking for download completion for 169218 -- ocr
+11-05 02:51:08.393   353   378 E memtrack: Couldn't load memtrack module
+11-05 02:51:08.393   353   378 W android.os.Debug: failed to get memory consumption info: -1
+11-05 02:51:08.402   353   378 E memtrack: Couldn't load memtrack module
+11-05 02:51:08.402   353   378 W android.os.Debug: failed to get memory consumption info: -1
+11-05 02:51:16.480   969  4117 I Vision  : Requesting optional module download of ocr.
+11-05 02:51:16.480   969  4117 I Vision  : Checking for download completion for 179226 -- ocr
+11-05 02:51:16.494   969  3843 W ChimeraConfigurator: Error syncing flags: qoq: COMMIT_TIMEOUT
+11-05 02:51:16.494   969  3843 I ChmraDebugLogger: [79] COMMIT_TIMEOUT
+11-05 02:51:16.496   969  3843 I ChmraDebugLogger: [52] null
+11-05 02:51:16.496   969  3843 W ChimeraConfigService: Retry attempt was throttled.
+11-05 02:51:23.384  1061  1379 W GmsLocationProvider: Error removing location updates: 16
+11-05 02:51:26.490   353   378 E memtrack: Couldn't load memtrack module
+11-05 02:51:26.490   353   378 W android.os.Debug: failed to get memory consumption info: -1
+11-05 02:51:26.496   969  4119 I Vision  : Requesting optional module download of ocr.
+11-05 02:51:26.497   969  4119 I Vision  : Exceeded maximum feature download tries for ocr
+11-05 02:51:26.497   969  4119 W Vision  : Request of optional module download of ocr failed.
+11-05 02:51:26.498   969  4119 I Vision  : Checking for download completion for 189243 -- ocr
+11-05 02:51:28.411   353   378 E memtrack: Couldn't load memtrack module
+11-05 02:51:28.411   353   378 W android.os.Debug: failed to get memory consumption info: -1
+11-05 02:51:28.858   320   320 E netmgr  : Failed to open QEMU pipe 'qemud:network': Invalid argument
+11-05 02:51:28.858   325   325 E wifi_forwarder: RemoteConnection failed to initialize: RemoteConnection failed to open pipe
+11-05 02:51:32.018   175   209 D gralloc_ranchu: gralloc_alloc: Creating ashmem region of size 10371072
+11-05 02:51:32.024   107   107 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+11-05 02:51:32.024  4122  4122 W Gralloc3: mapper 3.x is not supported
+11-05 02:51:32.027  4122  4122 D HostConnection: createUnique: call
+11-05 02:51:32.027  4122  4122 D HostConnection: HostConnection::get() New Host Connection established 0x730a56a5a0, tid 4122
+11-05 02:51:32.028  4122  4122 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_1 
+11-05 02:51:32.028  4122  4122 D eglCodecCommon: allocate: Ask for block of size 0x1000
+11-05 02:51:32.028  4122  4122 D eglCodecCommon: allocate: ioctl allocate returned offset 0x1ff5d8000 size 0x8000
+11-05 02:51:32.036  4122  4122 D eglCodecCommon: allocate: Ask for block of size 0x9e4000
+11-05 02:51:32.036  4122  4122 D eglCodecCommon: allocate: ioctl allocate returned offset 0x1febf8000 size 0x9e8000

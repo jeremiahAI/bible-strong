@@ -1,0 +1,20 @@
+== run 1 load: 10.68 16.20 25.39
+LaunchState: COLD
+TotalTime: 2260
+WaitTime: 2277
+Total frames rendered: 284
+Janky frames: 11 (3.87%)
+Janky frames (legacy): 116 (40.85%)
+50th percentile: 17ms
+90th percentile: 28ms
+95th percentile: 32ms
+99th percentile: 48ms
+50th gpu percentile: 12ms
+90th gpu percentile: 19ms
+95th gpu percentile: 21ms
+99th gpu percentile: 4950ms
+           TOTAL PSS:   357837            TOTAL RSS:   475316       TOTAL SWAP PSS:      818
+== run 2 load: 10.45 15.69 24.93
+LaunchState: COLD
+TotalTime: 3604
+WaitTime: 3620

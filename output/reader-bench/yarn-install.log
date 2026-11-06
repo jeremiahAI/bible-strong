@@ -1,0 +1,23 @@
+➤ YN0000: · Yarn 4.12.0
+➤ YN0000: ┌ Resolution step
+➤ YN0000: └ Completed in 0s 245ms
+➤ YN0000: ┌ Post-resolution validation
+➤ YN0060: │ @types/react is listed by your project with version 19.3.0 (p7ab579), which doesn't satisfy what react-json-tree (via jotai-devtools) and other dependencies request (but they have non-overlapping ranges!).
+➤ YN0060: │ react is listed by your project with version 19.3.0 (p80192a), which doesn't satisfy what @reduxjs/toolkit and other dependencies request (but they have non-overlapping ranges!).
+➤ YN0060: │ react-redux is listed by your project with version 9.2.0 (p1cbbba), which doesn't satisfy what @reduxjs/toolkit requests (^7.2.1 || ^8.0.2).
+➤ YN0060: │ redux is listed by your project with version 4.2.1 (p51c556), which doesn't satisfy what react-redux and other dependencies request (but they have non-overlapping ranges!).
+➤ YN0002: │ @bible-strong/api-functions@workspace:apps/api/functions doesn't provide eslint (p38ef37), requested by @typescript-eslint/eslint-plugin and other dependencies.
+➤ YN0002: │ @bible-strong/expo@workspace:apps/expo doesn't provide csstype (pee3cd4), requested by goober.
+➤ YN0002: │ @bible-strong/expo@workspace:apps/expo doesn't provide react-refresh (pc3b3e3), requested by babel-preset-expo.
+➤ YN0002: │ @bible-strong/resource-service@workspace:packages/resource-service doesn't provide @effect/cluster (p4f379a), requested by @effect/platform-node.
+➤ YN0002: │ @bible-strong/resource-service@workspace:packages/resource-service doesn't provide @effect/rpc (pa08be7), requested by @effect/platform-node.
+➤ YN0002: │ @bible-strong/resource-service@workspace:packages/resource-service doesn't provide @effect/sql (p1c8c01), requested by @effect/platform-node.
+➤ YN0086: │ Some peer dependencies are incorrectly met by your project; run yarn explain peer-requirements <hash> for details, where <hash> is the six-letter p-prefixed code.
+➤ YN0086: │ Some peer dependencies are incorrectly met by dependencies; run yarn explain peer-requirements for details.
+➤ YN0000: └ Completed
+➤ YN0000: ┌ Fetch step
+➤ YN0013: │ 9 packages were added to the project (+ 753.98 MiB).
+➤ YN0000: └ Completed in 26s 364ms
+➤ YN0000: ┌ Link step
+➤ YN0000: └ Completed in 2s 342ms
+➤ YN0000: · Done with warnings in 29s 264ms

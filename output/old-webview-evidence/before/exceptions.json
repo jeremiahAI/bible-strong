@@ -1,0 +1,43 @@
+{
+  "mode": "noshim",
+  "at": "2026-11-05T09:19:38.163Z",
+  "state": {
+    "ua": "Chrome/91.0.4472.114",
+    "cssLayerBlockRule": "undefined",
+    "rootChildren": 0,
+    "rootText": 0,
+    "bodyText": 0,
+    "shimHits": null,
+    "href": "droid_asset/www.bundle/8ef07db56b70cf7df988d1add28fd313.html"
+  },
+  "exceptions": [
+    {
+      "text": "Uncaught",
+      "description": "SyntaxError: Invalid or unexpected token",
+      "url": "file:///android_asset/www.bundle/8ef07db56b70cf7df988d1add28fd313.html",
+      "line": 2,
+      "column": 8285
+    },
+    {
+      "text": "Uncaught",
+      "description": "DOMException: Failed to execute 'insertRule' on 'CSSStyleSheet': Failed to parse the rule '@layer rnw {}'.\n    at n (file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:474:368)\n    at _e.createSheet (file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:472:281)\n    at file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:463:339\n    at p (file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:4:2054)\n    at d (file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:4:1540)\n    at i (file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:4:574)\n    at file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:604:268\n    at p (file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:4:2054)\n    at d (file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:4:1540)\n    at i (file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js:4:574)",
+      "url": "file:///android_asset/www.bundle/_expo/static/js/web/entry-af0984293bdafb26ae6dce805b014b3c.js",
+      "line": 6,
+      "column": 97,
+      "stack": [
+        "n entry-af0984293bdafb26ae6dce805b014b3c.js:6:97",
+        "reportFatalError entry-af0984293bdafb26ae6dce805b014b3c.js:6:207",
+        "d entry-af0984293bdafb26ae6dce805b014b3c.js:3:1498",
+        "i entry-af0984293bdafb26ae6dce805b014b3c.js:3:573"
+      ]
+    },
+    {
+      "text": "Uncaught",
+      "description": "SyntaxError: Invalid or unexpected token",
+      "url": "file:///android_asset/www.bundle/8ef07db56b70cf7df988d1add28fd313.html",
+      "line": 2,
+      "column": 8285
+    }
+  ],
+  "consoleErrors": []
+}

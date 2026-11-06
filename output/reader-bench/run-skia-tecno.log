@@ -1,0 +1,21 @@
+[reader-bench] skia / psalm119
+[reader-bench]   first text cold 3641 ms, warm 172 ms
+[reader-bench]   jank 11.1% p90 28 p99 85
+[reader-bench] skia / john1-strong
+[reader-bench]   first text cold 3681 ms, warm 153 ms
+adb: device offline
+[reader-bench]   jank 0.8% p90 12 p99 24
+[reader-bench] skia / genesis1-bhg-interlinear
+[reader-bench]   first text cold 4065 ms, warm 193 ms
+adb: device offline
+adb: device offline
+adb: device offline
+[reader-bench]   jank 1.0% p90 12 p99 22
+[reader-bench] skia / john1-parallel
+[reader-bench]   first text cold 3716 ms, warm 213 ms
+[reader-bench]   jank 1.6% p90 14 p99 24
+[reader-bench] skia / romans8-annotated
+[reader-bench]   first text cold 3616 ms, warm 171 ms
+adb: device offline
+[reader-bench]   jank 1.9% p90 17 p99 32
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/skia-tecno

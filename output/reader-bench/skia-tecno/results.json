@@ -1,0 +1,436 @@
+{
+  "label": "skia-tecno",
+  "renderer": "skia",
+  "serial": "100.92.219.76:5555",
+  "runs": 5,
+  "apkBytes": null,
+  "date": "2026-11-05T01:44:57.534Z",
+  "metrics": {
+    "psalm119": {
+      "fixture": "psalm119",
+      "notes": [
+        "bench-highlight button not found",
+        "bench-scroll button not found"
+      ],
+      "firstTextCold": {
+        "values": [
+          3794,
+          3612,
+          3632,
+          3654,
+          3641
+        ],
+        "median": 3641
+      },
+      "firstTextWarm": {
+        "values": [
+          253,
+          172,
+          168,
+          176,
+          154
+        ],
+        "median": 172
+      },
+      "sessionFirstTextMs": 3759,
+      "memoryAfterLoad": {
+        "appPssKb": 527438,
+        "webviewPssKb": 3346,
+        "totalPssKb": 530784,
+        "processes": [
+          {
+            "kb": 527438,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 30388
+          },
+          {
+            "kb": 3346,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      },
+      "buttons": {},
+      "tappedWord": {
+        "verseKey": "19-119-6",
+        "wordIndex": 0
+      },
+      "tapLatency": {
+        "values": [
+          48,
+          34,
+          35,
+          36,
+          34
+        ],
+        "median": 35
+      },
+      "scroll": {
+        "totalFrames": 63,
+        "jankyFrames": 7,
+        "jankPercent": 11.11111111111111,
+        "p50": 11,
+        "p90": 28,
+        "p95": 36,
+        "p99": 85
+      },
+      "memoryAfterScroll": {
+        "appPssKb": 631242,
+        "webviewPssKb": 3346,
+        "totalPssKb": 634588,
+        "processes": [
+          {
+            "kb": 631242,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 30388
+          },
+          {
+            "kb": 3346,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      }
+    },
+    "john1-strong": {
+      "fixture": "john1-strong",
+      "notes": [
+        "bench-highlight button not found",
+        "bench-scroll button not found"
+      ],
+      "firstTextCold": {
+        "values": [
+          3681,
+          3675,
+          3684,
+          3667,
+          3699
+        ],
+        "median": 3681
+      },
+      "firstTextWarm": {
+        "values": [
+          195,
+          147,
+          140,
+          158,
+          153
+        ],
+        "median": 153
+      },
+      "sessionFirstTextMs": 3659,
+      "memoryAfterLoad": {
+        "appPssKb": 554916,
+        "webviewPssKb": 3346,
+        "totalPssKb": 558262,
+        "processes": [
+          {
+            "kb": 554916,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 32071
+          },
+          {
+            "kb": 3346,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      },
+      "buttons": {},
+      "tappedWord": {
+        "verseKey": "43-1-4",
+        "wordIndex": 3
+      },
+      "tapLatency": {
+        "values": [
+          49,
+          33,
+          33,
+          33,
+          34
+        ],
+        "median": 33
+      },
+      "scroll": {
+        "totalFrames": 1057,
+        "jankyFrames": 8,
+        "jankPercent": 0.7568590350047304,
+        "p50": 5,
+        "p90": 12,
+        "p95": 14,
+        "p99": 24
+      },
+      "memoryAfterScroll": {
+        "appPssKb": 702451,
+        "webviewPssKb": 3346,
+        "totalPssKb": 705797,
+        "processes": [
+          {
+            "kb": 702451,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 32071
+          },
+          {
+            "kb": 3346,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      }
+    },
+    "genesis1-bhg-interlinear": {
+      "fixture": "genesis1-bhg-interlinear",
+      "notes": [
+        "bench-highlight button not found",
+        "bench-scroll button not found"
+      ],
+      "firstTextCold": {
+        "values": [
+          4030,
+          4130,
+          4020,
+          4072,
+          4065
+        ],
+        "median": 4065
+      },
+      "firstTextWarm": {
+        "values": [
+          181,
+          224,
+          193,
+          198,
+          193
+        ],
+        "median": 193
+      },
+      "sessionFirstTextMs": 4051,
+      "memoryAfterLoad": {
+        "appPssKb": 599639,
+        "webviewPssKb": 3346,
+        "totalPssKb": 602985,
+        "processes": [
+          {
+            "kb": 599639,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 3297
+          },
+          {
+            "kb": 3346,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      },
+      "buttons": {},
+      "tappedWord": {
+        "verseKey": "1-1-2",
+        "wordIndex": 7
+      },
+      "tapLatency": {
+        "values": [
+          47,
+          34,
+          35,
+          34,
+          34
+        ],
+        "median": 34
+      },
+      "scroll": {
+        "totalFrames": 1139,
+        "jankyFrames": 11,
+        "jankPercent": 0.9657594381035997,
+        "p50": 5,
+        "p90": 12,
+        "p95": 14,
+        "p99": 22
+      },
+      "memoryAfterScroll": {
+        "appPssKb": 757775,
+        "webviewPssKb": 3346,
+        "totalPssKb": 761121,
+        "processes": [
+          {
+            "kb": 757775,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 3297
+          },
+          {
+            "kb": 3346,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      }
+    },
+    "john1-parallel": {
+      "fixture": "john1-parallel",
+      "notes": [
+        "bench-highlight button not found",
+        "bench-scroll button not found"
+      ],
+      "firstTextCold": {
+        "values": [
+          3716,
+          3704,
+          3790,
+          3752,
+          3675
+        ],
+        "median": 3716
+      },
+      "firstTextWarm": {
+        "values": [
+          266,
+          283,
+          152,
+          213,
+          149
+        ],
+        "median": 213
+      },
+      "sessionFirstTextMs": 3640,
+      "memoryAfterLoad": {
+        "appPssKb": 536465,
+        "webviewPssKb": 3346,
+        "totalPssKb": 539811,
+        "processes": [
+          {
+            "kb": 536465,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 5241
+          },
+          {
+            "kb": 3346,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      },
+      "buttons": {},
+      "tappedWord": {
+        "verseKey": "43-1-2",
+        "wordIndex": 5
+      },
+      "tapLatency": {
+        "values": [
+          46,
+          35,
+          35,
+          34,
+          34
+        ],
+        "median": 35
+      },
+      "scroll": {
+        "totalFrames": 1214,
+        "jankyFrames": 20,
+        "jankPercent": 1.6474464579901154,
+        "p50": 6,
+        "p90": 14,
+        "p95": 18,
+        "p99": 24
+      },
+      "memoryAfterScroll": {
+        "appPssKb": 701685,
+        "webviewPssKb": 3346,
+        "totalPssKb": 705031,
+        "processes": [
+          {
+            "kb": 701685,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 5241
+          },
+          {
+            "kb": 3346,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      }
+    },
+    "romans8-annotated": {
+      "fixture": "romans8-annotated",
+      "notes": [
+        "bench-highlight button not found",
+        "bench-scroll button not found"
+      ],
+      "firstTextCold": {
+        "values": [
+          3586,
+          3694,
+          3616,
+          3588,
+          3679
+        ],
+        "median": 3616
+      },
+      "firstTextWarm": {
+        "values": [
+          230,
+          228,
+          171,
+          170,
+          161
+        ],
+        "median": 171
+      },
+      "sessionFirstTextMs": 3659,
+      "memoryAfterLoad": {
+        "appPssKb": 591751,
+        "webviewPssKb": 3347,
+        "totalPssKb": 595098,
+        "processes": [
+          {
+            "kb": 591751,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 7110
+          },
+          {
+            "kb": 3347,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      },
+      "buttons": {},
+      "tapLatency": {
+        "values": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "median": null
+      },
+      "scroll": {
+        "totalFrames": 689,
+        "jankyFrames": 13,
+        "jankPercent": 1.8867924528301887,
+        "p50": 6,
+        "p90": 17,
+        "p95": 23,
+        "p99": 32
+      },
+      "memoryAfterScroll": {
+        "appPssKb": 672325,
+        "webviewPssKb": 3347,
+        "totalPssKb": 675672,
+        "processes": [
+          {
+            "kb": 672325,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 7110
+          },
+          {
+            "kb": 3347,
+            "name": "webview_zygote",
+            "pid": 25484
+          }
+        ]
+      }
+    }
+  }
+}

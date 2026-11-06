@@ -1,0 +1,126 @@
+{
+  "label": "views-rerun2-romans8-annotated",
+  "renderer": "views",
+  "serial": "emulator-5580",
+  "runs": 5,
+  "apkBytes": 111030686,
+  "date": "2026-11-05T00:27:28.788Z",
+  "metrics": {
+    "romans8-annotated": {
+      "fixture": "romans8-annotated",
+      "notes": [],
+      "firstTextCold": {
+        "values": [
+          984,
+          933,
+          1001,
+          1003,
+          907
+        ],
+        "median": 984
+      },
+      "firstTextWarm": {
+        "values": [
+          122,
+          55,
+          57,
+          51,
+          48
+        ],
+        "median": 55
+      },
+      "sessionFirstTextMs": 975,
+      "memoryAfterLoad": {
+        "appPssKb": 271480,
+        "webviewPssKb": 5805,
+        "totalPssKb": 277285,
+        "processes": [
+          {
+            "kb": 271480,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 21448
+          },
+          {
+            "kb": 5805,
+            "name": "webview_zygote",
+            "pid": 938
+          }
+        ]
+      },
+      "buttons": {
+        "highlight": {
+          "x": 772,
+          "y": 2337
+        },
+        "scroll": {
+          "x": 882,
+          "y": 2337
+        },
+        "scrollTop": {
+          "x": 1003,
+          "y": 2337
+        }
+      },
+      "tappedWord": {
+        "verseKey": "45-8-3",
+        "wordIndex": 16
+      },
+      "tapLatency": {
+        "values": [
+          9,
+          9,
+          8,
+          7,
+          9
+        ],
+        "median": 9
+      },
+      "highlightRepaint": {
+        "values": [
+          68,
+          50,
+          49,
+          50,
+          53
+        ],
+        "median": 50
+      },
+      "scroll": {
+        "totalFrames": 225,
+        "jankyFrames": 11,
+        "jankPercent": 4.888888888888889,
+        "p50": 17,
+        "p90": 17,
+        "p95": 18,
+        "p99": 19
+      },
+      "memoryAfterScroll": {
+        "appPssKb": 276491,
+        "webviewPssKb": 5804,
+        "totalPssKb": 282295,
+        "processes": [
+          {
+            "kb": 276491,
+            "name": "com.smontlouis.biblestrong",
+            "pid": 21448
+          },
+          {
+            "kb": 5804,
+            "name": "webview_zygote",
+            "pid": 938
+          }
+        ]
+      },
+      "scrollToVerse": {
+        "values": [
+          50,
+          49,
+          55,
+          50,
+          53
+        ],
+        "median": 50
+      }
+    }
+  }
+}

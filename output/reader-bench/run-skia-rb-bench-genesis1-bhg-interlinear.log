@@ -1,0 +1,4 @@
+[reader-bench] skia / genesis1-bhg-interlinear
+[reader-bench]   first text cold 1867 ms, warm 302 ms
+[reader-bench]   jank 15.6% p90 48 p99 101
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/skia-rb-bench-genesis1-bhg-interlinear

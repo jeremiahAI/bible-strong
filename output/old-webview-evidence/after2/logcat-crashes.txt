@@ -1,0 +1,7 @@
+# app crashes (FATAL/ANR naming com.smontlouis.biblestrong): 0
+# all FATAL/ANR lines:
+11-05 10:57:15.063 30864 30864 D AndroidRuntime: >>>>>> START com.android.internal.os.RuntimeInit uid 2000 <<<<<<
+11-05 10:57:15.064 30864 30864 I AndroidRuntime: Using default boot image
+11-05 10:57:15.064 30864 30864 I AndroidRuntime: Leaving lock profiling enabled
+11-05 10:57:15.098 30864 30864 D AndroidRuntime: Calling main entry com.android.commands.input.Input
+11-05 10:57:15.101 30864 30864 D AndroidRuntime: Shutting down VM

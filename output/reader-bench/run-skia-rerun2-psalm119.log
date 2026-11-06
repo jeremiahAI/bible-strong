@@ -1,0 +1,4 @@
+[reader-bench] skia / psalm119
+[reader-bench]   first text cold 1330 ms, warm 168 ms
+[reader-bench]   jank 2.9% p90 29 p99 53
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/skia-rerun2-psalm119

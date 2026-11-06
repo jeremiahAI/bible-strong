@@ -1,0 +1,45 @@
+{
+  "url": "file:///android_asset/www.bundle/8ef07db56b70cf7df988d1add28fd313.html",
+  "ua": "Chrome/156.0.8078.47",
+  "typeofCSSLayerBlockRule": "function",
+  "rootChildren": 2,
+  "rootInnerTextLength": 4162,
+  "arrayAtNative": true,
+  "sheets": [
+    {
+      "i": 0,
+      "layerRuleCount": 1,
+      "layerNames": [
+        "rnw"
+      ],
+      "totalRules": 43
+    },
+    {
+      "i": 1,
+      "layerRuleCount": 0,
+      "layerNames": [],
+      "totalRules": 2
+    },
+    {
+      "i": 2,
+      "layerRuleCount": 0,
+      "layerNames": [],
+      "totalRules": 44
+    },
+    {
+      "i": 3,
+      "layerRuleCount": 0,
+      "layerNames": [],
+      "totalRules": 2
+    }
+  ],
+  "verseEl": "SPAN.go2154114122",
+  "verseText": "1In the beginning God created the heaven",
+  "verse": {
+    "fontSize": "16px",
+    "lineHeight": "normal",
+    "color": "rgb(200, 200, 200)",
+    "fontFamily": "sans-serif"
+  },
+  "bodyBackground": "rgb(18, 45, 66)"
+}

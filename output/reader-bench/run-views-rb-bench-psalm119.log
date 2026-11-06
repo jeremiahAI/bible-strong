@@ -1,0 +1,4 @@
+[reader-bench] views / psalm119
+[reader-bench]   first text cold 1032 ms, warm 66 ms
+[reader-bench]   jank 3.8% p90 29 p99 38
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/views-rb-bench-psalm119

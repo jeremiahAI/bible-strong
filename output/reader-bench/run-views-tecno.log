@@ -1,0 +1,27 @@
+[reader-bench] views / psalm119
+[reader-bench]   first text cold 3081 ms, warm 167 ms
+adb: device offline
+adb: device offline
+[reader-bench]   jank 0.2% p90 13 p99 16
+[reader-bench] views / john1-strong
+[reader-bench]   first text cold 3081 ms, warm 142 ms
+error: closed
+adb: device offline
+[reader-bench]   jank 0.3% p90 9 p99 13
+adb: device offline
+adb: device offline
+[reader-bench] views / genesis1-bhg-interlinear
+[reader-bench]   first text cold 3007 ms, warm 106 ms
+adb: device offline
+[reader-bench]   jank 0.1% p90 5 p99 10
+[reader-bench] views / john1-parallel
+[reader-bench]   first text cold 3037 ms, warm 156 ms
+adb: device offline
+adb: device offline
+[reader-bench]   jank 0.0% p90 5 p99 10
+[reader-bench] views / romans8-annotated
+[reader-bench]   first text cold 3048 ms, warm 134 ms
+adb: device offline
+adb: device offline
+[reader-bench]   jank 0.1% p90 6 p99 11
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/views-tecno

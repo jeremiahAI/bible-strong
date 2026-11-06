@@ -1,0 +1,27 @@
+[reader-bench] views / psalm119
+[reader-bench]   first text cold 3071 ms, warm 163 ms
+- waiting for device -
+- waiting for device -
+[reader-bench]   jank undefined% p90 null p99 null
+- waiting for device -
+- waiting for device -
+- waiting for device -
+- waiting for device -
+[reader-bench] views / john1-strong
+[reader-bench]   first text cold 3044 ms, warm 136 ms
+- waiting for device -
+adb: device offline
+[reader-bench]   jank undefined% p90 null p99 null
+- waiting for device -
+- waiting for device -
+- waiting for device -
+- waiting for device -
+[reader-bench] views / genesis1-bhg-interlinear
+[reader-bench]   first text cold 3013 ms, warm 98 ms
+- waiting for device -
+- waiting for device -
+[reader-bench]   jank undefined% p90 null p99 null
+- waiting for device -
+- waiting for device -
+- waiting for device -
+[reader-bench] views / john1-parallel

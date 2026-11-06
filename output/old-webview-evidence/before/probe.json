@@ -1,0 +1,13 @@
+{
+  "mode": "probe",
+  "at": "2026-11-05T09:19:38.098Z",
+  "state": {
+    "ua": "Chrome/91.0.4472.114",
+    "cssLayerBlockRule": "undefined",
+    "rootChildren": 0,
+    "rootText": 0,
+    "bodyText": 0,
+    "shimHits": null,
+    "href": "droid_asset/www.bundle/8ef07db56b70cf7df988d1add28fd313.html"
+  }
+}

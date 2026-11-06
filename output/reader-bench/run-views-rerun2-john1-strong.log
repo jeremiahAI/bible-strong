@@ -1,0 +1,4 @@
+[reader-bench] views / john1-strong
+[reader-bench]   first text cold 940 ms, warm 52 ms
+[reader-bench]   jank 2.6% p90 17 p99 19
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/views-rerun2-john1-strong

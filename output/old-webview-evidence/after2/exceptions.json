@@ -1,0 +1,86 @@
+{
+  "apk": "after2.apk",
+  "note": "captured live (Runtime.exceptionThrown/console.error on every WebView target) over the whole run incl. taps, handle drag, highlight, note editor, map",
+  "count": 7,
+  "exceptions": [
+    {
+      "t": "2026-11-05T09:54:43.957Z",
+      "target": "8ef07db56b70cf7df988d1add28fd313.html",
+      "kind": "exception",
+      "text": "Uncaught",
+      "description": "SyntaxError: Invalid or unexpected token",
+      "line": 2,
+      "col": 8285,
+      "url": "8ef07db56b70cf7df988d1add28fd313.html"
+    },
+    {
+      "t": "2026-11-05T09:54:43.958Z",
+      "target": "8ef07db56b70cf7df988d1add28fd313.html",
+      "kind": "exception",
+      "text": "Uncaught",
+      "description": "SyntaxError: Invalid or unexpected token",
+      "line": 2,
+      "col": 8285,
+      "url": "8ef07db56b70cf7df988d1add28fd313.html"
+    },
+    {
+      "t": "2026-11-05T10:03:25.579Z",
+      "target": "8ef07db56b70cf7df988d1add28fd313.html",
+      "kind": "exception",
+      "text": "Uncaught",
+      "description": "TypeError: Cannot read property 'style' of null\n    at <anonymous>:8:26\n    at <anonymous>:10:3",
+      "line": 7,
+      "col": 25,
+      "url": "",
+      "stack": [
+        "(anon) :7:25",
+        "(anon) :9:2"
+      ]
+    },
+    {
+      "t": "2026-11-05T10:03:25.580Z",
+      "target": "8ef07db56b70cf7df988d1add28fd313.html",
+      "kind": "exception",
+      "text": "Uncaught",
+      "description": "SyntaxError: Invalid or unexpected token",
+      "line": 2,
+      "col": 8403,
+      "url": "8ef07db56b70cf7df988d1add28fd313.html"
+    },
+    {
+      "t": "2026-11-05T10:03:25.580Z",
+      "target": "8ef07db56b70cf7df988d1add28fd313.html",
+      "kind": "exception",
+      "text": "Uncaught",
+      "description": "SyntaxError: Invalid or unexpected token",
+      "line": 2,
+      "col": 8403,
+      "url": "8ef07db56b70cf7df988d1add28fd313.html"
+    },
+    {
+      "t": "2026-11-05T10:03:43.886Z",
+      "target": "8ef07db56b70cf7df988d1add28fd313.html",
+      "kind": "exception",
+      "text": "Uncaught",
+      "description": "SyntaxError: Invalid or unexpected token",
+      "line": 2,
+      "col": 8403,
+      "url": "8ef07db56b70cf7df988d1add28fd313.html"
+    },
+    {
+      "t": "2026-11-05T10:03:43.887Z",
+      "target": "8ef07db56b70cf7df988d1add28fd313.html",
+      "kind": "exception",
+      "text": "Uncaught",
+      "description": "SyntaxError: Invalid or unexpected token",
+      "line": 2,
+      "col": 8403,
+      "url": "8ef07db56b70cf7df988d1add28fd313.html"
+    }
+  ],
+  "sources": {
+    "SyntaxError: Invalid or unexpected token (x6)": "reader page 8ef07db...html line 2: the injected object JSON (blurHash containing ${9c inside a template literal). Same error was thrown before the fix; fires each time the reader (re)initialises, harmless to rendering.",
+    "TypeError: Cannot read property style of null (x1)": "anonymous script injected by the native side (evaluateJavascript, <anonymous>:8:26) at reader re-init; also present in the first after pass; not from the polyfill. Exact origin not located."
+  },
+  "notThrown": "No Array.prototype.at, crypto.randomUUID, structuredClone or Object.hasOwn exception during any interaction. Page probe on Chromium 91: typeof [].at = function (polyfilled), crypto.randomUUID/structuredClone/Object.hasOwn/String.prototype.at = undefined (nothing called them in the flows run)."
+}

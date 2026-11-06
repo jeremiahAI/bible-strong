@@ -1,0 +1,82 @@
+{
+  "label": "real-psalm119-webview",
+  "serial": "emulator-5580",
+  "runs": 5,
+  "firstTextCold": {
+    "values": [
+      3163,
+      2900,
+      3045,
+      3026,
+      3036
+    ],
+    "median": 3036
+  },
+  "domTextPresentCold": {
+    "values": [
+      2782,
+      2760,
+      2672,
+      2639,
+      2541
+    ],
+    "median": 2672
+  },
+  "memoryAfterLoad": {
+    "appPssKb": 359636,
+    "webviewPssKb": 138261,
+    "totalPssKb": 497897,
+    "processes": [
+      {
+        "kb": 359636,
+        "name": "com.smontlouis.biblestrong",
+        "pid": 15998
+      },
+      {
+        "kb": 133026,
+        "name": "com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0",
+        "pid": 16121
+      },
+      {
+        "kb": 5235,
+        "name": "webview_zygote",
+        "pid": 938
+      }
+    ]
+  },
+  "scroll": {
+    "totalFrames": 278,
+    "jankyFrames": 247,
+    "jankPercent": 88.84892086330935,
+    "p50": 57,
+    "p90": 97,
+    "p95": 105,
+    "p99": 121
+  },
+  "memoryAfterScroll": {
+    "appPssKb": 359692,
+    "webviewPssKb": 145819,
+    "totalPssKb": 505511,
+    "processes": [
+      {
+        "kb": 359692,
+        "name": "com.smontlouis.biblestrong",
+        "pid": 15998
+      },
+      {
+        "kb": 140585,
+        "name": "com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0",
+        "pid": 16121
+      },
+      {
+        "kb": 5234,
+        "name": "webview_zygote",
+        "pid": 938
+      }
+    ]
+  },
+  "tapLatency": {
+    "values": [],
+    "median": null
+  }
+}

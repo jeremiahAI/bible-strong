@@ -1,0 +1,4 @@
+[reader-bench] skia / john1-parallel
+[reader-bench]   first text cold 1449 ms, warm 306 ms
+[reader-bench]   jank 15.7% p90 36 p99 81
+[reader-bench] wrote /Users/Jeremiah/Code/bible-strong-wt/reader-bench/output/reader-bench/skia-rerun-john1-parallel

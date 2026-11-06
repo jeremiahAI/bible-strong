@@ -1,0 +1,241 @@
+INFO         | Android emulator version 36.1.9.0 (build_id 13823996) (CL:N/A)
+INFO         | Graphics backend: gfxstream
+INFO         | Found systemPath /Users/Jeremiah/Library/Android/sdk/system-images/android-29/google_apis/arm64-v8a/
+I1105 02:48:27.247187 7815300 opengles.cpp:291] android_startOpenglesRenderer: gpu info
+I1105 02:48:27.247395 7815300 opengles.cpp:292] 
+INFO         | Changing default hw.initialOrientation to portrait
+
+WARNING      | Please update the emulator to one that supports the feature(s): Vulkan
+INFO         | Guest GLES Driver: Auto (ext controls)
+library_mode swiftshader_indirect gpu mode swiftshader_indirect
+INFO         | Checking system compatibility:
+INFO         |   Checking: hasSufficientDiskSpace
+INFO         |      Ok: Disk space requirements to run avd: `rb-api29` are met
+INFO         |   Checking: hasSufficientHwGpu
+INFO         |      Ok: Hardware GPU compatibility checks are not required
+INFO         |   Checking: hasSufficientSystem
+INFO         |      Ok: System requirements to run avd: `rb-api29` are met
+WARNING      | FeatureControl is requesting a non existing feature.
+INFO         | Storing crashdata in: /tmp/android-Jeremiah/emu-crash-36.1.9.db, detection is enabled for process: 43194
+INFO         | No consent for crashreport 1c0a72fd-c3f5-4ca0-995c-6a0dcd0bf172, deleting.
+INFO         | Initializing hardware OpenGLES emulation support
+INFO         | HealthMonitor disabled.
+INFO         | initIcdPaths: ICD set to 'swiftshader', using Swiftshader ICD
+INFO         | Setting ICD filenames for the loader = /Users/Jeremiah/Library/Android/sdk/emulator/lib64/vulkan/vk_swiftshader_icd.json
+INFO         | SharedLibrary::open for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib]
+INFO         | SharedLibrary::open for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib] (posix): begin
+INFO         | SharedLibrary::open for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib] (posix,darwin): call dlopen
+INFO         | SharedLibrary::open succeeded for [/Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib].
+INFO         | Added library: /Users/Jeremiah/Library/Android/sdk/emulator/qemu/darwin-aarch64/lib64/vulkan/libvulkan.dylib
+INFO         | Selecting Vulkan device: SwiftShader Device (LLVM 10.0.0), Version: 1.3.0
+INFO         | Disabling sparse binding feature support
+INFO         | SharedLibrary::open for [libGLESv2.dylib]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [libGLESv2.dylib] (posix): begin
+INFO         | SharedLibrary::open for [libGLESv2.dylib] (posix,darwin): call dlopen
+INFO         | SharedLibrary::open succeeded for [libGLESv2.dylib].
+INFO         | SharedLibrary::open for [libEGL.dylib]: not found in map, open for the first time
+INFO         | SharedLibrary::open for [libEGL.dylib] (posix): begin
+INFO         | SharedLibrary::open for [libEGL.dylib] (posix,darwin): call dlopen
+INFO         | SharedLibrary::open succeeded for [libEGL.dylib].
+INFO         | Initializing VkEmulation features:
+INFO         |     glInteropSupported: false
+INFO         |     useDeferredCommands: true
+INFO         |     createResourceWithRequirements: true
+INFO         |     useVulkanComposition: false
+INFO         |     useVulkanNativeSwapchain: false
+INFO         |     enable guestRenderDoc: false
+INFO         |     ASTC LDR emulation mode: Gpu
+INFO         |     enable ETC2 emulation: true
+INFO         |     enable Ycbcr emulation: false
+INFO         |     guestVulkanOnly: false
+INFO         |     useDedicatedAllocations: false
+INFO         | Graphics Adapter Vendor Google (Google Inc. (Google))
+INFO         | Graphics Adapter Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))
+INFO         | Graphics API Version OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))
+INFO         | Graphics API Extensions GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OI1105 02:48:27.333864 7815300 userspace-boot-properties.cpp:766] Userspace boot properties:
+I1105 02:48:27.333877 7815300 userspace-boot-properties.cpp:770]   android.bootanim=0
+I1105 02:48:27.333882 7815300 userspace-boot-properties.cpp:770]   android.qemud=1
+I1105 02:48:27.333886 7815300 userspace-boot-properties.cpp:770]   androidboot.boot_devices=a003600.virtio_mmio
+I1105 02:48:27.333890 7815300 userspace-boot-properties.cpp:770]   androidboot.hardware=ranchu
+I1105 02:48:27.333893 7815300 userspace-boot-properties.cpp:770]   androidboot.hardware.vulkan=ranchu
+I1105 02:48:27.333895 7815300 userspace-boot-properties.cpp:770]   androidboot.serialno=EMULATOR36X1X9X0
+I1105 02:48:27.333899 7815300 userspace-boot-properties.cpp:770]   androidboot.vbmeta.digest=32221f1ab79969da275ca5bce1a2990a180f82f1c21c54bd02390fc9df112083
+I1105 02:48:27.333902 7815300 userspace-boot-properties.cpp:770]   androidboot.vbmeta.hash_alg=sha256
+I1105 02:48:27.333905 7815300 userspace-boot-properties.cpp:770]   androidboot.vbmeta.size=4352
+I1105 02:48:27.333908 7815300 userspace-boot-properties.cpp:770]   qemu=1
+I1105 02:48:27.333911 7815300 userspace-boot-properties.cpp:770]   qemu.avd_name=rb-api29
+I1105 02:48:27.333914 7815300 userspace-boot-properties.cpp:770]   qemu.camera_hq_edge_processing=0
+I1105 02:48:27.333917 7815300 userspace-boot-properties.cpp:770]   qemu.dalvik.vm.heapsize=512m
+I1105 02:48:27.333920 7815300 userspace-boot-properties.cpp:770]   qemu.encrypt=1
+I1105 02:48:27.333922 7815300 userspace-boot-properties.cpp:770]   qemu.gles=1
+I1105 02:48:27.333925 7815300 userspace-boot-properties.cpp:770]   qemu.gltransport=pipe
+I1105 02:48:27.333928 7815300 userspace-boot-properties.cpp:770]   qemu.gltransport.drawFlushInterval=800
+I1105 02:48:27.333931 7815300 userspace-boot-properties.cpp:770]   qemu.opengles.version=196609
+I1105 02:48:27.333933 7815300 userspace-boot-properties.cpp:770]   qemu.settings.system.screen_off_timeout=2147483647
+I1105 02:48:27.333935 7815300 userspace-boot-properties.cpp:770]   qemu.uirenderer=skiagl
+I1105 02:48:27.333938 7815300 userspace-boot-properties.cpp:770]   qemu.vsync=60
+I1105 02:48:27.333941 7815300 userspace-boot-properties.cpp:770]   qemu.wifi=1
+ES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_depth_texture GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_standard_derivatives GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_OVR_multiview2 GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_APPLE_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_EXT_clip_cull_distance 
+INFO         | Graphics Device Extensions N/A
+INFO         | Monitoring duration of emulator setup.
+WARNING      | Requested adb port (5587) is outside the recommended range [5555,5586]. ADB may not function properly for the emulator. See -help-port for details.
+INFO         | Setting display: 0 configuration to: 1080x2400, dpi: 420x420 
+INFO         | setDisplayActiveConfig 0
+INFO         | Loading snapshot 'default_boot'...
+INFO         | OpenGL Vendor=[Google (Google Inc. (Google))]
+INFO         | OpenGL Renderer=[Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))]
+INFO         | OpenGL Version=[OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))]
+WARNING      | Device 'encrypt' does not have the requested snapshot 'default_boot'
+
+WARNING      | Failed to load snapshot 'default_boot'
+USER_INFO    | The emulator is performing a cold boot without a saved state because there's no snapshot and you have configured it not to save on exit.
+INFO         | Boot completed in 6997 ms
+INFO         | Increasing screen off timeout, logcat buffer size to 2M.
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system screen_off_timeout 2147483647 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell logcat -G 2M ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell logcat -G 2M ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell logcat -G 2M ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell logcat -G 2M ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell logcat -G 2M ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system accelerometer_rotation 1 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system accelerometer_rotation 1 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system accelerometer_rotation 1 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system accelerometer_rotation 1 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell settings put system accelerometer_rotation 1 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell am broadcast -a com.android.emulator.multidisplay.START -n com.android.emulator.multidisplay/.MultiDisplayServiceReceiver --user 0 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell am broadcast -a com.android.emulator.multidisplay.START -n com.android.emulator.multidisplay/.MultiDisplayServiceReceiver --user 0 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell am broadcast -a com.android.emulator.multidisplay.START -n com.android.emulator.multidisplay/.MultiDisplayServiceReceiver --user 0 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell am broadcast -a com.android.emulator.multidisplay.START -n com.android.emulator.multidisplay/.MultiDisplayServiceReceiver --user 0 ' failed: 'adb: more than one emulator'
+WARNING      | adb command '/Users/Jeremiah/Library/Android/sdk/platform-tools/adb -e shell am broadcast -a com.android.emulator.multidisplay.START -n com.android.emulator.multidisplay/.MultiDisplayServiceReceiver --user 0 ' failed: 'adb: more than one emulator'
+saving arm snapshot.... !!!
+
+INFO         | Wait for emulator (pid 43194) 20 seconds to shutdown gracefully before kill;you can set environment variable ANDROID_EMULATOR_WAIT_TIME_BEFORE_KILL(in seconds) to change the default value (20 seconds)
+
+glTexImage2D: got err pre :( 0x502 internal 0x1907 format 0x1907 type 0x1401
+INFO         | Saving with gfxstream=1
+INFO         | Saving snapshot 'default_boot' using 1593 ms
+INFO         | OpenGL Vendor=[Google (Google Inc. (Google))]
+INFO         | OpenGL Renderer=[Android Emulator OpenGL ES Translator (ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (LLVM 10.0.0) (0x0000C0DE)), SwiftShader driver-5.0.0))]
+INFO         | OpenGL Version=[OpenGL ES 3.0 (OpenGL ES 3.1.0 (ANGLE 2.1.1 git hash: fbf66f49c7cc))]
+saving done.... !!!
+
+[43200:810238:20261105,025649.533151:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/Hypervisor.framework/Versions/A/Hypervisor
+[43200:810238:20261105,025649.533224:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+[43200:810238:20261105,025649.533262:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+[43200:810238:20261105,025649.533293:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/libobjc.A.dylib
+[43200:810238:20261105,025649.533310:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/libc++.1.dylib
+[43200:810238:20261105,025649.533374:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/liboah.dylib
+[43200:810238:20261105,025649.533416:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/libc++abi.dylib
+[43200:810238:20261105,025649.533441:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/libRosetta.dylib
+[43200:810238:20261105,025649.533472:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libdispatch.dylib
+[43200:810238:20261105,025649.533505:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libdyld.dylib
+[43200:810238:20261105,025649.533541:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_asl.dylib
+[43200:810238:20261105,025649.533568:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_c.dylib
+[43200:810238:20261105,025649.533598:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_coreservices.dylib
+[43200:810238:20261105,025649.533629:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_malloc.dylib
+[43200:810238:20261105,025649.533664:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_notify.dylib
+[43200:810238:20261105,025649.533691:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_secinit.dylib
+[43200:810238:20261105,025649.533725:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_kernel.dylib
+[43200:810238:20261105,025649.533758:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_platform.dylib
+[43200:810238:20261105,025649.533792:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_pthread.dylib
+[43200:810238:20261105,025649.533856:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libsystem_trace.dylib
+[43200:810238:20261105,025649.533890:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/system/libxpc.dylib
+[43200:810238:20261105,025649.533925:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/Security.framework/Versions/A/Security
+[43200:810238:20261105,025649.533997:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork
+[43200:810238:20261105,025649.534033:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+[43200:810238:20261105,025649.534055:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+[43200:810238:20261105,025649.534109:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration
+[43200:810238:20261105,025649.534144:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/libsqlite3.dylib
+[43200:810238:20261105,025649.534184:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/Network.framework/Versions/A/Network
+[43200:810238:20261105,025649.534220:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/CrashReporterSupport.framework/Versions/A/CrashReporterSupport
+[43200:810238:20261105,025649.534291:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/libquic.dylib
+[43200:810238:20261105,025649.534349:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/IOSurface.framework/Versions/A/IOSurface
+[43200:810238:20261105,025649.534392:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/CoreSymbolication.framework/Versions/A/CoreSymbolication
+[43200:810238:20261105,025649.534431:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/Symbolication.framework/Versions/A/Symbolication
+[43200:810238:20261105,025649.534471:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+[43200:810238:20261105,025649.534506:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+[43200:810238:20261105,025649.534540:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/SkyLight.framework/Versions/A/SkyLight
+[43200:810238:20261105,025649.534560:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/ImageIO.framework/Versions/A/ImageIO
+[43200:810238:20261105,025649.534595:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+[43200:810238:20261105,025649.534629:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+[43200:810238:20261105,025649.534666:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/BaseBoard.framework/Versions/A/BaseBoard
+[43200:810238:20261105,025649.534682:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/CoreDisplay.framework/Versions/A/CoreDisplay
+[43200:810238:20261105,025649.534728:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox
+[43200:810238:20261105,025649.534770:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia
+[43200:810238:20261105,025649.534798:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/LoggingSupport.framework/Versions/A/LoggingSupport
+[43200:810238:20261105,025649.534813:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/MobileAsset.framework/Versions/A/MobileAsset
+[43200:810238:20261105,025649.534852:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/ExtensionFoundation.framework/Versions/A/ExtensionFoundation
+[43200:810238:20261105,025649.534864:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/AppServerSupport.framework/Versions/A/AppServerSupport
+[43200:810238:20261105,025649.534879:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/OSLog.framework/Versions/A/OSLog
+[43200:810238:20261105,025649.534893:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage
+[43200:810238:20261105,025649.534910:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/Resources/libFontRegistry.dylib
+[43200:810238:20261105,025649.534934:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/GPUWrangler.framework/Versions/A/GPUWrangler
+[43200:810238:20261105,025649.534947:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/IOPresentment.framework/Versions/A/IOPresentment
+[43200:810238:20261105,025649.534962:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/libspindump.dylib
+[43200:810238:20261105,025649.534975:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+[43200:810238:20261105,025649.534990:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/AudioToolboxCore.framework/Versions/A/AudioToolboxCore
+[43200:810238:20261105,025649.535025:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/libTelephonyUtilDynamic.dylib
+[43200:810238:20261105,025649.535040:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/IconFoundation.framework/Versions/A/IconFoundation
+[43200:810238:20261105,025649.535053:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/CoreUI.framework/Versions/A/CoreUI
+[43200:810238:20261105,025649.535067:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/RenderBox.framework/Versions/A/RenderBox
+[43200:810238:20261105,025649.535084:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/OpenDirectory.framework/Versions/A/Frameworks/CFOpenDirectory.framework/Versions/A/CFOpenDirectory
+[43200:810238:20261105,025649.535101:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/ANECompiler.framework/Versions/A/ANECompiler
+[43200:810238:20261105,025649.535114:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/MetalPerformanceShadersGraph.framework/Versions/A/MetalPerformanceShadersGraph
+[43200:810238:20261105,025649.535129:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/libsandbox.1.dylib
+[43200:810238:20261105,025649.535151:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/AVFCore.framework/Versions/A/AVFCore
+[43200:810238:20261105,025649.535185:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/PrivateFrameworks/AttributeGraph.framework/Versions/A/AttributeGraph
+[43200:810238:20261105,025649.535212:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+[43200:810238:20261105,025649.535235:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+[43200:810238:20261105,025649.535278:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLProgrammability.dylib
+[43200:810238:20261105,025649.535309:WARNING mach_o_image_annotations_reader.cc:92] unexpected crash info version 7 in /usr/lib/dyld
+[43200:810238:20261105,025649.541169:WARNING crash_report_exception_handler.cc:235] UniversalExceptionRaise: (os/kern) failure (5)

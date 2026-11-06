@@ -1,0 +1,57 @@
+{
+  "baseline": "cmp/views",
+  "candidate": "cmp/skia",
+  "threshold": 0.1,
+  "results": [
+    {
+      "name": "genesis1-bhg-interlinear-scrolled.png",
+      "mismatchedPixels": 204835,
+      "mismatchPercent": 7.90258487654321
+    },
+    {
+      "name": "genesis1-bhg-interlinear-top.png",
+      "mismatchedPixels": 187396,
+      "mismatchPercent": 7.229783950617284
+    },
+    {
+      "name": "john1-parallel-scrolled.png",
+      "mismatchedPixels": 256713,
+      "mismatchPercent": 9.904050925925926
+    },
+    {
+      "name": "john1-parallel-top.png",
+      "mismatchedPixels": 250021,
+      "mismatchPercent": 9.645871913580248
+    },
+    {
+      "name": "john1-strong-scrolled.png",
+      "mismatchedPixels": 281733,
+      "mismatchPercent": 10.869328703703705
+    },
+    {
+      "name": "john1-strong-top.png",
+      "mismatchedPixels": 240768,
+      "mismatchPercent": 9.28888888888889
+    },
+    {
+      "name": "psalm119-scrolled.png",
+      "mismatchedPixels": 341441,
+      "mismatchPercent": 13.172878086419754
+    },
+    {
+      "name": "psalm119-top.png",
+      "mismatchedPixels": 252122,
+      "mismatchPercent": 9.726929012345678
+    },
+    {
+      "name": "romans8-annotated-scrolled.png",
+      "mismatchedPixels": 212244,
+      "mismatchPercent": 8.188425925925927
+    },
+    {
+      "name": "romans8-annotated-top.png",
+      "mismatchedPixels": 780841,
+      "mismatchPercent": 30.125038580246912
+    }
+  ]
+}

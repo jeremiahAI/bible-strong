@@ -1,0 +1,26 @@
+[real-reader] cold 0: firstTextPainted 7794 ms, domTextPresent 7346 ms
+[real-reader] cold 1: firstTextPainted 9071 ms, domTextPresent 8781 ms
+[real-reader] cold 2: firstTextPainted 9209 ms, domTextPresent 8696 ms
+[real-reader] cold 3: firstTextPainted 8951 ms, domTextPresent 8699 ms
+[real-reader] cold 4: firstTextPainted 9224 ms, domTextPresent 8929 ms
+node:internal/errors:983
+  const err = new Error(message);
+              ^
+
+Error: Command failed: /Users/Jeremiah/Library/Android/sdk/platform-tools/adb -s 100.92.219.76:5555 shell input swipe 540 1900 540 500 160; sleep 0.8; input swipe 540 1900 540 500 160; sleep 0.8; input swipe 540 1900 540 500 160; sleep 0.8; input swipe 540 1900 540 500 160; sleep 0.8; input swipe 540 1900 540 500 160; sleep 0.8; input swipe 540 500 540 1900 160; sleep 0.8; input swipe 540 500 540 1900 160; sleep 0.8; input swipe 540 500 540 1900 160; sleep 0.8; input swipe 540 500 540 1900 160; sleep 0.8; input swipe 540 500 540 1900 160; sleep 0.8
+    at genericNodeError (node:internal/errors:983:15)
+    at wrappedFn (node:internal/errors:537:14)
+    at checkExecSyncError (node:child_process:882:11)
+    at execFileSync (node:child_process:918:15)
+    at run (file:///Users/Jeremiah/Code/bible-strong-wt/reader-bench/scripts/reader-bench/lib.mjs:15:5)
+    at Object.shell (file:///Users/Jeremiah/Code/bible-strong-wt/reader-bench/scripts/reader-bench/lib.mjs:22:34)
+    at file:///Users/Jeremiah/Code/bible-strong-wt/reader-bench/scripts/reader-bench/realreader.mjs:60:5 {
+  status: 255,
+  signal: null,
+  output: [ null, '', '' ],
+  pid: 32837,
+  stdout: '',
+  stderr: ''
+}
+
+Node.js v23.9.0
